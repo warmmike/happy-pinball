@@ -1,0 +1,6 @@
+2025-05-12 20:49:32,024 : INFO : root : Loading config.
+2025-05-12 20:49:32,026 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-05-12 20:49:32,026 : WARNING : ConfigProcessor : Config file in cache changed: /Users/michaelcarman/Documents/work/mpf/happy-pinball/config/config.yaml
+2025-05-12 20:49:32,026 : INFO : ConfigProcessor : Loading config from file /Users/michaelcarman/Documents/work/mpf/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml.
+2025-05-12 20:49:32,040 : INFO : ConfigProcessor : Loading config: /Users/michaelcarman/Documents/work/mpf/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml
+2025-05-12 20:49:32,040 : INFO : ConfigProcessor : Loading config from file /Users/michaelcarman/Documents/work/mpf/happy-pinball/config/config.yaml.

@@ -1,0 +1,102 @@
+2025-06-02 10:42:58,190 : INFO : root : Loading config.
+2025-06-02 10:42:58,270 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/hz/r3dl9ms51016zpvrwk611s6m0000gs/T/config_spec.mpf_cache
+2025-06-02 10:42:58,270 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-06-02 10:42:58,270 : INFO : ConfigProcessor : Loading config from file /Users/michaelcarman/Documents/work/mpf/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml.
+2025-06-02 10:42:58,285 : INFO : ConfigProcessor : Loading config: /Users/michaelcarman/Documents/work/mpf/mpf/lib/python3.13/site-packages/mpf/mpfconfig.yaml
+2025-06-02 10:42:58,285 : INFO : ConfigProcessor : Loading config from file /Users/michaelcarman/Documents/work/mpf/happy-pinball/config/config.yaml.
+2025-06-02 10:42:58,287 : INFO : ConfigProcessor : Loading config: /Users/michaelcarman/Documents/work/mpf/happy-pinball/config/config.yaml
+2025-06-02 10:42:58,287 : INFO : ConfigProcessor : Loading config: /Users/michaelcarman/Documents/work/mpf/happy-pinball/config/config_ball_devices.yaml
+2025-06-02 10:42:58,288 : INFO : ConfigProcessor : Loading config: /Users/michaelcarman/Documents/work/mpf/happy-pinball/config/config_coils.yaml
+2025-06-02 10:42:58,289 : INFO : ConfigProcessor : Loading config: /Users/michaelcarman/Documents/work/mpf/happy-pinball/config/config_switches.yaml
+2025-06-02 10:42:58,290 : INFO : ConfigProcessor : Config file cache created: /var/folders/hz/r3dl9ms51016zpvrwk611s6m0000gs/T/5d6a457603c6b060ca35237bebf088e1.mpf_cache
+2025-06-02 10:42:58,328 : INFO : ConfigProcessor : Loading config from file /Users/michaelcarman/Documents/work/mpf/mpf/lib/python3.13/site-packages/mpf/modes/attract/config/attract.yaml.
+2025-06-02 10:42:58,328 : INFO : ConfigProcessor : Loading config: /Users/michaelcarman/Documents/work/mpf/mpf/lib/python3.13/site-packages/mpf/modes/attract/config/attract.yaml
+2025-06-02 10:42:58,328 : INFO : ConfigProcessor : Loading config from file /Users/michaelcarman/Documents/work/mpf/happy-pinball/modes/attract/config/attract.yaml.
+2025-06-02 10:42:58,330 : INFO : ConfigProcessor : Loading config: /Users/michaelcarman/Documents/work/mpf/happy-pinball/modes/attract/config/attract.yaml
+2025-06-02 10:42:58,330 : INFO : ConfigProcessor : Config file cache created: /var/folders/hz/r3dl9ms51016zpvrwk611s6m0000gs/T/6f665ac125edf3618cba9e13a753822f.mpf_cache
+2025-06-02 10:42:58,330 : INFO : ConfigProcessor : Loading config from file /Users/michaelcarman/Documents/work/mpf/mpf/lib/python3.13/site-packages/mpf/modes/game/config/game.yaml.
+2025-06-02 10:42:58,331 : INFO : ConfigProcessor : Loading config: /Users/michaelcarman/Documents/work/mpf/mpf/lib/python3.13/site-packages/mpf/modes/game/config/game.yaml
+2025-06-02 10:42:58,331 : INFO : ConfigProcessor : Config file cache created: /var/folders/hz/r3dl9ms51016zpvrwk611s6m0000gs/T/87d438dd69d0ef01003c5249e41b5d50.mpf_cache
+2025-06-02 10:42:58,331 : INFO : ConfigProcessor : Loading config from cache: /var/folders/hz/r3dl9ms51016zpvrwk611s6m0000gs/T/6f665ac125edf3618cba9e13a753822f.mpf_cache
+2025-06-02 10:42:58,331 : INFO : ConfigProcessor : Loading config from file /Users/michaelcarman/Documents/work/mpf/happy-pinball/modes/base/config/base.yaml.
+2025-06-02 10:42:58,332 : INFO : ConfigProcessor : Loading config: /Users/michaelcarman/Documents/work/mpf/happy-pinball/modes/base/config/base.yaml
+2025-06-02 10:42:58,332 : INFO : ConfigProcessor : Config file cache created: /var/folders/hz/r3dl9ms51016zpvrwk611s6m0000gs/T/d9ff39e0ccd80af39f7d36bb6b40dd93.mpf_cache
+2025-06-02 10:42:58,333 : INFO : ConfigProcessor : Loading config from file /Users/michaelcarman/Documents/work/mpf/happy-pinball/modes/bumpers/config/bumpers.yaml.
+2025-06-02 10:42:58,334 : INFO : ConfigProcessor : Loading config: /Users/michaelcarman/Documents/work/mpf/happy-pinball/modes/bumpers/config/bumpers.yaml
+2025-06-02 10:42:58,334 : INFO : ConfigProcessor : Config file cache created: /var/folders/hz/r3dl9ms51016zpvrwk611s6m0000gs/T/ac07971a64f12a0788c85bcc38792825.mpf_cache
+2025-06-02 10:42:58,335 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-06-02 10:42:58,335 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-06-02-10-42-58-mpf-LPCVQLKF70.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/michaelcarman/Documents/work/mpf/happy-pinball/logs/2025-06-02-10-42-58-mpf-LPCVQLKF70.log'}
+2025-06-02 10:42:58,335 : INFO : Machine : MPF path: /Users/michaelcarman/Documents/work/mpf/mpf/lib/python3.13/site-packages/mpf
+2025-06-02 10:42:58,335 : INFO : Machine : Machine path: /Users/michaelcarman/Documents/work/mpf/happy-pinball
+2025-06-02 10:42:58,335 : INFO : Machine : Platform: darwin
+2025-06-02 10:42:58,335 : INFO : Machine : Python executable location: /Users/michaelcarman/Documents/work/mpf/mpf/bin/python3.13
+2025-06-02 10:42:58,335 : INFO : Machine : Python version: 3.13.3 (64-bit)
+2025-06-02 10:42:58,335 : INFO : Machine : Initializing MPF...
+2025-06-02 10:42:58,374 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,383 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 8675309, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,383 : INFO : EventManager : Event: ======'machine_var_player2_score'====== Args={'value': 4321523, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,383 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,383 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,383 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,383 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.3', 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,392 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.3.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,392 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,392 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.3.0', 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,392 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:22 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T6041', 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,392 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,392 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/michaelcarman/Documents/work/mpf/happy-pinball/logs/2025-06-02-10-42-58-mpf-LPCVQLKF70.log', 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,392 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-06-02 10:42:58,399 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-06-02 10:42:58,399 : INFO : SwitchController : Found active switch: (1006, <Platform.Virtual>) <switch.s_trough_1>
+2025-06-02 10:42:58,399 : INFO : SwitchController : Found active switch: (1007, <Platform.Virtual>) <switch.s_trough_2>
+2025-06-02 10:42:58,399 : INFO : SwitchController : Found active switch: (1008, <Platform.Virtual>) <switch.s_trough_3>
+2025-06-02 10:42:58,400 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-06-02 10:42:58,400 : INFO : ball_device.bd_plunger : State: idle
+2025-06-02 10:42:58,400 : INFO : ball_device.bd_trough : BCH: Initial count: 3
+2025-06-02 10:42:58,400 : INFO : ball_device.bd_trough : State: idle
+2025-06-02 10:42:58,404 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-06-02 10:42:58,405 : INFO : BallController : Initial balls found: 3
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_left'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_right'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_plunger_lane'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_1'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_2'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_3'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 209, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 221, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 209, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 221, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lane'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-06-02 10:42:58,406 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-06-02 10:42:58,406 : INFO : Mode.attract : Started. Priority: 10
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-06-02 10:42:58,406 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-06-02 10:42:58,407 : INFO : EventManager : Event: ======'item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-06-02 10:42:58,407 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-06-02 10:42:58,407 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-06-02 10:43:00,637 : INFO : Machine : Shutting down...
+2025-06-02 10:43:00,637 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-06-02 10:43:00,640 : INFO : root : MPF run loop ended.

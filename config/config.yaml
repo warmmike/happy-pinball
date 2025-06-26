@@ -1,0 +1,32 @@
+#config_version=6
+
+## MPF Main Machine Config File
+#
+# This file defines your system-wide properties like switches,
+# drivers, ball devices, hardware platforms, and more. You can
+# include everything here, or create sub-config files to be
+# imported and merged with this one.
+
+machine:
+  balls_installed: 3
+  min_balls: 3
+
+config:
+  - config_ball_devices.yaml
+  - config_coils.yaml
+  - config_switches.yaml
+
+modes:
+  - attract
+  - base
+  - bumpers
+
+playfields:
+  playfield:
+    default_source_device: bd_trough
+    tags: default
+
+virtual_platform_start_active_switches:
+  - s_trough_1
+  - s_trough_2
+  - s_trough_3

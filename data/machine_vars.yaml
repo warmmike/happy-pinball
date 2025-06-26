@@ -1,0 +1,8 @@
+player1_score:
+  expire: null
+  expire_secs: null
+  value: 8675309
+player2_score:
+  expire: null
+  expire_secs: null
+  value: 4321523

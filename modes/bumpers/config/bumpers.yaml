@@ -1,0 +1,31 @@
+#config_version=6
+
+# Base mode that starts at the beginning of each ball
+# and stops at the end of each ball.
+
+mode:
+  start_events: start_mode_bumpers
+  stop_events: stop_mode_bumpers
+  priority: 200
+
+shots:
+  bumper_left:
+    switch: s_bumper_left
+  bumper_right:
+    switch: s_bumper_right
+
+shot_groups:
+  bumpers:
+    shots: bumper_left, bumper_right
+
+variable_player:
+  bumpers_hit:
+    score: 1_000
+
+sound_player:
+  bumper_left_hit:
+    bumper_left:
+      bus: effects
+  bumper_right_hit:
+    bumper_right:
+      bus: effects
