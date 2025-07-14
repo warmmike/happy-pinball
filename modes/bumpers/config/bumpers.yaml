@@ -6,7 +6,7 @@
 mode:
   start_events: start_mode_bumpers
   stop_events: stop_mode_bumpers
-  priority: 200
+  priority: 110
 
 shots:
   bumper_left:
