@@ -20,7 +20,7 @@ modes:
   - attract
   - base
   - bumpers
-  - song_selection
+  - song
 
 playfields:
   playfield:

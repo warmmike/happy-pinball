@@ -10,9 +10,10 @@ mode:
 
 event_player:
   mode_base_started:
-    - start_song_selection_mode
+    - start_mode_song
     - start_mode_bumpers
   mode_base_will_stop:
+    - stop_mode_song
     - stop_mode_bumpers
 
 slide_player:
