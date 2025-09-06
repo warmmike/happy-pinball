@@ -19,7 +19,13 @@ event_player:
 slide_player:
   mode_base_started: base
 
-sound_player:
+# sound_player:
+#   mode_base_started:
+#     c-love:
+#       bus: music
+
+variable_player:
   mode_base_started:
-    c-love:
-      bus: music
+    selected_song:
+      string: "No Song Selected"
+      action: set

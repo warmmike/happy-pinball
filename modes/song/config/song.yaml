@@ -5,7 +5,7 @@
 
 mode:
   start_events: start_mode_song
-  stop_events: song_song1_selected, song_song2_selected, song_song3_selected
+  stop_events: song_item_selected
   game_mode: true
   priority: 120
   code: mpf.modes.carousel.code.carousel.Carousel
@@ -21,6 +21,14 @@ mode_settings:
 
 slide_player:
   mode_song_started: song
+
+event_player:
+  song_song1_selected:
+    - start_mode_song1
+  song_song2_selected:
+    - start_mode_song2
+  song_song3_selected:
+    - start_mode_song3
 
 variable_player:
   song_song1_selected:

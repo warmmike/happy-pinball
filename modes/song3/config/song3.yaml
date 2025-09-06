@@ -1,0 +1,11 @@
+#config_version=6
+
+mode:
+  start_events: song_song3_selected
+  stop_events: ball_will_end
+  priority: 150
+
+sound_player:
+  mode_song3_started:
+    song3:
+      bus: music
