@@ -1,10 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://c0b0oybsi02op"]
+[gd_scene load_steps=9 format=3 uid="uid://c0b0oybsi02op"]
 
 [ext_resource type="Script" uid="uid://dywumafff8uk7" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
 [ext_resource type="Script" uid="uid://bx33garpqp0jf" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_f161n"]
 [ext_resource type="Texture2D" uid="uid://bxyosdp8w4nmw" path="res://addons/mpf-gmc/images/song1.png" id="3_7sbsq"]
 [ext_resource type="Texture2D" uid="uid://bsi20ytmmfoq5" path="res://addons/mpf-gmc/images/song2.png" id="4_vr1tw"]
 [ext_resource type="Texture2D" uid="uid://mox7xmvqnqub" path="res://addons/mpf-gmc/images/song3.png" id="5_nfobm"]
+[ext_resource type="Texture2D" uid="uid://fx3lfsp53mvb" path="res://addons/mpf-gmc/images/image-from-rawpixel-id-13116785-png.png" id="6_vr1tw"]
+[ext_resource type="Texture2D" uid="uid://bangbx314qkfy" path="res://slides/white-arrow.png" id="7_nfobm"]
+[ext_resource type="Texture2D" uid="uid://ctxw63t0d38gu" path="res://slides/cd2868031ae95fd156b7d071348dd8b5.png" id="8_nfobm"]
 
 [node name="Song" type="Control"]
 layout_mode = 3
@@ -16,7 +19,7 @@ metadata/_custom_type_script = "uid://dywumafff8uk7"
 layout_mode = 0
 offset_right = 1280.0
 offset_bottom = 1024.0
-color = Color(1, 0.219608, 0.141176, 1)
+color = Color(0, 0, 0, 1)
 
 [node name="MPFCarousel" type="Control" parent="."]
 anchors_preset = 0
@@ -29,18 +32,41 @@ metadata/_custom_type_script = "uid://bx33garpqp0jf"
 [node name="song1" type="Node2D" parent="MPFCarousel"]
 
 [node name="song1" type="Sprite2D" parent="MPFCarousel/song1"]
-position = Vector2(637, 542)
-scale = Vector2(1.00547, 1.01528)
+position = Vector2(660, 513)
+scale = Vector2(1.7037, 2.93069)
 texture = ExtResource("3_7sbsq")
 
 [node name="song2" type="Node2D" parent="MPFCarousel"]
 
 [node name="song2" type="Sprite2D" parent="MPFCarousel/song2"]
-position = Vector2(633, 514)
+position = Vector2(659, 505)
+scale = Vector2(2.82839, 2.7994)
 texture = ExtResource("4_vr1tw")
 
 [node name="song3" type="Node2D" parent="MPFCarousel"]
 
 [node name="song3" type="Sprite2D" parent="MPFCarousel/song3"]
+visible = false
 position = Vector2(640, 514)
 texture = ExtResource("5_nfobm")
+
+[node name="Image-from-rawpixel-id-13116785-png" type="Sprite2D" parent="."]
+position = Vector2(649, 460)
+scale = Vector2(1.6875, 2.09006)
+texture = ExtResource("6_vr1tw")
+
+[node name="White-arrow2" type="Sprite2D" parent="."]
+position = Vector2(1030, 506)
+rotation = -3.14159
+scale = Vector2(0.154, 0.192)
+texture = ExtResource("7_nfobm")
+
+[node name="White-arrow" type="Sprite2D" parent="."]
+position = Vector2(243, 506)
+scale = Vector2(0.1725, 0.192475)
+texture = ExtResource("7_nfobm")
+
+[node name="Cd2868031Ae95Fd156b7d071348Dd8b5" type="Sprite2D" parent="."]
+position = Vector2(650, 290)
+scale = Vector2(2.10086, 2.54717)
+texture = ExtResource("8_nfobm")

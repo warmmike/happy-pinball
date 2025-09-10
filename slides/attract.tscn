@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://dxn8ng4n3hq1i"]
+[gd_scene load_steps=6 format=3 uid="uid://dxn8ng4n3hq1i"]
 
 [ext_resource type="Script" uid="uid://dywumafff8uk7" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
 [ext_resource type="Script" uid="uid://bx33garpqp0jf" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_f161n"]
 [ext_resource type="Script" uid="uid://4tlkvhorl6pf" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_cq3lo"]
-[ext_resource type="Texture2D" uid="uid://bgytg26878vsu" path="res://addons/mpf-gmc/images/sonic-logo.png" id="4_twbla"]
+[ext_resource type="Texture2D" uid="uid://fd8wbvkcylrn" path="res://addons/mpf-gmc/images/sonic-logo.jpg" id="4_f161n"]
+[ext_resource type="Texture2D" uid="uid://fx3lfsp53mvb" path="res://addons/mpf-gmc/images/image-from-rawpixel-id-13116785-png.png" id="5_cq3lo"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
@@ -15,7 +16,7 @@ metadata/_custom_type_script = "uid://dywumafff8uk7"
 layout_mode = 0
 offset_right = 1280.0
 offset_bottom = 1024.0
-color = Color(0.247059, 0.211765, 1, 1)
+color = Color(0, 0, 0, 1)
 
 [node name="MPFCarousel" type="Control" parent="."]
 anchors_preset = 0
@@ -27,14 +28,17 @@ metadata/_custom_type_script = "uid://bx33garpqp0jf"
 
 [node name="title" type="Label" parent="MPFCarousel"]
 layout_mode = 0
-offset_right = 1271.0
-offset_bottom = 1026.0
+offset_left = 126.0
+offset_top = 66.0
+offset_right = 1161.0
+offset_bottom = 956.0
 theme_override_font_sizes/font_size = 90
-text = "Hey!  It's only PINBALL."
+text = "METAL UP YOUR ASS"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="credits" type="Label" parent="MPFCarousel"]
+visible = false
 layout_mode = 0
 offset_right = 1269.0
 offset_bottom = 1018.0
@@ -48,10 +52,13 @@ variable_name = "credits_string"
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
 [node name="mpf_logo" type="Sprite2D" parent="MPFCarousel"]
-position = Vector2(640, 516)
-texture = ExtResource("4_twbla")
+visible = false
+position = Vector2(625.031, 548)
+scale = Vector2(1.93384, 1.73143)
+texture = ExtResource("4_f161n")
 
 [node name="last_scores_1p" type="Node2D" parent="MPFCarousel"]
+visible = false
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p"]
 offset_right = 1278.0
@@ -146,6 +153,7 @@ min_digits = 2
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
 [node name="last_scores_4p" type="Node2D" parent="MPFCarousel"]
+visible = false
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_4p"]
 offset_right = 1278.0
@@ -206,3 +214,8 @@ variable_name = "player4_score"
 comma_separate = true
 min_digits = 2
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
+
+[node name="Image-from-rawpixel-id-13116785-png" type="Sprite2D" parent="."]
+position = Vector2(649, 460)
+scale = Vector2(1.6875, 2.09006)
+texture = ExtResource("5_cq3lo")
