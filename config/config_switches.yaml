@@ -2,6 +2,9 @@
 
 switches:
   # Playfield Switches
+  s_tilt_bob:
+    number:
+    tags: tilt_warning
   s_bumper_left:
     number:
   s_bumper_right:

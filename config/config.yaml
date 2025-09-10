@@ -24,6 +24,7 @@ modes:
   - song1
   - song2
   - song3
+  - tilt
 
 playfields:
   playfield:
