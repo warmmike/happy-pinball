@@ -45,7 +45,7 @@ offset_right = 644.0
 offset_bottom = 516.0
 scale = Vector2(2, 2)
 stream = ExtResource("3_myvl5")
-volume_db = -39.62
+volume_db = -80.0
 autoplay = true
 loop = true
 script = ExtResource("3_mixwp")
@@ -76,6 +76,7 @@ min_digits = 2
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
 [node name="player2_score" type="Label" parent="."]
+layout_mode = 0
 offset_left = -342.0
 offset_top = 661.0
 offset_right = 936.0

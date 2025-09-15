@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://bqm8432eanbsb"]
+[gd_scene load_steps=4 format=3 uid="uid://bfidfysjd1500"]
 
 [ext_resource type="Script" uid="uid://dywumafff8uk7" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_47vok"]
+[ext_resource type="VideoStream" uid="uid://c0cuuuvo706ph" path="res://addons/mpf-gmc/tilt_warning_1.ogv" id="2_66wm1"]
+[ext_resource type="Script" uid="uid://db4vshdtdojo1" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="3_8gd84"]
 
 [node name="Tilt_Warning_1" type="Control"]
 layout_mode = 3
@@ -12,15 +14,25 @@ metadata/_custom_type_script = "uid://dywumafff8uk7"
 layout_mode = 0
 offset_right = 1280.0
 offset_bottom = 1024.0
+color = Color(0, 0, 0, 1)
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 74.0
-offset_top = 222.0
-offset_right = 1194.0
-offset_bottom = 800.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+offset_right = 1280.0
+offset_bottom = 174.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 100
 text = "WARNING"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="MPFVideoPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 200.0
+offset_right = 788.0
+offset_bottom = 840.0
+stream = ExtResource("2_66wm1")
+autoplay = true
+script = ExtResource("3_8gd84")
+metadata/_custom_type_script = "uid://db4vshdtdojo1"

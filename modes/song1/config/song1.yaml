@@ -9,3 +9,8 @@ sound_player:
   mode_song1_started:
     song1:
       bus: music
+      action: play
+  mode_song1_will_stop:
+    song1:
+      bus: music
+      action: stop

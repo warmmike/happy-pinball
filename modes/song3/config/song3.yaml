@@ -6,6 +6,11 @@ mode:
   priority: 150
 
 sound_player:
-  mode_song3_started:
-    song3:
+  mode_song2_started:
+    song2:
       bus: music
+      action: play
+  mode_song2_will_stop:
+    song1:
+      bus: music
+      action: stop

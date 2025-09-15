@@ -9,3 +9,26 @@ tilt:
   multiple_hit_window: 500ms
   settle_time: 5s
   tilt_warnings_player_var: tilt_warnings
+
+slide_player:
+  _overwrite: True # overwrite the default slide_player from tilt mode
+
+  tilt_warning_1: # event name
+    tilt_warning_1: # slide name
+      expire: 3s
+      tokens:
+        warning_number: 1
+
+  tilt_warning_2:
+    tilt_warning_2:
+      expire: 3s
+      tokens:
+        warning_number: 2
+
+  tilt:
+    tilt:
+      action: play
+
+  tilt_clear:
+    tilt:
+      action: remove
