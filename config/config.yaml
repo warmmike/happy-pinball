@@ -84,7 +84,6 @@ lights:
   led_test:
     number: 0-0-0
     subtype: led
-    type: rgb
 
 light_player:
   test_on:
