@@ -81,15 +81,22 @@ playfields:
 #         enable_events: machine_reset_phase_3
 
 lights:
-  led_test:
-    number: 0-0
+  led_1:
+    number: 0-0-0
     subtype: led
+    type: rgb
+  led_2:
+    number: 0-0-1
+    subtype: led
+    type: rgb
 
 light_player:
   test_on:
-    led_test: red
+    led_1: red
+    led_2: blue
   test_off:
-    led_test: off
+    led_1: off
+    led_2: off
 
 # coils:
 #     c_flipper_left_main:
