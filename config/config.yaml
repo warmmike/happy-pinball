@@ -84,18 +84,23 @@ lights:
   led_1:
     number: 0-0-0
     subtype: led
+    type: bgr
   led_2:
     number: 0-0-1
     subtype: led
+    type: bgr
   led_3:
     number: 0-0-2
     subtype: led
+    type: bgr
   led_4:
     number: 0-0-3
     subtype: led
+    type: bgr
   led_5:
     number: 0-0-4
     subtype: led
+    type: bgr
 
 light_player:
   test_on:
