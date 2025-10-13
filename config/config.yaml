@@ -81,27 +81,37 @@ playfields:
 #         enable_events: machine_reset_phase_3
 
 lights:
-
-  #SERIAL LEDS (neopixels)
-  #NEO0 output supports 256 LEDs numbered 0-0-0 to 0-0-255
-  l_shootAgain:
-    number: 0-0-0
+  led_strip_0_led_1:
+    number: 0-0-1 # the exact number format depends on your platform
     subtype: led
-    type: grb   #Most WS2812-based LEDs are grb color order.
-                #This line not required for rgb ordered LEDs like the
-                #  WS2811 LEDs shown below
-
-  # ...
-
-  #NEO1 output supports 256 LEDs numbered 1-0-0 to 1-0-255
-  l_gi_1:
-    number: 1-0-0
+    type: rgb
+    tags: group1
+  led_strip_0_led_2:
+    number: 0-0-2 # the exact number format depends on your platform
     subtype: led
-    tags: gi    #you can group similar LEDs with user defined tags
-  l_gi_2:
-    number: 1-0-255
+    type: rgb
+    tags: group1
+  led_strip_0_led_3:
+    previous: led_strip_0_led_2
     subtype: led
-    tags: gi
+    type: rgb
+    tags: group1
+
+light_player:
+  led_code:
+    led_strip_0_led_1: DFFF00
+  led_off:
+    led_strip_0_led_1: off
+    led_strip_0_led_2: off
+    led_strip_0_led_3: off
+  led_name:
+    led_strip_0_led_1: LightSalmon
+  group_light:
+    group1: green
+  led_fade:
+    led_strip_0_led_1:
+      color: slateblue
+      fade: 2000ms
 
 # coils:
 #     c_flipper_left_main:
