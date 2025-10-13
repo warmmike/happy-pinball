@@ -35,3 +35,5 @@ timers:
         action: stop
       - event: flipper_cradle_release
         action: restart
+      - event: group_light
+        action: start
