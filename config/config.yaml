@@ -84,31 +84,31 @@ lights:
   led_1:
     number: 0-0-0
     subtype: led
-    type: rgb
+    type: grb
   led_2:
     number: 0-0-1
     subtype: led
-    type: rgb
+    type: grb
   led_3:
     number: 0-0-2
     subtype: led
-    type: rgb
+    type: grb
   led_4:
     number: 0-0-3
     subtype: led
-    type: rgb
+    type: grb
   led_5:
     number: 0-0-4
     subtype: led
-    type: rgb
+    type: grb
 
 light_player:
   test_on:
-    led_1: green
-    led_2: red
-    led_3: green
-    led_4: red
-    led_5: green
+    led_1: red      # 0-0-0
+    led_2: green    # 0-0-1
+    led_3: red      # 0-0-2 (same as led_1)
+    led_4: blue     # 0-0-3
+    led_5: yellow   # 0-0-4
   test_off:
     led_1: off
     led_2: off
