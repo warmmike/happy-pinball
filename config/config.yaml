@@ -82,7 +82,7 @@ playfields:
 
 lights:
   led_test:
-    number: 1-0-0
+    number: 0-0
     subtype: led
 
 light_player:
