@@ -104,11 +104,11 @@ lights:
 
 light_player:
   test_on:
-    led_1: "#ff0000"   # Red only
-    led_2: "#00ff00"   # Green only
-    led_3: "#0000ff"   # Blue only
-    led_4: "#ffffff"   # White (all on)
-    led_5: "#ffff00"   # Red+Green (Yellow)
+    led_1: '#ff0000'   # Red only
+    led_2: '#00ff00'   # Green only
+    led_3: '#0000ff'   # Blue only
+    led_4: '#ffffff'   # White (all on)
+    led_5: '#ffff00'   # Red+Green (Yellow)
   test_off:
     led_1: off
     led_2: off
