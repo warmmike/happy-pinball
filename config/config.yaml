@@ -140,3 +140,15 @@ virtual_platform_start_active_switches:
   - s_trough_1
   - s_trough_2
   - s_trough_3
+
+keyboard:
+  1:
+    event: led_off
+  2:
+    event: led_code
+  3:
+    event: led_name
+  4:
+    event: group_light
+  5:
+    event: led_fade
