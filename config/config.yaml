@@ -84,31 +84,31 @@ lights:
   led_1:
     number: 0-0-0
     subtype: led
-    type: bgr
+    type: rgb
   led_2:
     number: 0-0-1
     subtype: led
-    type: bgr
+    type: rgb
   led_3:
     number: 0-0-2
     subtype: led
-    type: bgr
+    type: rgb
   led_4:
     number: 0-0-3
     subtype: led
-    type: bgr
+    type: rgb
   led_5:
     number: 0-0-4
     subtype: led
-    type: bgr
+    type: rgb
 
 light_player:
   test_on:
-    led_1: '#ff0000'   # Red only
-    led_2: '#00ff00'   # Green only
-    led_3: '#0000ff'   # Blue only
-    led_4: '#ffffff'   # White (all on)
-    led_5: '#ffff00'   # Red+Green (Yellow)
+    led_1: teal         # 0-0-0
+    led_2: cyan         # 0-0-1
+    led_3: teal         # 0-0-2  (repeat of led_1)
+    led_4: blue         # 0-0-3
+    led_5: slateblue    # 0-0-4
   test_off:
     led_1: off
     led_2: off
