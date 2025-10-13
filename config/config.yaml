@@ -82,12 +82,12 @@ playfields:
 
 lights:
   led_strip_0_led_1:
-    number: 0-0-1 # the exact number format depends on your platform
+    number: 0-0-0 # the exact number format depends on your platform
     subtype: led
     type: rgb
     tags: group1
   led_strip_0_led_2:
-    number: 0-0-2 # the exact number format depends on your platform
+    number: 0-0-1 # the exact number format depends on your platform
     subtype: led
     type: rgb
     tags: group1
