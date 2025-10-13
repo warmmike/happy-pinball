@@ -89,14 +89,32 @@ lights:
     number: 0-0-1
     subtype: led
     type: rgb
+  led_3:
+    number: 0-0-2
+    subtype: led
+    type: rgb
+  led_4:
+    number: 0-0-3
+    subtype: led
+    type: rgb
+  led_5:
+    number: 0-0-4
+    subtype: led
+    type: rgb
 
 light_player:
   test_on:
     led_1: red
-    led_2: blue
+    led_2: green
+    led_3: blue
+    led_4: yellow
+    led_5: purple
   test_off:
     led_1: off
     led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
 
 # coils:
 #     c_flipper_left_main:
