@@ -104,11 +104,11 @@ lights:
 
 light_player:
   test_on:
-    led_1: red
-    led_2: orange
-    led_3: yellow
-    led_4: green
-    led_5: blue
+    led_1: green
+    led_2: red
+    led_3: green
+    led_4: red
+    led_5: green
   test_off:
     led_1: off
     led_2: off
