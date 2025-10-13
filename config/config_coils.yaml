@@ -2,4 +2,4 @@
 
 coils:
   c_trough_eject:
-    number:
+    number: 0-0-1
