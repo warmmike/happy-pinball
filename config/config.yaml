@@ -81,37 +81,16 @@ playfields:
 #         enable_events: machine_reset_phase_3
 
 lights:
-  led_strip_0_led_1:
-    number: 0-0-0 # the exact number format depends on your platform
+  led_test:
+    number: 0-0-0
     subtype: led
     type: rgb
-    tags: group1
-  led_strip_0_led_2:
-    number: 0-0-1 # the exact number format depends on your platform
-    subtype: led
-    type: rgb
-    tags: group1
-  led_strip_0_led_3:
-    previous: led_strip_0_led_2
-    subtype: led
-    type: rgb
-    tags: group1
 
 light_player:
-  led_code:
-    led_strip_0_led_1: DFFF00
-  led_off:
-    led_strip_0_led_1: off
-    led_strip_0_led_2: off
-    led_strip_0_led_3: off
-  led_name:
-    led_strip_0_led_1: LightSalmon
-  group_light:
-    group1: green
-  led_fade:
-    led_strip_0_led_1:
-      color: slateblue
-      fade: 2000ms
+  test_on:
+    led_test: red
+  test_off:
+    led_test: off
 
 # coils:
 #     c_flipper_left_main:
