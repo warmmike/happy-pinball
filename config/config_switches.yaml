@@ -6,9 +6,9 @@ switches:
   #   number: 0-0-2
   #   tags: tilt_warning
   s_bumper_left:
-    number: 0-0-3
+    number: 0-0-1
   s_bumper_right:
-    number: 0-0-4
+    number: 0-0-2
   # s_left_lane:
   #   number: 0-0-5
 
