@@ -1,70 +1,70 @@
 #show_version=6
-- duration: 0.5
+- duration: 0.2
   lights:
     led_1: darkred
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-- duration: 0.5
-  lights:
-    led_1: off
     led_2: darkorange
     led_3: off
     led_4: off
     led_5: off
-- duration: 0.5
+- duration: 0.2
+  lights:
+    led_1: off
+    led_2: darkorange
+    led_3: darkgoldenrod
+    led_4: off
+    led_5: off
+- duration: 0.2
   lights:
     led_1: off
     led_2: off
     led_3: darkgoldenrod
-    led_4: off
+    led_4: darkgreen
     led_5: off
-- duration: 0.5
+- duration: 0.2
   lights:
     led_1: off
     led_2: off
     led_3: off
     led_4: darkgreen
-    led_5: off
-- duration: 0.5
-  lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
     led_5: darkblue
-- duration: 0.5
+- duration: 0.2
   lights:
     led_1: darkmagenta
     led_2: off
     led_3: off
     led_4: off
-    led_5: off
-- duration: 0.5
+    led_5: darkblue
+- duration: 0.2
   lights:
-    led_1: off
-    led_2: darkred
+    led_1: darkred
+    led_2: darkmagenta
     led_3: off
     led_4: off
     led_5: off
-- duration: 0.5
+- duration: 0.2
+  lights:
+    led_1: off
+    led_2: darkred
+    led_3: darkorange
+    led_4: off
+    led_5: off
+- duration: 0.2
   lights:
     led_1: off
     led_2: off
     led_3: darkorange
-    led_4: off
+    led_4: darkgoldenrod
     led_5: off
-- duration: 0.5
+- duration: 0.2
   lights:
     led_1: off
     led_2: off
     led_3: off
     led_4: darkgoldenrod
-    led_5: off
-- duration: 0.5
+    led_5: darkgreen
+- duration: 0.2
   lights:
-    led_1: off
+    led_1: darkblue
     led_2: off
     led_3: off
     led_4: off
