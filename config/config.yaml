@@ -95,6 +95,10 @@ lights:
     number: 0-0-3
     subtype: led
     type: grb
+  led_5:
+    number: 0-0-4
+    subtype: led
+    type: grb
 
 light_player:
   test_on:
@@ -102,11 +106,13 @@ light_player:
     led_2: darkblue      # 0-0-1
     led_3: darkgray      # 0-0-2
     led_4: darkgreen     # 0-0-3
+    led_5: white         # 0-0-4
   test_off:
     led_1: off
     led_2: off
     led_3: off
     led_4: off
+    led_5: off
 
 # coils:
 #     c_flipper_left_main:
