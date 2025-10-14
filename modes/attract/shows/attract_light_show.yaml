@@ -1,4 +1,5 @@
 #show_version=6
+# Random light sequence
 - duration: 0.1
   lights:
     led_1: red
@@ -41,6 +42,81 @@
     led_3: orange
     led_4: yellow
     led_5: green
+
+# Fade in and out a single color (e.g., cyan)
+- lights:
+    led_1:
+      color: cyan
+      fade: 0.5s
+    led_2:
+      color: cyan
+      fade: 0.5s
+    led_3:
+      color: cyan
+      fade: 0.5s
+    led_4:
+      color: cyan
+      fade: 0.5s
+    led_5:
+      color: cyan
+      fade: 0.5s
+  duration: 0.5
+- lights:
+    led_1:
+      color: off
+      fade: 0.5s
+    led_2:
+      color: off
+      fade: 0.5s
+    led_3:
+      color: off
+      fade: 0.5s
+    led_4:
+      color: off
+      fade: 0.5s
+    led_5:
+      color: off
+      fade: 0.5s
+  duration: 0.5
+
+# Flash the same color three times
+- duration: 0.2
+  lights:
+    led_1: cyan
+    led_2: cyan
+    led_3: cyan
+    led_4: cyan
+    led_5: cyan
+- duration: 0.2
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+- duration: 0.2
+  lights:
+    led_1: cyan
+    led_2: cyan
+    led_3: cyan
+    led_4: cyan
+    led_5: cyan
+- duration: 0.2
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+- duration: 0.2
+  lights:
+    led_1: cyan
+    led_2: cyan
+    led_3: cyan
+    led_4: cyan
+    led_5: cyan
+
+# Back to random light sequence
 - duration: 0.1
   lights:
     led_1: red
@@ -48,3 +124,38 @@
     led_3: yellow
     led_4: green
     led_5: blue
+- duration: 0.1
+  lights:
+    led_1: orange
+    led_2: yellow
+    led_3: green
+    led_4: blue
+    led_5: purple
+- duration: 0.1
+  lights:
+    led_1: yellow
+    led_2: green
+    led_3: blue
+    led_4: purple
+    led_5: red
+- duration: 0.1
+  lights:
+    led_1: green
+    led_2: blue
+    led_3: purple
+    led_4: red
+    led_5: orange
+- duration: 0.1
+  lights:
+    led_1: blue
+    led_2: purple
+    led_3: red
+    led_4: orange
+    led_5: yellow
+- duration: 0.1
+  lights:
+    led_1: purple
+    led_2: red
+    led_3: orange
+    led_4: yellow
+    led_5: green
