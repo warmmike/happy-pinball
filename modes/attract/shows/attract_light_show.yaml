@@ -42,7 +42,6 @@
     led_3: orange
     led_4: yellow
     led_5: green
-
 # Fade and flash cycling through all colors
 - lights:
   led_1:
