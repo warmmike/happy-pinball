@@ -1,57 +1,50 @@
 #show_version=6
 - duration: 0.1
   lights:
-    led_1: darkred
-    led_2: darkorange
-    led_3: darkgoldenrod
-    led_4: off
+    led_1: red
+    led_2: orange
+    led_3: yellow
+    led_4: green
+    led_5: blue
+- duration: 0.1
+  lights:
+    led_1: orange
+    led_2: yellow
+    led_3: green
+    led_4: blue
     led_5: purple
 - duration: 0.1
   lights:
-    led_1: off
-    led_2: darkgoldenrod
-    led_3: darkgreen
-    led_4: darkolivegreen
-    led_5: darklime
+    led_1: yellow
+    led_2: green
+    led_3: blue
+    led_4: purple
+    led_5: red
 - duration: 0.1
   lights:
-    led_1: darkcyan
-    led_2: darkblue
-    led_3: off
-    led_4: darkviolet
-    led_5: darkpink
+    led_1: green
+    led_2: blue
+    led_3: purple
+    led_4: red
+    led_5: orange
 - duration: 0.1
   lights:
-    led_1: darkmagenta
-    led_2: darkred
-    led_3: darkorange
-    led_4: darkgoldenrod
-    led_5: darkgreen
+    led_1: blue
+    led_2: purple
+    led_3: red
+    led_4: orange
+    led_5: yellow
 - duration: 0.1
   lights:
-    led_1: darkgreen
-    led_2: darklime
-    led_3: darkcyan
-    led_4: darkblue
-    led_5: darkpurple
+    led_1: purple
+    led_2: red
+    led_3: orange
+    led_4: yellow
+    led_5: green
 - duration: 0.1
   lights:
-    led_1: darkpink
-    led_2: darkmagenta
-    led_3: darkred
-    led_4: darkorange
-    led_5: darkgoldenrod
-- duration: 0.1
-  lights:
-    led_1: darkgoldenrod
-    led_2: darkgreen
-    led_3: darklime
-    led_4: darkcyan
-    led_5: darkblue
-- duration: 0.1
-  lights:
-    led_1: darkviolet
-    led_2: darkpink
-    led_3: darkmagenta
-    led_4: darkred
-    led_5: darkorange
+    led_1: red
+    led_2: orange
+    led_3: yellow
+    led_4: green
+    led_5: blue
