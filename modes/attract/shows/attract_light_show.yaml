@@ -1,0 +1,43 @@
+#show_version=6
+- duration: 1
+  lights:
+    led_1: darkred
+    led_2: darkred
+    led_3: darkred
+    led_4: darkred
+    led_5: darkred
+- duration: 1
+  lights:
+    led_1: darkorange
+    led_2: darkorange
+    led_3: darkorange
+    led_4: darkorange
+    led_5: darkorange
+- duration: 1
+  lights:
+    led_1: darkgoldenrod
+    led_2: darkgoldenrod
+    led_3: darkgoldenrod
+    led_4: darkgoldenrod
+    led_5: darkgoldenrod
+- duration: 1
+  lights:
+    led_1: darkgreen
+    led_2: darkgreen
+    led_3: darkgreen
+    led_4: darkgreen
+    led_5: darkgreen
+- duration: 1
+  lights:
+    led_1: darkblue
+    led_2: darkblue
+    led_3: darkblue
+    led_4: darkblue
+    led_5: darkblue
+- duration: 1
+  lights:
+    led_1: darkmagenta
+    led_2: darkmagenta
+    led_3: darkmagenta
+    led_4: darkmagenta
+    led_5: darkmagenta
