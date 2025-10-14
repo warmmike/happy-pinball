@@ -2,31 +2,31 @@
 #show_version=5
 - duration: 1
   lights:
-    l_led1: red
-    l_led2: red
-    l_led3: ff0000
+    l_led1: darkred
+    l_led2: darkred
+    l_led3: darkred
 - duration: 1
   lights:
-    l_led1: ff6600
-    l_led2: ff6600
-    l_led3: ff6600
+    l_led1: darkorange
+    l_led2: darkorange
+    l_led3: darkorange
 - duration: 1
   lights:
-    l_led1: ffcc00
-    l_led2: ffcc00
-    l_led3: ffcc00
+    l_led1: goldenrod
+    l_led2: goldenrod
+    l_led3: goldenrod
 - duration: 1
   lights:
-    l_led1: lime
-    l_led2: 00ff00
-    l_led3: 00ff00
+    l_led1: darkgreen
+    l_led2: darkgreen
+    l_led3: darkgreen
 - duration: 1
   lights:
-    l_led1: blue
-    l_led2: 0000ff
-    l_led3: 0000ff
+    l_led1: darkblue
+    l_led2: darkblue
+    l_led3: darkblue
 - duration: 1
   lights:
-    l_led1: ff00aa
-    l_led2: ff00aa
-    l_led3: ff00aa
+    l_led1: darkmagenta
+    l_led2: darkmagenta
+    l_led3: darkmagenta
