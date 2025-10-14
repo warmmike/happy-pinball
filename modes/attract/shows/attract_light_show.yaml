@@ -43,119 +43,363 @@
     led_4: yellow
     led_5: green
 
-# Fade in and out a single color (e.g., cyan)
+# Fade and flash cycling through all colors
 - lights:
-    led_1:
-      color: cyan
-      fade: 0.5s
-    led_2:
-      color: cyan
-      fade: 0.5s
-    led_3:
-      color: cyan
-      fade: 0.5s
-    led_4:
-      color: cyan
-      fade: 0.5s
-    led_5:
-      color: cyan
-      fade: 0.5s
-  duration: 0.5
+  led_1:
+    color: red
+    fade: 1s
+  led_2:
+    color: red
+    fade: 1s
+  led_3:
+    color: red
+    fade: 1s
+  led_4:
+    color: red
+    fade: 1s
+  led_5:
+    color: red
+    fade: 1s
+  duration: 1
+- duration: 0.2
+  lights:
+  led_1: red
+  led_2: red
+  led_3: red
+  led_4: red
+  led_5: red
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+- duration: 0.2
+  lights:
+  led_1: red
+  led_2: red
+  led_3: red
+  led_4: red
+  led_5: red
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+- duration: 0.2
+  lights:
+  led_1: red
+  led_2: red
+  led_3: red
+  led_4: red
+  led_5: red
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+
 - lights:
-    led_1:
-      color: off
-      fade: 0.5s
-    led_2:
-      color: off
-      fade: 0.5s
-    led_3:
-      color: off
-      fade: 0.5s
-    led_4:
-      color: off
-      fade: 0.5s
-    led_5:
-      color: off
-      fade: 0.5s
-  duration: 0.5
+  led_1:
+    color: orange
+    fade: 1s
+  led_2:
+    color: orange
+    fade: 1s
+  led_3:
+    color: orange
+    fade: 1s
+  led_4:
+    color: orange
+    fade: 1s
+  led_5:
+    color: orange
+    fade: 1s
+  duration: 1
+- duration: 0.2
+  lights:
+  led_1: orange
+  led_2: orange
+  led_3: orange
+  led_4: orange
+  led_5: orange
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+- duration: 0.2
+  lights:
+  led_1: orange
+  led_2: orange
+  led_3: orange
+  led_4: orange
+  led_5: orange
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+- duration: 0.2
+  lights:
+  led_1: orange
+  led_2: orange
+  led_3: orange
+  led_4: orange
+  led_5: orange
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
 
-# Flash the same color three times
+- lights:
+  led_1:
+    color: yellow
+    fade: 1s
+  led_2:
+    color: yellow
+    fade: 1s
+  led_3:
+    color: yellow
+    fade: 1s
+  led_4:
+    color: yellow
+    fade: 1s
+  led_5:
+    color: yellow
+    fade: 1s
+  duration: 1
 - duration: 0.2
   lights:
-    led_1: cyan
-    led_2: cyan
-    led_3: cyan
-    led_4: cyan
-    led_5: cyan
+  led_1: yellow
+  led_2: yellow
+  led_3: yellow
+  led_4: yellow
+  led_5: yellow
 - duration: 0.2
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
 - duration: 0.2
   lights:
-    led_1: cyan
-    led_2: cyan
-    led_3: cyan
-    led_4: cyan
-    led_5: cyan
+  led_1: yellow
+  led_2: yellow
+  led_3: yellow
+  led_4: yellow
+  led_5: yellow
 - duration: 0.2
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
 - duration: 0.2
   lights:
-    led_1: cyan
-    led_2: cyan
-    led_3: cyan
-    led_4: cyan
-    led_5: cyan
+  led_1: yellow
+  led_2: yellow
+  led_3: yellow
+  led_4: yellow
+  led_5: yellow
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
 
-# Back to random light sequence
-- duration: 0.1
+- lights:
+  led_1:
+    color: green
+    fade: 1s
+  led_2:
+    color: green
+    fade: 1s
+  led_3:
+    color: green
+    fade: 1s
+  led_4:
+    color: green
+    fade: 1s
+  led_5:
+    color: green
+    fade: 1s
+  duration: 1
+- duration: 0.2
   lights:
-    led_1: red
-    led_2: orange
-    led_3: yellow
-    led_4: green
-    led_5: blue
-- duration: 0.1
+  led_1: green
+  led_2: green
+  led_3: green
+  led_4: green
+  led_5: green
+- duration: 0.2
   lights:
-    led_1: orange
-    led_2: yellow
-    led_3: green
-    led_4: blue
-    led_5: purple
-- duration: 0.1
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+- duration: 0.2
   lights:
-    led_1: yellow
-    led_2: green
-    led_3: blue
-    led_4: purple
-    led_5: red
-- duration: 0.1
+  led_1: green
+  led_2: green
+  led_3: green
+  led_4: green
+  led_5: green
+- duration: 0.2
   lights:
-    led_1: green
-    led_2: blue
-    led_3: purple
-    led_4: red
-    led_5: orange
-- duration: 0.1
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+- duration: 0.2
   lights:
-    led_1: blue
-    led_2: purple
-    led_3: red
-    led_4: orange
-    led_5: yellow
-- duration: 0.1
+  led_1: green
+  led_2: green
+  led_3: green
+  led_4: green
+  led_5: green
+- duration: 0.2
   lights:
-    led_1: purple
-    led_2: red
-    led_3: orange
-    led_4: yellow
-    led_5: green
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+
+- lights:
+  led_1:
+    color: blue
+    fade: 1s
+  led_2:
+    color: blue
+    fade: 1s
+  led_3:
+    color: blue
+    fade: 1s
+  led_4:
+    color: blue
+    fade: 1s
+  led_5:
+    color: blue
+    fade: 1s
+  duration: 1
+- duration: 0.2
+  lights:
+  led_1: blue
+  led_2: blue
+  led_3: blue
+  led_4: blue
+  led_5: blue
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+- duration: 0.2
+  lights:
+  led_1: blue
+  led_2: blue
+  led_3: blue
+  led_4: blue
+  led_5: blue
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+- duration: 0.2
+  lights:
+  led_1: blue
+  led_2: blue
+  led_3: blue
+  led_4: blue
+  led_5: blue
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+
+- lights:
+  led_1:
+    color: purple
+    fade: 1s
+  led_2:
+    color: purple
+    fade: 1s
+  led_3:
+    color: purple
+    fade: 1s
+  led_4:
+    color: purple
+    fade: 1s
+  led_5:
+    color: purple
+    fade: 1s
+  duration: 1
+- duration: 0.2
+  lights:
+  led_1: purple
+  led_2: purple
+  led_3: purple
+  led_4: purple
+  led_5: purple
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+- duration: 0.2
+  lights:
+  led_1: purple
+  led_2: purple
+  led_3: purple
+  led_4: purple
+  led_5: purple
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
+- duration: 0.2
+  lights:
+  led_1: purple
+  led_2: purple
+  led_3: purple
+  led_4: purple
+  led_5: purple
+- duration: 0.2
+  lights:
+  led_1: off
+  led_2: off
+  led_3: off
+  led_4: off
+  led_5: off
