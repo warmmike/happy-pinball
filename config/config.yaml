@@ -78,43 +78,19 @@ playfields:
 #         main_coil: c_flipper_right_main   
 #         hold_coil: c_flipper_right_hold
 #         activation_switch: s_right_flipper
-#         enable_events: machine_reset_phase_3
-
 lights:
-  led_1:
-    number: 0-0-0
+  l_led1:
+    start_channel: 0-0-0
     subtype: led
-    type: rgb
-  led_2:
-    number: 0-0-1
+    type: rgb # will use red: 0-0-0, green: 0-0-1, blue: 0-0-2
+  l_led2:
+    previous: l_led1
     subtype: led
-    type: rgb
-  led_3:
-    number: 0-0-2
+    type: rgbw # will use red: 0-0-3, green: 0-0-4, blue: 0-0-5, white: 0-0-6
+  l_led3:
+    previous: l_led2
     subtype: led
-    type: rgb
-  led_4:
-    number: 0-0-3
-    subtype: led
-    type: rgb
-  led_5:
-    number: 0-0-4
-    subtype: led
-    type: rgb
-
-light_player:
-  test_on:
-    led_1: teal         # 0-0-0
-    led_2: cyan         # 0-0-1
-    led_3: teal         # 0-0-2  (repeat of led_1)
-    led_4: blue         # 0-0-3
-    led_5: slateblue    # 0-0-4
-  test_off:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
+    type: rgbw # will use red: 0-0-7, green: 0-0-8, blue: 0-0-9, white: 0-0-10
 
 # coils:
 #     c_flipper_left_main:
