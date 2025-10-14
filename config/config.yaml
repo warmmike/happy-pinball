@@ -79,18 +79,34 @@ playfields:
 #         hold_coil: c_flipper_right_hold
 #         activation_switch: s_right_flipper
 lights:
-  l_led1:
-    start_channel: 0-0-0
+  led_1:
+    number: 0-0-0
     subtype: led
-    type: rgb # will use red: 0-0-0, green: 0-0-1, blue: 0-0-2
-  l_led2:
-    previous: l_led1
+    type: rgbw
+  led_2:
+    number: 0-0-1
     subtype: led
-    type: rgbw # will use red: 0-0-3, green: 0-0-4, blue: 0-0-5, white: 0-0-6
-  l_led3:
-    previous: l_led2
+    type: rgbw
+  led_3:
+    number: 0-0-2
     subtype: led
-    type: rgbw # will use red: 0-0-7, green: 0-0-8, blue: 0-0-9, white: 0-0-10
+    type: rgbw
+  led_4:
+    number: 0-0-3
+    subtype: led
+    type: rgbw
+
+light_player:
+  test_on:
+    led_1: darkred       # 0-0-0
+    led_2: darkblue      # 0-0-1
+    led_3: darkpurple    # 0-0-2
+    led_4: darkgreen     # 0-0-3
+  test_off:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
 
 # coils:
 #     c_flipper_left_main:
