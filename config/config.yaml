@@ -100,7 +100,7 @@ light_player:
   test_on:
     led_1: darkred       # 0-0-0
     led_2: darkblue      # 0-0-1
-    led_3: darkpurple    # 0-0-2
+    led_3: darkgray      # 0-0-2
     led_4: darkgreen     # 0-0-3
   test_off:
     led_1: off
