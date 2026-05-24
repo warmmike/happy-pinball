@@ -1,10 +1,10 @@
 #config_version=6
 
 config:
-  - config_ball_devices.yaml
-  - config_coils.yaml
-  - config_switches.yaml
   - config_lights.yaml
+  - config_switches.yaml
+  - config_coils.yaml
+  - config_ball_devices.yaml
 
 machine:
   balls_installed: 3
