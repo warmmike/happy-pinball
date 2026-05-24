@@ -3,11 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fd8wbvkcylrn"
-valid=false
+path="res://.godot/imported/sonic-logo.jpg-38b527a7e0a4e2d293fff6e234401f6f.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://addons/mpf-gmc/images/sonic-logo.jpg"
+dest_files=["res://.godot/imported/sonic-logo.jpg-38b527a7e0a4e2d293fff6e234401f6f.ctex"]
 
 [params]
 

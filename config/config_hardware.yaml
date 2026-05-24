@@ -13,7 +13,6 @@ hardware:
   platform: opp
   driverboards: gen2
 
-
 opp:
   #Use the USB ports defined by your OS for the two STM32 boards
   ports: /dev/ttyACM0, /dev/ttyACM1
@@ -43,30 +42,6 @@ psus:
     #  devices like flippers, pops, slings.
     release_wait_ms: 50
 
-machine:
-  balls_installed: 3
-  min_balls: 3    
-
-config:
-  - config_ball_devices.yaml
-  - config_coils.yaml
-  - config_switches.yaml
-
-modes:
-  - attract
-  - base
-  - bumpers
-  - song
-  - song1
-  - song2
-  - song3
-  - tilt
-
-playfields:
-  playfield:
-    default_source_device: bd_trough
-    tags: default
-
 # flippers:
 #     left_flipper:
 #         main_coil: c_flipper_left_main
@@ -78,41 +53,6 @@ playfields:
 #         main_coil: c_flipper_right_main   
 #         hold_coil: c_flipper_right_hold
 #         activation_switch: s_right_flipper
-lights:
-  led_1:
-    number: 0-0-0
-    subtype: led
-    type: grb
-  led_2:
-    number: 0-0-1
-    subtype: led
-    type: grb
-  led_3:
-    number: 0-0-2
-    subtype: led
-    type: grb
-  led_4:
-    number: 0-0-3
-    subtype: led
-    type: grb
-  led_5:
-    number: 0-0-4
-    subtype: led
-    type: grb
-
-light_player:
-  test_on:
-    led_1: darkred       # 0-0-0
-    led_2: blue          # 0-0-1
-    led_3: darkgray      # 0-0-2
-    led_4: darkgreen     # 0-0-3
-    led_5: white         # 0-0-4
-  test_off:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
 
 # coils:
 #     c_flipper_left_main:
@@ -136,8 +76,3 @@ light_player:
 #     s_right_flipper:
 #         number: 0-1
 #         tags: right_flipper
-
-virtual_platform_start_active_switches:
-  - s_trough_1
-  - s_trough_2
-  - s_trough_3
