@@ -1,7 +1,6 @@
 #config_version=6
 
 config:
-  - config_lights.yaml
   - config_switches.yaml
   - config_coils.yaml
   - config_ball_devices.yaml
