@@ -86,14 +86,9 @@ switches:
   #DIRECT SWITCHES
   #switch numbers are labelled in silkscreen on the board
   s_left_flipper:
-    number: 0-0-27
     tags: left_flipper
   s_right_flipper:
-    number: 0-0-26
     tags: right_flipper
-  s_startButton:
-    number: 0-0-25
-    tags: start
 
 lights:
   led_1:
@@ -130,3 +125,9 @@ light_player:
     led_3: off
     led_4: off
     led_5: off
+
+keyboard:   #use to drive your game from the computer for testing
+  z:
+    switch: s_left_flipper
+  "/":
+    switch: s_right_flipper
