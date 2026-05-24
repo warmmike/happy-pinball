@@ -83,12 +83,6 @@ psus:
 #         allow_enable: true
 
 switches:
-  #DIRECT SWITCHES
-  #switch numbers are labelled in silkscreen on the board
-  s_left_flipper:
-    tags: left_flipper
-  s_right_flipper:
-    tags: right_flipper
 
 lights:
   led_1:
