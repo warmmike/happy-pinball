@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxyosdp8w4nmw"
-path="res://.godot/imported/song1.png-2a0cfc6a012fd501bcfc6fd8b9ef16a0.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://addons/mpf-gmc/images/song1.png"
-dest_files=["res://.godot/imported/song1.png-2a0cfc6a012fd501bcfc6fd8b9ef16a0.ctex"]
 
 [params]
 

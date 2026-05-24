@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dounln3l35d26"
-path="res://.godot/imported/logo_mpf.png-b44ee92a29427e0a82b3a6c15873a387.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://addons/mpf-gmc/images/logo_mpf.png"
-dest_files=["res://.godot/imported/logo_mpf.png-b44ee92a29427e0a82b3a6c15873a387.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fx3lfsp53mvb"
-path="res://.godot/imported/image-from-rawpixel-id-13116785-png.png-1512b4ffbd85fae59c433f684bfce015.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://addons/mpf-gmc/images/image-from-rawpixel-id-13116785-png.png"
-dest_files=["res://.godot/imported/image-from-rawpixel-id-13116785-png.png-1512b4ffbd85fae59c433f684bfce015.ctex"]
 
 [params]
 
