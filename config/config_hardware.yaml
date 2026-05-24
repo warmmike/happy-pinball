@@ -12,6 +12,15 @@ config:
   - config_coils.yaml
   - config_ball_devices.yaml
 
+machine:
+  balls_installed: 3
+  min_balls: 3
+
+playfields:
+  playfield:
+    default_source_device: bd_trough
+    tags: default
+
 #CobraPin Example Config
 
 hardware:
