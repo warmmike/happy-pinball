@@ -84,10 +84,10 @@ psus:
 
 switches:
     s_left_flipper:
-        number: 0-0
+        number: 1-0-1
         tags: left_flipper
     s_right_flipper:
-        number: 0-1
+        number: 1-0-2
         tags: right_flipper
 
 lights:
