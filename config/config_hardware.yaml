@@ -8,7 +8,6 @@
 # imported and merged with this one.
 
 config:
-  - config_switches.yaml
   - config_coils.yaml
   - config_ball_devices.yaml
 
