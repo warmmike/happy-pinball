@@ -26,8 +26,8 @@ switches:
     number: 0-0-1
     tags: start
   s_flipper_left:
-    number: 6
+    number: "0-0-6"
     tags: left_flipper
   s_flipper_right:
-    number: 7
+    number: "0-0-7"
     tags: right_flipper
