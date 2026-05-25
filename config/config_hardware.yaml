@@ -25,6 +25,7 @@ playfields:
 hardware:
   platform: opp
   driverboards: gen2
+  switches: smart-virtual
 
 opp:
   #Use the USB ports defined by your OS for the two STM32 boards
@@ -82,16 +83,19 @@ psus:
 #         number: 0-3
 #         allow_enable: true
 
-switches:
-  # Trough Switches
-  s_trough_1:
-    number:
-  s_trough_2:
-    number:
-  s_trough_3:
-    number:
-  s_plunger_lane:
-    number:
+# Cabinet Switches
+  s_start:
+    number: 0-0-1
+    tags: start
+    platform: smart_virtual
+  s_flipper_left:
+    number: 1-0-16
+    tags: left_flipper
+    platform: smart_virtual
+  s_flipper_right:
+    number: 1-0-15
+    tags: right_flipper
+    platform: smart_virtual
 
 lights:
   led_1:
