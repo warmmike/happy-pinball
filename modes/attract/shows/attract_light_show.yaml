@@ -1,42 +1,48 @@
 #show_version=6
-# Diagnostic: one LED at a time, 1s each, then all together
+# Diagnostic: distinct color per LED, 2s each
 
-- duration: 1s
+# led_1 (0-0-0) = RED
+- duration: 2s
   lights:
-    led_1: white
+    led_1: red
     led_2: off
     led_3: off
     led_4: off
 
-- duration: 1s
+# led_2 (0-0-1) = GREEN
+- duration: 2s
   lights:
     led_1: off
-    led_2: white
+    led_2: green
     led_3: off
     led_4: off
 
-- duration: 1s
+# led_3 (0-0-2) = BLUE
+- duration: 2s
   lights:
     led_1: off
     led_2: off
-    led_3: white
+    led_3: blue
     led_4: off
 
-- duration: 1s
+# led_4 (0-0-3) = YELLOW
+- duration: 2s
   lights:
     led_1: off
     led_2: off
     led_3: off
-    led_4: white
+    led_4: yellow
 
-- duration: 1s
+# All on with distinct colors so you can see which physical LED is which
+- duration: 2s
   lights:
-    led_1: white
-    led_2: white
-    led_3: white
-    led_4: white
+    led_1: red
+    led_2: green
+    led_3: blue
+    led_4: yellow
 
-- duration: 0.5s
+# All off
+- duration: 1s
   lights:
     led_1: off
     led_2: off
