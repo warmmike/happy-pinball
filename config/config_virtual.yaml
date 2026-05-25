@@ -1,4 +1,7 @@
 #config_version=6
 
+config:
+  - config.yaml
+
 hardware:
   platform: smart_virtual
