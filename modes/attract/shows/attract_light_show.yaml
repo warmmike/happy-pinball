@@ -1,65 +1,44 @@
 #show_version=6
 # Diagnostic: one LED at a time, 1s each, then all together
 
-# led_1 only
 - duration: 1s
   lights:
     led_1: white
     led_2: off
     led_3: off
     led_4: off
-    led_5: off
 
-# led_2 only
 - duration: 1s
   lights:
     led_1: off
     led_2: white
     led_3: off
     led_4: off
-    led_5: off
 
-# led_3 only
 - duration: 1s
   lights:
     led_1: off
     led_2: off
     led_3: white
     led_4: off
-    led_5: off
 
-# led_4 only
 - duration: 1s
   lights:
     led_1: off
     led_2: off
     led_3: off
     led_4: white
-    led_5: off
 
-# led_5 only
-- duration: 1s
-  lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: white
-
-# All on together
 - duration: 1s
   lights:
     led_1: white
     led_2: white
     led_3: white
     led_4: white
-    led_5: white
 
-# All off brief pause before loop
 - duration: 0.5s
   lights:
     led_1: off
     led_2: off
     led_3: off
     led_4: off
-    led_5: off
