@@ -83,6 +83,7 @@ psus:
 #         number: 0-3
 #         allow_enable: true
 
+switches:
 # Cabinet Switches
   s_start:
     number: 0-0-1
