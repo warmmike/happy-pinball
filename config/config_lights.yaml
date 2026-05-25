@@ -2,21 +2,37 @@
 
 lights:
   led_1:
-    number: 0-0-0
-    subtype: led
-    type: grb
+    channels:
+      green:
+        number: 0-0-0
+      red:
+        number: 0-0-1
+      blue:
+        number: 0-0-2
   led_2:
-    number: 0-0-1
-    subtype: led
-    type: grb
+    channels:
+      green:
+        number: 0-0-4
+      red:
+        number: 0-0-5
+      blue:
+        number: 0-0-6
   led_3:
-    number: 0-0-2
-    subtype: led
-    type: grb
+    channels:
+      green:
+        number: 0-0-8
+      red:
+        number: 0-0-9
+      blue:
+        number: 0-0-10
   led_4:
-    number: 0-0-3
-    subtype: led
-    type: grb
+    channels:
+      green:
+        number: 0-0-12
+      red:
+        number: 0-0-13
+      blue:
+        number: 0-0-14
 light_player:
   test_on:
     led_1: darkred       # 0-0-0
