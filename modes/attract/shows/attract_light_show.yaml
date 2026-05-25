@@ -284,7 +284,7 @@
     led_1: off
 
 
-# ── 3. Color wash: all 20 fade through rainbow, 600ms per color ───────────────
+# ── 3. Color wash: all 20 snap through rainbow, 600ms each ───────────────────
 
 - duration: 600ms
   lights:
@@ -311,259 +311,419 @@
 
 - duration: 600ms
   lights:
-    led_1: orange|400ms
-    led_2: orange|400ms
-    led_3: orange|400ms
-    led_4: orange|400ms
-    led_5: orange|400ms
-    led_6: orange|400ms
-    led_7: orange|400ms
-    led_8: orange|400ms
-    led_9: orange|400ms
-    led_10: orange|400ms
-    led_11: orange|400ms
-    led_12: orange|400ms
-    led_13: orange|400ms
-    led_14: orange|400ms
-    led_15: orange|400ms
-    led_16: orange|400ms
-    led_17: orange|400ms
-    led_18: orange|400ms
-    led_19: orange|400ms
-    led_20: orange|400ms
+    led_1: orange
+    led_2: orange
+    led_3: orange
+    led_4: orange
+    led_5: orange
+    led_6: orange
+    led_7: orange
+    led_8: orange
+    led_9: orange
+    led_10: orange
+    led_11: orange
+    led_12: orange
+    led_13: orange
+    led_14: orange
+    led_15: orange
+    led_16: orange
+    led_17: orange
+    led_18: orange
+    led_19: orange
+    led_20: orange
 
 - duration: 600ms
   lights:
-    led_1: yellow|400ms
-    led_2: yellow|400ms
-    led_3: yellow|400ms
-    led_4: yellow|400ms
-    led_5: yellow|400ms
-    led_6: yellow|400ms
-    led_7: yellow|400ms
-    led_8: yellow|400ms
-    led_9: yellow|400ms
-    led_10: yellow|400ms
-    led_11: yellow|400ms
-    led_12: yellow|400ms
-    led_13: yellow|400ms
-    led_14: yellow|400ms
-    led_15: yellow|400ms
-    led_16: yellow|400ms
-    led_17: yellow|400ms
-    led_18: yellow|400ms
-    led_19: yellow|400ms
-    led_20: yellow|400ms
+    led_1: yellow
+    led_2: yellow
+    led_3: yellow
+    led_4: yellow
+    led_5: yellow
+    led_6: yellow
+    led_7: yellow
+    led_8: yellow
+    led_9: yellow
+    led_10: yellow
+    led_11: yellow
+    led_12: yellow
+    led_13: yellow
+    led_14: yellow
+    led_15: yellow
+    led_16: yellow
+    led_17: yellow
+    led_18: yellow
+    led_19: yellow
+    led_20: yellow
 
 - duration: 600ms
   lights:
-    led_1: green|400ms
-    led_2: green|400ms
-    led_3: green|400ms
-    led_4: green|400ms
-    led_5: green|400ms
-    led_6: green|400ms
-    led_7: green|400ms
-    led_8: green|400ms
-    led_9: green|400ms
-    led_10: green|400ms
-    led_11: green|400ms
-    led_12: green|400ms
-    led_13: green|400ms
-    led_14: green|400ms
-    led_15: green|400ms
-    led_16: green|400ms
-    led_17: green|400ms
-    led_18: green|400ms
-    led_19: green|400ms
-    led_20: green|400ms
+    led_1: green
+    led_2: green
+    led_3: green
+    led_4: green
+    led_5: green
+    led_6: green
+    led_7: green
+    led_8: green
+    led_9: green
+    led_10: green
+    led_11: green
+    led_12: green
+    led_13: green
+    led_14: green
+    led_15: green
+    led_16: green
+    led_17: green
+    led_18: green
+    led_19: green
+    led_20: green
 
 - duration: 600ms
   lights:
-    led_1: cyan|400ms
-    led_2: cyan|400ms
-    led_3: cyan|400ms
-    led_4: cyan|400ms
-    led_5: cyan|400ms
-    led_6: cyan|400ms
-    led_7: cyan|400ms
-    led_8: cyan|400ms
-    led_9: cyan|400ms
-    led_10: cyan|400ms
-    led_11: cyan|400ms
-    led_12: cyan|400ms
-    led_13: cyan|400ms
-    led_14: cyan|400ms
-    led_15: cyan|400ms
-    led_16: cyan|400ms
-    led_17: cyan|400ms
-    led_18: cyan|400ms
-    led_19: cyan|400ms
-    led_20: cyan|400ms
+    led_1: cyan
+    led_2: cyan
+    led_3: cyan
+    led_4: cyan
+    led_5: cyan
+    led_6: cyan
+    led_7: cyan
+    led_8: cyan
+    led_9: cyan
+    led_10: cyan
+    led_11: cyan
+    led_12: cyan
+    led_13: cyan
+    led_14: cyan
+    led_15: cyan
+    led_16: cyan
+    led_17: cyan
+    led_18: cyan
+    led_19: cyan
+    led_20: cyan
 
 - duration: 600ms
   lights:
-    led_1: blue|400ms
-    led_2: blue|400ms
-    led_3: blue|400ms
-    led_4: blue|400ms
-    led_5: blue|400ms
-    led_6: blue|400ms
-    led_7: blue|400ms
-    led_8: blue|400ms
-    led_9: blue|400ms
-    led_10: blue|400ms
-    led_11: blue|400ms
-    led_12: blue|400ms
-    led_13: blue|400ms
-    led_14: blue|400ms
-    led_15: blue|400ms
-    led_16: blue|400ms
-    led_17: blue|400ms
-    led_18: blue|400ms
-    led_19: blue|400ms
-    led_20: blue|400ms
+    led_1: blue
+    led_2: blue
+    led_3: blue
+    led_4: blue
+    led_5: blue
+    led_6: blue
+    led_7: blue
+    led_8: blue
+    led_9: blue
+    led_10: blue
+    led_11: blue
+    led_12: blue
+    led_13: blue
+    led_14: blue
+    led_15: blue
+    led_16: blue
+    led_17: blue
+    led_18: blue
+    led_19: blue
+    led_20: blue
 
 - duration: 600ms
   lights:
-    led_1: purple|400ms
-    led_2: purple|400ms
-    led_3: purple|400ms
-    led_4: purple|400ms
-    led_5: purple|400ms
-    led_6: purple|400ms
-    led_7: purple|400ms
-    led_8: purple|400ms
-    led_9: purple|400ms
-    led_10: purple|400ms
-    led_11: purple|400ms
-    led_12: purple|400ms
-    led_13: purple|400ms
-    led_14: purple|400ms
-    led_15: purple|400ms
-    led_16: purple|400ms
-    led_17: purple|400ms
-    led_18: purple|400ms
-    led_19: purple|400ms
-    led_20: purple|400ms
+    led_1: purple
+    led_2: purple
+    led_3: purple
+    led_4: purple
+    led_5: purple
+    led_6: purple
+    led_7: purple
+    led_8: purple
+    led_9: purple
+    led_10: purple
+    led_11: purple
+    led_12: purple
+    led_13: purple
+    led_14: purple
+    led_15: purple
+    led_16: purple
+    led_17: purple
+    led_18: purple
+    led_19: purple
+    led_20: purple
 
 - duration: 600ms
   lights:
-    led_1: off|400ms
-    led_2: off|400ms
-    led_3: off|400ms
-    led_4: off|400ms
-    led_5: off|400ms
-    led_6: off|400ms
-    led_7: off|400ms
-    led_8: off|400ms
-    led_9: off|400ms
-    led_10: off|400ms
-    led_11: off|400ms
-    led_12: off|400ms
-    led_13: off|400ms
-    led_14: off|400ms
-    led_15: off|400ms
-    led_16: off|400ms
-    led_17: off|400ms
-    led_18: off|400ms
-    led_19: off|400ms
-    led_20: off|400ms
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
 
 
 # ── 4. Breathe white: fade in 1.2s, hold, fade out 1.2s — two pulses ─────────
 
 - duration: 1200ms
   lights:
-    led_1: white|1200ms
-    led_2: white|1200ms
-    led_3: white|1200ms
-    led_4: white|1200ms
-    led_5: white|1200ms
-    led_6: white|1200ms
-    led_7: white|1200ms
-    led_8: white|1200ms
-    led_9: white|1200ms
-    led_10: white|1200ms
-    led_11: white|1200ms
-    led_12: white|1200ms
-    led_13: white|1200ms
-    led_14: white|1200ms
-    led_15: white|1200ms
-    led_16: white|1200ms
-    led_17: white|1200ms
-    led_18: white|1200ms
-    led_19: white|1200ms
-    led_20: white|1200ms
+    led_1:
+      color: white
+      fade: 1200ms
+    led_2:
+      color: white
+      fade: 1200ms
+    led_3:
+      color: white
+      fade: 1200ms
+    led_4:
+      color: white
+      fade: 1200ms
+    led_5:
+      color: white
+      fade: 1200ms
+    led_6:
+      color: white
+      fade: 1200ms
+    led_7:
+      color: white
+      fade: 1200ms
+    led_8:
+      color: white
+      fade: 1200ms
+    led_9:
+      color: white
+      fade: 1200ms
+    led_10:
+      color: white
+      fade: 1200ms
+    led_11:
+      color: white
+      fade: 1200ms
+    led_12:
+      color: white
+      fade: 1200ms
+    led_13:
+      color: white
+      fade: 1200ms
+    led_14:
+      color: white
+      fade: 1200ms
+    led_15:
+      color: white
+      fade: 1200ms
+    led_16:
+      color: white
+      fade: 1200ms
+    led_17:
+      color: white
+      fade: 1200ms
+    led_18:
+      color: white
+      fade: 1200ms
+    led_19:
+      color: white
+      fade: 1200ms
+    led_20:
+      color: white
+      fade: 1200ms
 
 - duration: 1200ms
   lights:
-    led_1: off|1200ms
-    led_2: off|1200ms
-    led_3: off|1200ms
-    led_4: off|1200ms
-    led_5: off|1200ms
-    led_6: off|1200ms
-    led_7: off|1200ms
-    led_8: off|1200ms
-    led_9: off|1200ms
-    led_10: off|1200ms
-    led_11: off|1200ms
-    led_12: off|1200ms
-    led_13: off|1200ms
-    led_14: off|1200ms
-    led_15: off|1200ms
-    led_16: off|1200ms
-    led_17: off|1200ms
-    led_18: off|1200ms
-    led_19: off|1200ms
-    led_20: off|1200ms
+    led_1:
+      color: off
+      fade: 1200ms
+    led_2:
+      color: off
+      fade: 1200ms
+    led_3:
+      color: off
+      fade: 1200ms
+    led_4:
+      color: off
+      fade: 1200ms
+    led_5:
+      color: off
+      fade: 1200ms
+    led_6:
+      color: off
+      fade: 1200ms
+    led_7:
+      color: off
+      fade: 1200ms
+    led_8:
+      color: off
+      fade: 1200ms
+    led_9:
+      color: off
+      fade: 1200ms
+    led_10:
+      color: off
+      fade: 1200ms
+    led_11:
+      color: off
+      fade: 1200ms
+    led_12:
+      color: off
+      fade: 1200ms
+    led_13:
+      color: off
+      fade: 1200ms
+    led_14:
+      color: off
+      fade: 1200ms
+    led_15:
+      color: off
+      fade: 1200ms
+    led_16:
+      color: off
+      fade: 1200ms
+    led_17:
+      color: off
+      fade: 1200ms
+    led_18:
+      color: off
+      fade: 1200ms
+    led_19:
+      color: off
+      fade: 1200ms
+    led_20:
+      color: off
+      fade: 1200ms
 
 - duration: 1200ms
   lights:
-    led_1: white|1200ms
-    led_2: white|1200ms
-    led_3: white|1200ms
-    led_4: white|1200ms
-    led_5: white|1200ms
-    led_6: white|1200ms
-    led_7: white|1200ms
-    led_8: white|1200ms
-    led_9: white|1200ms
-    led_10: white|1200ms
-    led_11: white|1200ms
-    led_12: white|1200ms
-    led_13: white|1200ms
-    led_14: white|1200ms
-    led_15: white|1200ms
-    led_16: white|1200ms
-    led_17: white|1200ms
-    led_18: white|1200ms
-    led_19: white|1200ms
-    led_20: white|1200ms
+    led_1:
+      color: white
+      fade: 1200ms
+    led_2:
+      color: white
+      fade: 1200ms
+    led_3:
+      color: white
+      fade: 1200ms
+    led_4:
+      color: white
+      fade: 1200ms
+    led_5:
+      color: white
+      fade: 1200ms
+    led_6:
+      color: white
+      fade: 1200ms
+    led_7:
+      color: white
+      fade: 1200ms
+    led_8:
+      color: white
+      fade: 1200ms
+    led_9:
+      color: white
+      fade: 1200ms
+    led_10:
+      color: white
+      fade: 1200ms
+    led_11:
+      color: white
+      fade: 1200ms
+    led_12:
+      color: white
+      fade: 1200ms
+    led_13:
+      color: white
+      fade: 1200ms
+    led_14:
+      color: white
+      fade: 1200ms
+    led_15:
+      color: white
+      fade: 1200ms
+    led_16:
+      color: white
+      fade: 1200ms
+    led_17:
+      color: white
+      fade: 1200ms
+    led_18:
+      color: white
+      fade: 1200ms
+    led_19:
+      color: white
+      fade: 1200ms
+    led_20:
+      color: white
+      fade: 1200ms
 
 - duration: 1200ms
   lights:
-    led_1: off|1200ms
-    led_2: off|1200ms
-    led_3: off|1200ms
-    led_4: off|1200ms
-    led_5: off|1200ms
-    led_6: off|1200ms
-    led_7: off|1200ms
-    led_8: off|1200ms
-    led_9: off|1200ms
-    led_10: off|1200ms
-    led_11: off|1200ms
-    led_12: off|1200ms
-    led_13: off|1200ms
-    led_14: off|1200ms
-    led_15: off|1200ms
-    led_16: off|1200ms
-    led_17: off|1200ms
-    led_18: off|1200ms
-    led_19: off|1200ms
-    led_20: off|1200ms
+    led_1:
+      color: off
+      fade: 1200ms
+    led_2:
+      color: off
+      fade: 1200ms
+    led_3:
+      color: off
+      fade: 1200ms
+    led_4:
+      color: off
+      fade: 1200ms
+    led_5:
+      color: off
+      fade: 1200ms
+    led_6:
+      color: off
+      fade: 1200ms
+    led_7:
+      color: off
+      fade: 1200ms
+    led_8:
+      color: off
+      fade: 1200ms
+    led_9:
+      color: off
+      fade: 1200ms
+    led_10:
+      color: off
+      fade: 1200ms
+    led_11:
+      color: off
+      fade: 1200ms
+    led_12:
+      color: off
+      fade: 1200ms
+    led_13:
+      color: off
+      fade: 1200ms
+    led_14:
+      color: off
+      fade: 1200ms
+    led_15:
+      color: off
+      fade: 1200ms
+    led_16:
+      color: off
+      fade: 1200ms
+    led_17:
+      color: off
+      fade: 1200ms
+    led_18:
+      color: off
+      fade: 1200ms
+    led_19:
+      color: off
+      fade: 1200ms
+    led_20:
+      color: off
+      fade: 1200ms
 
 
 # ── 5. Strobe: orange/blue alternating x4, then white burst ──────────────────
