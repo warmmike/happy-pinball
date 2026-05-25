@@ -5,3 +5,7 @@ config:
 
 hardware:
   platform: smart_virtual
+
+smart_virtual:
+  simulate_manual_plunger: true
+  simulate_manual_plunger_timeout: 3s

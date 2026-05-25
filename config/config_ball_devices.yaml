@@ -3,6 +3,7 @@
 ball_devices:
   bd_plunger:
     ball_switches: s_plunger_lane
+    eject_coil: null
     mechanical_eject: true
   bd_trough:
     ball_switches: s_trough_1, s_trough_2, s_trough_3
