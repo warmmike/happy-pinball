@@ -8,6 +8,7 @@
 # imported and merged with this one.
 
 config:
+  - config_switches.yaml
   - config_coils.yaml
   - config_ball_devices.yaml
 
@@ -83,21 +84,6 @@ psus:
 #         number: 0-3
 #         allow_enable: true
 
-switches:
-# Cabinet Switches
-  s_start:
-    number: 0-0-1
-    tags: start
-    platform: virtual
-  s_flipper_left:
-    number: 1-0-16
-    tags: left_flipper
-    platform: virtual
-  s_flipper_right:
-    number: 1-0-15
-    tags: right_flipper
-    platform: virtual
-
 lights:
   led_1:
     number: 0-0-0
@@ -136,6 +122,6 @@ light_player:
 
 keyboard:   #use to drive your game from the computer for testing
   z:
-    switch: s_left_flipper
+    switch: s_flipper_left
   "/":
-    switch: s_right_flipper
+    switch: s_flipper_right
