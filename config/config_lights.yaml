@@ -41,16 +41,167 @@ lights:
         number: 0-0-17
       blue:
         number: 0-0-18
+  led_6:
+    channels:
+      green:
+        number: 0-0-20
+      red:
+        number: 0-0-21
+      blue:
+        number: 0-0-22
+  led_7:
+    channels:
+      green:
+        number: 0-0-24
+      red:
+        number: 0-0-25
+      blue:
+        number: 0-0-26
+  led_8:
+    channels:
+      green:
+        number: 0-0-28
+      red:
+        number: 0-0-29
+      blue:
+        number: 0-0-30
+  led_9:
+    channels:
+      green:
+        number: 0-0-32
+      red:
+        number: 0-0-33
+      blue:
+        number: 0-0-34
+  led_10:
+    channels:
+      green:
+        number: 0-0-36
+      red:
+        number: 0-0-37
+      blue:
+        number: 0-0-38
+  led_11:
+    channels:
+      green:
+        number: 0-0-40
+      red:
+        number: 0-0-41
+      blue:
+        number: 0-0-42
+  led_12:
+    channels:
+      green:
+        number: 0-0-44
+      red:
+        number: 0-0-45
+      blue:
+        number: 0-0-46
+  led_13:
+    channels:
+      green:
+        number: 0-0-48
+      red:
+        number: 0-0-49
+      blue:
+        number: 0-0-50
+  led_14:
+    channels:
+      green:
+        number: 0-0-52
+      red:
+        number: 0-0-53
+      blue:
+        number: 0-0-54
+  led_15:
+    channels:
+      green:
+        number: 0-0-56
+      red:
+        number: 0-0-57
+      blue:
+        number: 0-0-58
+  led_16:
+    channels:
+      green:
+        number: 0-0-60
+      red:
+        number: 0-0-61
+      blue:
+        number: 0-0-62
+  led_17:
+    channels:
+      green:
+        number: 0-0-64
+      red:
+        number: 0-0-65
+      blue:
+        number: 0-0-66
+  led_18:
+    channels:
+      green:
+        number: 0-0-68
+      red:
+        number: 0-0-69
+      blue:
+        number: 0-0-70
+  led_19:
+    channels:
+      green:
+        number: 0-0-72
+      red:
+        number: 0-0-73
+      blue:
+        number: 0-0-74
+  led_20:
+    channels:
+      green:
+        number: 0-0-76
+      red:
+        number: 0-0-77
+      blue:
+        number: 0-0-78
+
 light_player:
   test_on:
-    led_1: darkred
-    led_2: blue
-    led_3: darkgray
-    led_4: darkgreen
-    led_5: purple
+    led_1: red
+    led_2: green
+    led_3: blue
+    led_4: yellow
+    led_5: white
+    led_6: orange
+    led_7: cyan
+    led_8: magenta
+    led_9: purple
+    led_10: lime
+    led_11: coral
+    led_12: pink
+    led_13: gold
+    led_14: turquoise
+    led_15: violet
+    led_16: red
+    led_17: green
+    led_18: blue
+    led_19: yellow
+    led_20: white
   test_off:
     led_1: off
     led_2: off
     led_3: off
     led_4: off
     led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off

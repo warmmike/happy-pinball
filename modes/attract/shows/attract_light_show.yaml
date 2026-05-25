@@ -1,45 +1,465 @@
 #show_version=6
-# Diagnostic: distinct color per LED, 2s each
+# Diagnostic: one LED at a time, 1s each, then all on, then all off
 
-- duration: 2s
+- duration: 1s
   lights:
     led_1: red
     led_2: off
     led_3: off
     led_4: off
     led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
 
-- duration: 2s
+- duration: 1s
   lights:
     led_1: off
     led_2: green
     led_3: off
     led_4: off
     led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
 
-- duration: 2s
+- duration: 1s
   lights:
     led_1: off
     led_2: off
     led_3: blue
     led_4: off
     led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
 
-- duration: 2s
+- duration: 1s
   lights:
     led_1: off
     led_2: off
     led_3: off
     led_4: yellow
     led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
 
-- duration: 2s
+- duration: 1s
   lights:
     led_1: off
     led_2: off
     led_3: off
     led_4: off
     led_5: white
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: orange
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: cyan
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: magenta
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: purple
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: lime
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: coral
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: pink
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: gold
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: turquoise
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: violet
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: red
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: green
+    led_18: off
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: blue
+    led_19: off
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: yellow
+    led_20: off
+
+- duration: 1s
+  lights:
+    led_1: off
+    led_2: off
+    led_3: off
+    led_4: off
+    led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: white
 
 # All on
 - duration: 2s
@@ -49,6 +469,21 @@
     led_3: blue
     led_4: yellow
     led_5: white
+    led_6: orange
+    led_7: cyan
+    led_8: magenta
+    led_9: purple
+    led_10: lime
+    led_11: coral
+    led_12: pink
+    led_13: gold
+    led_14: turquoise
+    led_15: violet
+    led_16: red
+    led_17: green
+    led_18: blue
+    led_19: yellow
+    led_20: white
 
 # All off
 - duration: 1s
@@ -58,3 +493,18 @@
     led_3: off
     led_4: off
     led_5: off
+    led_6: off
+    led_7: off
+    led_8: off
+    led_9: off
+    led_10: off
+    led_11: off
+    led_12: off
+    led_13: off
+    led_14: off
+    led_15: off
+    led_16: off
+    led_17: off
+    led_18: off
+    led_19: off
+    led_20: off
