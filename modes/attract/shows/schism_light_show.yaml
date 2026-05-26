@@ -6383,7 +6383,7 @@
       color: "880000"
       fade: 40ms
 
-- duration: 642ms
+- duration: 1142ms
   lights:
     led_1:
       color: "880000"
