@@ -1,0 +1,1476 @@
+#show_version=6
+# Tool - Schism (47 BPM quarter, eighth = 638ms)
+# Synchronized to bar-level beat. Time offsets in ms from show start.
+# Geographic tags: gi_top (led_1-5), gi_middle (led_6-10), gi_bottom (led_11-15), gi_backwall (led_16-20)
+
+- time: 0
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 600ms
+    (gi_middle):
+      color: 110000
+      fade: 600ms
+    (gi_bottom):
+      color: 110000
+      fade: 600ms
+    (gi_backwall):
+      color: 100010
+      fade: 600ms
+
+# --- INTRO: 5/4 bar 1 (t=0) already set above ---
+
+# 5/4 bar 2
+- time: 6380
+  lights:
+    (gi_top):
+      color: 330000
+      fade: 400ms
+    (gi_middle):
+      color: 220000
+      fade: 400ms
+    (gi_bottom):
+      color: 110000
+      fade: 400ms
+    (gi_backwall):
+      color: 110011
+      fade: 400ms
+
+# 4/4 bar
+- time: 12760
+  lights:
+    (gi_top):
+      color: 440000
+      fade: 300ms
+    (gi_middle):
+      color: 330000
+      fade: 300ms
+    (gi_bottom):
+      color: 220000
+      fade: 300ms
+    (gi_backwall):
+      color: 110011
+      fade: 300ms
+
+# --- VERSE 1: alternating 5/8 + 7/8 (6 pairs) ---
+
+# 5/8 pair 1
+- time: 17860
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 1
+- time: 21050
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 5/8 pair 2
+- time: 25520
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 2
+- time: 28710
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 5/8 pair 3
+- time: 33180
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 3
+- time: 36370
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 5/8 pair 4
+- time: 40840
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 4
+- time: 44030
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 5/8 pair 5
+- time: 48500
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 5
+- time: 51690
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 5/8 pair 6
+- time: 56160
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 6
+- time: 59350
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# --- INTERLUDE 1: 8 bars of 6/8 (purple wash) ---
+
+- time: 63820
+  lights:
+    (gi_top):
+      color: 4b0082
+      fade: 600ms
+    (gi_middle):
+      color: 4b0082
+      fade: 600ms
+    (gi_bottom):
+      color: 4b0082
+      fade: 600ms
+    (gi_backwall):
+      color: 4b0082
+      fade: 600ms
+
+- time: 67650
+  lights:
+    (gi_top):
+      color: 350060
+      fade: 400ms
+    (gi_middle):
+      color: 350060
+      fade: 400ms
+    (gi_bottom):
+      color: 350060
+      fade: 400ms
+    (gi_backwall):
+      color: 350060
+      fade: 400ms
+
+- time: 71480
+  lights:
+    (gi_top):
+      color: 4b0082
+      fade: 400ms
+    (gi_middle):
+      color: 4b0082
+      fade: 400ms
+    (gi_bottom):
+      color: 4b0082
+      fade: 400ms
+    (gi_backwall):
+      color: 4b0082
+      fade: 400ms
+
+- time: 75310
+  lights:
+    (gi_top):
+      color: 350060
+      fade: 400ms
+    (gi_middle):
+      color: 350060
+      fade: 400ms
+    (gi_bottom):
+      color: 350060
+      fade: 400ms
+    (gi_backwall):
+      color: 350060
+      fade: 400ms
+
+- time: 79140
+  lights:
+    (gi_top):
+      color: 4b0082
+      fade: 400ms
+    (gi_middle):
+      color: 4b0082
+      fade: 400ms
+    (gi_bottom):
+      color: 4b0082
+      fade: 400ms
+    (gi_backwall):
+      color: 4b0082
+      fade: 400ms
+
+- time: 82970
+  lights:
+    (gi_top):
+      color: 350060
+      fade: 400ms
+    (gi_middle):
+      color: 350060
+      fade: 400ms
+    (gi_bottom):
+      color: 350060
+      fade: 400ms
+    (gi_backwall):
+      color: 350060
+      fade: 400ms
+
+- time: 86800
+  lights:
+    (gi_top):
+      color: 4b0082
+      fade: 400ms
+    (gi_middle):
+      color: 4b0082
+      fade: 400ms
+    (gi_bottom):
+      color: 4b0082
+      fade: 400ms
+    (gi_backwall):
+      color: 4b0082
+      fade: 400ms
+
+- time: 90630
+  lights:
+    (gi_top):
+      color: 350060
+      fade: 400ms
+    (gi_middle):
+      color: 350060
+      fade: 400ms
+    (gi_bottom):
+      color: 350060
+      fade: 400ms
+    (gi_backwall):
+      color: 350060
+      fade: 400ms
+
+# --- VERSE 2: alternating 5/8 + 7/8 (4 pairs) ---
+
+# 5/8 pair 1
+- time: 94460
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 1
+- time: 97650
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 5/8 pair 2
+- time: 102120
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 2
+- time: 105310
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 5/8 pair 3
+- time: 109780
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 3
+- time: 112970
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 5/8 pair 4
+- time: 117440
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 4
+- time: 120630
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# --- HEAVY SECTION: 2x (6/4 + 11/8) ---
+
+# 6/4 bar 1 — full crimson blast
+- time: 125100
+  lights:
+    (gi_top):
+      color: cc0022
+      fade: 100ms
+    (gi_middle):
+      color: cc0022
+      fade: 100ms
+    (gi_bottom):
+      color: cc0022
+      fade: 100ms
+    (gi_backwall):
+      color: cc0022
+      fade: 100ms
+
+# 11/8 bar 1 — top dims, rest holds
+- time: 132760
+  lights:
+    (gi_top):
+      color: 330000
+      fade: 300ms
+    (gi_middle):
+      color: cc0022
+      fade: 100ms
+    (gi_bottom):
+      color: cc0022
+      fade: 100ms
+    (gi_backwall):
+      color: cc0022
+      fade: 100ms
+
+# 6/4 bar 2
+- time: 139780
+  lights:
+    (gi_top):
+      color: cc0022
+      fade: 100ms
+    (gi_middle):
+      color: cc0022
+      fade: 100ms
+    (gi_bottom):
+      color: cc0022
+      fade: 100ms
+    (gi_backwall):
+      color: cc0022
+      fade: 100ms
+
+# 11/8 bar 2
+- time: 147440
+  lights:
+    (gi_top):
+      color: 330000
+      fade: 300ms
+    (gi_middle):
+      color: cc0022
+      fade: 100ms
+    (gi_bottom):
+      color: cc0022
+      fade: 100ms
+    (gi_backwall):
+      color: cc0022
+      fade: 100ms
+
+# --- VERSE 3: alternating 5/8 + 7/8 (3 pairs) ---
+
+# 5/8 pair 1
+- time: 154460
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 1
+- time: 157650
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 5/8 pair 2
+- time: 162120
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 2
+- time: 165310
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 5/8 pair 3
+- time: 169780
+  lights:
+    (gi_top):
+      color: ff4400
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 3
+- time: 172970
+  lights:
+    (gi_top):
+      color: 220000
+      fade: 200ms
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# --- 6/8 + 7/8 SECTION (2 pairs) ---
+
+# 6/8 bar 1
+- time: 177440
+  lights:
+    (gi_top):
+      color: 4b0082
+      fade: 400ms
+    (gi_middle):
+      color: 4b0082
+      fade: 400ms
+    (gi_bottom):
+      color: 4b0082
+      fade: 400ms
+    (gi_backwall):
+      color: 4b0082
+      fade: 400ms
+
+# 7/8 bar 1
+- time: 181270
+  lights:
+    (gi_top):
+      color: 660000
+      fade: 200ms
+    (gi_middle):
+      color: 440000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 6/8 bar 2
+- time: 185740
+  lights:
+    (gi_top):
+      color: 4b0082
+      fade: 400ms
+    (gi_middle):
+      color: 4b0082
+      fade: 400ms
+    (gi_bottom):
+      color: 4b0082
+      fade: 400ms
+    (gi_backwall):
+      color: 4b0082
+      fade: 400ms
+
+# 7/8 bar 2
+- time: 189570
+  lights:
+    (gi_top):
+      color: 660000
+      fade: 200ms
+    (gi_middle):
+      color: 440000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# --- 7/8 SOLO (4 bars) ---
+
+- time: 194040
+  lights:
+    (gi_top):
+      color: 8b0000
+      fade: 100ms
+    (gi_middle):
+      color: 660000
+      fade: 100ms
+    (gi_bottom):
+      color: 440000
+      fade: 100ms
+    (gi_backwall):
+      color: 220000
+      fade: 100ms
+
+- time: 198510
+  lights:
+    (gi_top):
+      color: aa0000
+      fade: 100ms
+    (gi_middle):
+      color: 880000
+      fade: 100ms
+    (gi_bottom):
+      color: 550000
+      fade: 100ms
+    (gi_backwall):
+      color: 330000
+      fade: 100ms
+
+- time: 202980
+  lights:
+    (gi_top):
+      color: cc0000
+      fade: 100ms
+    (gi_middle):
+      color: aa0000
+      fade: 100ms
+    (gi_bottom):
+      color: 660000
+      fade: 100ms
+    (gi_backwall):
+      color: 440000
+      fade: 100ms
+
+- time: 207450
+  lights:
+    (gi_top):
+      color: ff2200
+      fade: 100ms
+    (gi_middle):
+      color: cc0000
+      fade: 100ms
+    (gi_bottom):
+      color: 880000
+      fade: 100ms
+    (gi_backwall):
+      color: 550000
+      fade: 100ms
+
+# --- MIDDLE SECTION: 2 cycles of (6/8+6/8+6/8+3/8+3/4) ---
+# Deep violet/near-black atmosphere; 3/8 bars = blackout
+
+# Cycle 1: 6/8 bar 1
+- time: 211920
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall):
+      color: 1a0033
+      fade: 800ms
+
+# Cycle 1: 6/8 bar 2
+- time: 215750
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall):
+      color: 1a0033
+      fade: 400ms
+
+# Cycle 1: 6/8 bar 3
+- time: 219580
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall):
+      color: 330050
+      fade: 400ms
+
+# Cycle 1: 3/8 bar — blackout
+- time: 223410
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall): off
+
+# Cycle 1: 3/4 bar
+- time: 225320
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall):
+      color: 1a0033
+      fade: 600ms
+
+# Cycle 2: 6/8 bar 1
+- time: 229150
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall):
+      color: 1a0033
+      fade: 400ms
+
+# Cycle 2: 6/8 bar 2
+- time: 232980
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall):
+      color: 330050
+      fade: 400ms
+
+# Cycle 2: 6/8 bar 3
+- time: 236810
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall):
+      color: 1a0033
+      fade: 400ms
+
+# Cycle 2: 3/8 bar — blackout
+- time: 240640
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall): off
+
+# Cycle 2: 3/4 bar
+- time: 242550
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall):
+      color: 1a0033
+      fade: 600ms
+
+# --- INTERRUPTION: 2x (6/8 + 6/8 + 4/8) ---
+
+# Interruption 1: 6/8 bar 1
+- time: 246380
+  lights:
+    (gi_top): off
+    (gi_middle):
+      color: 660000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall): off
+
+# Interruption 1: 6/8 bar 2
+- time: 250210
+  lights:
+    (gi_top): off
+    (gi_middle):
+      color: 440000
+      fade: 200ms
+    (gi_bottom):
+      color: 440000
+      fade: 200ms
+    (gi_backwall): off
+
+# Interruption 1: 4/8 bar — blackout
+- time: 254040
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall): off
+
+# Interruption 2: 6/8 bar 1
+- time: 256590
+  lights:
+    (gi_top): off
+    (gi_middle):
+      color: 660000
+      fade: 200ms
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall): off
+
+# Interruption 2: 6/8 bar 2
+- time: 260420
+  lights:
+    (gi_top): off
+    (gi_middle):
+      color: 440000
+      fade: 200ms
+    (gi_bottom):
+      color: 440000
+      fade: 200ms
+    (gi_backwall): off
+
+# Interruption 2: 4/8 bar — blackout
+- time: 264250
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall): off
+
+# --- BRIDGE: 5/8 + 2x (6/8 + 6/8 + 2/4) ---
+
+# 5/8 bar
+- time: 266800
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom):
+      color: 330000
+      fade: 400ms
+    (gi_backwall):
+      color: 1a0033
+      fade: 400ms
+
+# Bridge cycle 1: 6/8 bar 1
+- time: 269990
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom):
+      color: 440000
+      fade: 300ms
+    (gi_backwall):
+      color: 1a0033
+      fade: 300ms
+
+# Bridge cycle 1: 6/8 bar 2
+- time: 273820
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom):
+      color: 550000
+      fade: 300ms
+    (gi_backwall):
+      color: 1a0033
+      fade: 300ms
+
+# Bridge cycle 1: 2/4 bar
+- time: 277650
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 330050
+      fade: 200ms
+
+# Bridge cycle 2: 6/8 bar 1
+- time: 280200
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom):
+      color: 550000
+      fade: 300ms
+    (gi_backwall):
+      color: 1a0033
+      fade: 300ms
+
+# Bridge cycle 2: 6/8 bar 2
+- time: 284030
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom):
+      color: 440000
+      fade: 300ms
+    (gi_backwall):
+      color: 1a0033
+      fade: 300ms
+
+# Bridge cycle 2: 2/4 bar
+- time: 287860
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom):
+      color: 660000
+      fade: 200ms
+    (gi_backwall):
+      color: 330050
+      fade: 200ms
+
+# --- 9/8 + 10/8 BUILDING SECTION ---
+# Pattern: 2x(9/8+10/8), then 2x(9/8+10/8), then 9/8, then alternating 6/8+7/8
+# Lights build from gi_bottom up through the machine
+
+# 9/8 bar 1
+- time: 290410
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom):
+      color: 8b0000
+      fade: 200ms
+    (gi_backwall): off
+
+# 10/8 bar 1
+- time: 296150
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom):
+      color: cc0000
+      fade: 200ms
+    (gi_backwall): off
+
+# 9/8 bar 2
+- time: 301890
+  lights:
+    (gi_top): off
+    (gi_middle):
+      color: 8b0000
+      fade: 200ms
+    (gi_bottom):
+      color: cc0000
+      fade: 200ms
+    (gi_backwall): off
+
+# 10/8 bar 2
+- time: 308270
+  lights:
+    (gi_top): off
+    (gi_middle):
+      color: cc0000
+      fade: 200ms
+    (gi_bottom):
+      color: cc0022
+      fade: 200ms
+    (gi_backwall): off
+
+# 9/8 bar 3
+- time: 314010
+  lights:
+    (gi_top):
+      color: 660000
+      fade: 200ms
+    (gi_middle):
+      color: cc0000
+      fade: 200ms
+    (gi_bottom):
+      color: cc0022
+      fade: 200ms
+    (gi_backwall): off
+
+# 10/8 bar 3
+- time: 319750
+  lights:
+    (gi_top):
+      color: 8b0000
+      fade: 200ms
+    (gi_middle):
+      color: cc0022
+      fade: 200ms
+    (gi_bottom):
+      color: cc0022
+      fade: 200ms
+    (gi_backwall):
+      color: 330000
+      fade: 200ms
+
+# 9/8 bar 4
+- time: 326130
+  lights:
+    (gi_top):
+      color: cc0022
+      fade: 200ms
+    (gi_middle):
+      color: cc0022
+      fade: 200ms
+    (gi_bottom):
+      color: cc0022
+      fade: 200ms
+    (gi_backwall):
+      color: 660000
+      fade: 200ms
+
+# 10/8 bar 4
+- time: 331870
+  lights:
+    (gi_top):
+      color: cc0022
+      fade: 200ms
+    (gi_middle):
+      color: cc0022
+      fade: 200ms
+    (gi_bottom):
+      color: cc0022
+      fade: 200ms
+    (gi_backwall):
+      color: cc0022
+      fade: 200ms
+
+# Single 9/8 bar — peak, full machine lit
+- time: 335700
+  lights:
+    (gi_top):
+      color: ff2200
+      fade: 100ms
+    (gi_middle):
+      color: ff2200
+      fade: 100ms
+    (gi_bottom):
+      color: ff2200
+      fade: 100ms
+    (gi_backwall):
+      color: ff2200
+      fade: 100ms
+
+# 6/8 bar — drop back to verse feel
+- time: 340170
+  lights:
+    (gi_top):
+      color: 4b0082
+      fade: 400ms
+    (gi_middle):
+      color: 4b0082
+      fade: 400ms
+    (gi_bottom):
+      color: 4b0082
+      fade: 400ms
+    (gi_backwall):
+      color: 4b0082
+      fade: 400ms
+
+# 7/8 bar
+- time: 344000
+  lights:
+    (gi_top):
+      color: 660000
+      fade: 200ms
+    (gi_middle):
+      color: 440000
+      fade: 200ms
+    (gi_bottom):
+      color: 220000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# --- OUTRO: alternating 5/8 + 7/8 (6 pairs) ---
+
+# 5/8 pair 1
+- time: 348470
+  lights:
+    (gi_top):
+      color: ff6600
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 110000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 1
+- time: 351660
+  lights:
+    (gi_top):
+      color: 330000
+      fade: 200ms
+    (gi_middle):
+      color: cc0022
+      fade: 200ms
+    (gi_bottom):
+      color: cc0022
+      fade: 200ms
+    (gi_backwall):
+      color: 220000
+      fade: 200ms
+
+# 5/8 pair 2
+- time: 356130
+  lights:
+    (gi_top):
+      color: ff6600
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 110000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 2
+- time: 359320
+  lights:
+    (gi_top):
+      color: 330000
+      fade: 200ms
+    (gi_middle):
+      color: cc0022
+      fade: 200ms
+    (gi_bottom):
+      color: cc0022
+      fade: 200ms
+    (gi_backwall):
+      color: 220000
+      fade: 200ms
+
+# 5/8 pair 3
+- time: 363790
+  lights:
+    (gi_top):
+      color: ff6600
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 110000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 3
+- time: 366980
+  lights:
+    (gi_top):
+      color: 330000
+      fade: 200ms
+    (gi_middle):
+      color: cc0022
+      fade: 200ms
+    (gi_bottom):
+      color: cc0022
+      fade: 200ms
+    (gi_backwall):
+      color: 220000
+      fade: 200ms
+
+# 5/8 pair 4
+- time: 371450
+  lights:
+    (gi_top):
+      color: ff6600
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 110000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 4
+- time: 374640
+  lights:
+    (gi_top):
+      color: 330000
+      fade: 200ms
+    (gi_middle):
+      color: cc0022
+      fade: 200ms
+    (gi_bottom):
+      color: cc0022
+      fade: 200ms
+    (gi_backwall):
+      color: 220000
+      fade: 200ms
+
+# 5/8 pair 5
+- time: 379110
+  lights:
+    (gi_top):
+      color: ff6600
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 110000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 5
+- time: 382300
+  lights:
+    (gi_top):
+      color: 330000
+      fade: 200ms
+    (gi_middle):
+      color: cc0022
+      fade: 200ms
+    (gi_bottom):
+      color: cc0022
+      fade: 200ms
+    (gi_backwall):
+      color: 220000
+      fade: 200ms
+
+# 5/8 pair 6
+- time: 386770
+  lights:
+    (gi_top):
+      color: ff6600
+      fade: 200ms
+    (gi_middle):
+      color: 330000
+      fade: 200ms
+    (gi_bottom):
+      color: 110000
+      fade: 200ms
+    (gi_backwall):
+      color: 110000
+      fade: 200ms
+
+# 7/8 pair 6
+- time: 389960
+  lights:
+    (gi_top):
+      color: 330000
+      fade: 200ms
+    (gi_middle):
+      color: cc0022
+      fade: 200ms
+    (gi_bottom):
+      color: cc0022
+      fade: 200ms
+    (gi_backwall):
+      color: 220000
+      fade: 200ms
+
+# --- FINAL: 3 pairs of 6/8 + 2/8 (pulsing 4/4 feel) ---
+
+# 6/8 bar 1 — white flash
+- time: 394430
+  lights:
+    (gi_top):
+      color: ffffff
+      fade: 100ms
+    (gi_middle):
+      color: ffffff
+      fade: 100ms
+    (gi_bottom):
+      color: ffffff
+      fade: 100ms
+    (gi_backwall):
+      color: ffffff
+      fade: 100ms
+
+# 2/8 bar 1 — blackout
+- time: 398260
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall): off
+
+# 6/8 bar 2 — white flash
+- time: 399540
+  lights:
+    (gi_top):
+      color: ffffff
+      fade: 100ms
+    (gi_middle):
+      color: ffffff
+      fade: 100ms
+    (gi_bottom):
+      color: ffffff
+      fade: 100ms
+    (gi_backwall):
+      color: ffffff
+      fade: 100ms
+
+# 2/8 bar 2 — blackout
+- time: 403370
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall): off
+
+# 6/8 bar 3 — white flash (fade out into loop)
+- time: 404650
+  lights:
+    (gi_top):
+      color: ffffff
+      fade: 100ms
+    (gi_middle):
+      color: ffffff
+      fade: 100ms
+    (gi_bottom):
+      color: ffffff
+      fade: 100ms
+    (gi_backwall):
+      color: ffffff
+      fade: 100ms
+
+# 2/8 bar 3 — fade to black, ready to loop
+- time: 408480
+  lights:
+    (gi_top):
+      color: "010101"
+      fade: 1000ms
+    (gi_middle):
+      color: "010101"
+      fade: 1000ms
+    (gi_bottom):
+      color: "010101"
+      fade: 1000ms
+    (gi_backwall):
+      color: "010101"
+      fade: 1000ms

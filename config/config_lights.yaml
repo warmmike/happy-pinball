@@ -1,7 +1,15 @@
 #config_version=6
+# Light groups — playfield geography.
+# Reassign LED numbers to groups once physical layout is mapped.
+#   gi_top     (led_1-5,   top of playfield)
+#   gi_middle  (led_6-10,  mid playfield / pop bumper area)
+#   gi_bottom  (led_11-15, lower playfield / slingshots / lower inserts)
+#   gi_backwall(led_16-20, back wall / cabinet GI)
+#   all_pit    (all 20, convenience tag for whole-machine addressing)
 
 lights:
   led_1:
+    tags: gi_top, all_pit
     channels:
       green:
         number: 0-0-0
@@ -10,6 +18,7 @@ lights:
       blue:
         number: 0-0-2
   led_2:
+    tags: gi_top, all_pit
     channels:
       green:
         number: 0-0-4
@@ -18,6 +27,7 @@ lights:
       blue:
         number: 0-0-6
   led_3:
+    tags: gi_top, all_pit
     channels:
       green:
         number: 0-0-8
@@ -26,6 +36,7 @@ lights:
       blue:
         number: 0-0-10
   led_4:
+    tags: gi_top, all_pit
     channels:
       green:
         number: 0-0-12
@@ -34,6 +45,7 @@ lights:
       blue:
         number: 0-0-14
   led_5:
+    tags: gi_top, all_pit
     channels:
       green:
         number: 0-0-16
@@ -42,6 +54,7 @@ lights:
       blue:
         number: 0-0-18
   led_6:
+    tags: gi_middle, all_pit
     channels:
       green:
         number: 0-0-20
@@ -50,6 +63,7 @@ lights:
       blue:
         number: 0-0-22
   led_7:
+    tags: gi_middle, all_pit
     channels:
       green:
         number: 0-0-24
@@ -58,6 +72,7 @@ lights:
       blue:
         number: 0-0-26
   led_8:
+    tags: gi_middle, all_pit
     channels:
       green:
         number: 0-0-28
@@ -66,6 +81,7 @@ lights:
       blue:
         number: 0-0-30
   led_9:
+    tags: gi_middle, all_pit
     channels:
       green:
         number: 0-0-32
@@ -74,6 +90,7 @@ lights:
       blue:
         number: 0-0-34
   led_10:
+    tags: gi_middle, all_pit
     channels:
       green:
         number: 0-0-36
@@ -82,6 +99,7 @@ lights:
       blue:
         number: 0-0-38
   led_11:
+    tags: gi_bottom, all_pit
     channels:
       green:
         number: 0-0-40
@@ -90,6 +108,7 @@ lights:
       blue:
         number: 0-0-42
   led_12:
+    tags: gi_bottom, all_pit
     channels:
       green:
         number: 0-0-44
@@ -98,6 +117,7 @@ lights:
       blue:
         number: 0-0-46
   led_13:
+    tags: gi_bottom, all_pit
     channels:
       green:
         number: 0-0-48
@@ -106,6 +126,7 @@ lights:
       blue:
         number: 0-0-50
   led_14:
+    tags: gi_bottom, all_pit
     channels:
       green:
         number: 0-0-52
@@ -114,6 +135,7 @@ lights:
       blue:
         number: 0-0-54
   led_15:
+    tags: gi_bottom, all_pit
     channels:
       green:
         number: 0-0-56
@@ -122,6 +144,7 @@ lights:
       blue:
         number: 0-0-58
   led_16:
+    tags: gi_backwall, all_pit
     channels:
       green:
         number: 0-0-60
@@ -130,6 +153,7 @@ lights:
       blue:
         number: 0-0-62
   led_17:
+    tags: gi_backwall, all_pit
     channels:
       green:
         number: 0-0-64
@@ -138,6 +162,7 @@ lights:
       blue:
         number: 0-0-66
   led_18:
+    tags: gi_backwall, all_pit
     channels:
       green:
         number: 0-0-68
@@ -146,6 +171,7 @@ lights:
       blue:
         number: 0-0-70
   led_19:
+    tags: gi_backwall, all_pit
     channels:
       green:
         number: 0-0-72
@@ -154,6 +180,7 @@ lights:
       blue:
         number: 0-0-74
   led_20:
+    tags: gi_backwall, all_pit
     channels:
       green:
         number: 0-0-76
@@ -164,44 +191,9 @@ lights:
 
 light_player:
   test_on:
-    led_1: red
-    led_2: green
-    led_3: blue
-    led_4: yellow
-    led_5: white
-    led_6: orange
-    led_7: cyan
-    led_8: magenta
-    led_9: purple
-    led_10: lime
-    led_11: coral
-    led_12: pink
-    led_13: gold
-    led_14: turquoise
-    led_15: violet
-    led_16: red
-    led_17: green
-    led_18: blue
-    led_19: yellow
-    led_20: white
+    (gi_top): red
+    (gi_middle): blue
+    (gi_bottom): green
+    (gi_backwall): purple
   test_off:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    (all_pit): off
