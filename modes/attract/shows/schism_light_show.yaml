@@ -132,8 +132,8 @@
       color: "110011"
       fade: 400ms
 
-# 4/4 bar
-- duration: 5100ms
+# 4/4 bar (extended 2s to sync verse 1 with music)
+- duration: 7100ms
   lights:
     led_1:
       color: "440000"
