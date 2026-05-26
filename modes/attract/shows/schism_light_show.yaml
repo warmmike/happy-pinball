@@ -1454,7 +1454,7 @@
       color: "cc0010"
       fade: 60ms
 
-- duration: 625ms
+- duration: 125ms
   lights:
     led_1:
       color: "ff8800"
@@ -6383,7 +6383,7 @@
       color: "880000"
       fade: 40ms
 
-- duration: 2642ms
+- duration: 642ms
   lights:
     led_1:
       color: "880000"
