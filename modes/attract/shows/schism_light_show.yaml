@@ -3,7 +3,7 @@
 # Synchronized to bar-level beat. Time offsets in ms from show start.
 # Geographic tags: gi_top (led_1-5), gi_middle (led_6-10), gi_bottom (led_11-15), gi_backwall (led_16-20)
 
-- time: 0ms
+- duration: 6380ms
   lights:
     led_1:
       color: "220000"
@@ -69,7 +69,7 @@
 # --- INTRO: 5/4 bar 1 (t=0) already set above ---
 
 # 5/4 bar 2
-- time: 6380ms
+- duration: 6380ms
   lights:
     led_1:
       color: "330000"
@@ -133,7 +133,7 @@
       fade: 400ms
 
 # 4/4 bar
-- time: 12760ms
+- duration: 5100ms
   lights:
     led_1:
       color: "440000"
@@ -199,7 +199,7 @@
 # --- VERSE 1: alternating 5/8 + 7/8 (6 pairs) ---
 
 # 5/8 pair 1
-- time: 17860ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -263,7 +263,7 @@
       fade: 200ms
 
 # 7/8 pair 1
-- time: 21050ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -327,7 +327,7 @@
       fade: 200ms
 
 # 5/8 pair 2
-- time: 25520ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -391,7 +391,7 @@
       fade: 200ms
 
 # 7/8 pair 2
-- time: 28710ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -455,7 +455,7 @@
       fade: 200ms
 
 # 5/8 pair 3
-- time: 33180ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -519,7 +519,7 @@
       fade: 200ms
 
 # 7/8 pair 3
-- time: 36370ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -583,7 +583,7 @@
       fade: 200ms
 
 # 5/8 pair 4
-- time: 40840ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -647,7 +647,7 @@
       fade: 200ms
 
 # 7/8 pair 4
-- time: 44030ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -711,7 +711,7 @@
       fade: 200ms
 
 # 5/8 pair 5
-- time: 48500ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -775,7 +775,7 @@
       fade: 200ms
 
 # 7/8 pair 5
-- time: 51690ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -839,7 +839,7 @@
       fade: 200ms
 
 # 5/8 pair 6
-- time: 56160ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -903,7 +903,7 @@
       fade: 200ms
 
 # 7/8 pair 6
-- time: 59350ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -968,7 +968,7 @@
 
 # --- INTERLUDE 1: 8 bars of 6/8 (purple wash) ---
 
-- time: 63820ms
+- duration: 3830ms
   lights:
     led_1:
       color: 4b0082
@@ -1031,7 +1031,7 @@
       color: 4b0082
       fade: 600ms
 
-- time: 67650ms
+- duration: 3830ms
   lights:
     led_1:
       color: "350060"
@@ -1094,7 +1094,7 @@
       color: "350060"
       fade: 400ms
 
-- time: 71480ms
+- duration: 3830ms
   lights:
     led_1:
       color: 4b0082
@@ -1157,7 +1157,7 @@
       color: 4b0082
       fade: 400ms
 
-- time: 75310ms
+- duration: 3830ms
   lights:
     led_1:
       color: "350060"
@@ -1220,7 +1220,7 @@
       color: "350060"
       fade: 400ms
 
-- time: 79140ms
+- duration: 3830ms
   lights:
     led_1:
       color: 4b0082
@@ -1283,7 +1283,7 @@
       color: 4b0082
       fade: 400ms
 
-- time: 82970ms
+- duration: 3830ms
   lights:
     led_1:
       color: "350060"
@@ -1346,7 +1346,7 @@
       color: "350060"
       fade: 400ms
 
-- time: 86800ms
+- duration: 3830ms
   lights:
     led_1:
       color: 4b0082
@@ -1409,7 +1409,7 @@
       color: 4b0082
       fade: 400ms
 
-- time: 90630ms
+- duration: 3830ms
   lights:
     led_1:
       color: "350060"
@@ -1475,7 +1475,7 @@
 # --- VERSE 2: alternating 5/8 + 7/8 (4 pairs) ---
 
 # 5/8 pair 1
-- time: 94460ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -1539,7 +1539,7 @@
       fade: 200ms
 
 # 7/8 pair 1
-- time: 97650ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -1603,7 +1603,7 @@
       fade: 200ms
 
 # 5/8 pair 2
-- time: 102120ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -1667,7 +1667,7 @@
       fade: 200ms
 
 # 7/8 pair 2
-- time: 105310ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -1731,7 +1731,7 @@
       fade: 200ms
 
 # 5/8 pair 3
-- time: 109780ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -1795,7 +1795,7 @@
       fade: 200ms
 
 # 7/8 pair 3
-- time: 112970ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -1859,7 +1859,7 @@
       fade: 200ms
 
 # 5/8 pair 4
-- time: 117440ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -1923,7 +1923,7 @@
       fade: 200ms
 
 # 7/8 pair 4
-- time: 120630ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -1989,7 +1989,7 @@
 # --- HEAVY SECTION: 2x (6/4 + 11/8) ---
 
 # 6/4 bar 1 — full crimson blast
-- time: 125100ms
+- duration: 7660ms
   lights:
     led_1:
       color: cc0022
@@ -2053,7 +2053,7 @@
       fade: 100ms
 
 # 11/8 bar 1 — top dims, rest holds
-- time: 132760ms
+- duration: 7020ms
   lights:
     led_1:
       color: "330000"
@@ -2117,7 +2117,7 @@
       fade: 100ms
 
 # 6/4 bar 2
-- time: 139780ms
+- duration: 7660ms
   lights:
     led_1:
       color: cc0022
@@ -2181,7 +2181,7 @@
       fade: 100ms
 
 # 11/8 bar 2
-- time: 147440ms
+- duration: 7020ms
   lights:
     led_1:
       color: "330000"
@@ -2247,7 +2247,7 @@
 # --- VERSE 3: alternating 5/8 + 7/8 (3 pairs) ---
 
 # 5/8 pair 1
-- time: 154460ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -2311,7 +2311,7 @@
       fade: 200ms
 
 # 7/8 pair 1
-- time: 157650ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -2375,7 +2375,7 @@
       fade: 200ms
 
 # 5/8 pair 2
-- time: 162120ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -2439,7 +2439,7 @@
       fade: 200ms
 
 # 7/8 pair 2
-- time: 165310ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -2503,7 +2503,7 @@
       fade: 200ms
 
 # 5/8 pair 3
-- time: 169780ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff4400
@@ -2567,7 +2567,7 @@
       fade: 200ms
 
 # 7/8 pair 3
-- time: 172970ms
+- duration: 4470ms
   lights:
     led_1:
       color: "220000"
@@ -2633,7 +2633,7 @@
 # --- 6/8 + 7/8 SECTION (2 pairs) ---
 
 # 6/8 bar 1
-- time: 177440ms
+- duration: 3830ms
   lights:
     led_1:
       color: 4b0082
@@ -2697,7 +2697,7 @@
       fade: 400ms
 
 # 7/8 bar 1
-- time: 181270ms
+- duration: 4470ms
   lights:
     led_1:
       color: "660000"
@@ -2761,7 +2761,7 @@
       fade: 200ms
 
 # 6/8 bar 2
-- time: 185740ms
+- duration: 3830ms
   lights:
     led_1:
       color: 4b0082
@@ -2825,7 +2825,7 @@
       fade: 400ms
 
 # 7/8 bar 2
-- time: 189570ms
+- duration: 4470ms
   lights:
     led_1:
       color: "660000"
@@ -2890,7 +2890,7 @@
 
 # --- 7/8 SOLO (4 bars) ---
 
-- time: 194040ms
+- duration: 4470ms
   lights:
     led_1:
       color: 8b0000
@@ -2953,7 +2953,7 @@
       color: "220000"
       fade: 100ms
 
-- time: 198510ms
+- duration: 4470ms
   lights:
     led_1:
       color: aa0000
@@ -3016,7 +3016,7 @@
       color: "330000"
       fade: 100ms
 
-- time: 202980ms
+- duration: 4470ms
   lights:
     led_1:
       color: cc0000
@@ -3079,7 +3079,7 @@
       color: "440000"
       fade: 100ms
 
-- time: 207450ms
+- duration: 4470ms
   lights:
     led_1:
       color: ff2200
@@ -3146,23 +3146,38 @@
 # Deep violet/near-black atmosphere; 3/8 bars = blackout
 
 # Cycle 1: 6/8 bar 1
-- time: 211920ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
     led_16:
       color: 1a0033
       fade: 800ms
@@ -3180,23 +3195,38 @@
       fade: 800ms
 
 # Cycle 1: 6/8 bar 2
-- time: 215750ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
     led_16:
       color: 1a0033
       fade: 400ms
@@ -3214,23 +3244,38 @@
       fade: 400ms
 
 # Cycle 1: 6/8 bar 3
-- time: 219580ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
     led_16:
       color: "330050"
       fade: 400ms
@@ -3248,47 +3293,82 @@
       fade: 400ms
 
 # Cycle 1: 3/8 bar — blackout
-- time: 223410ms
+- duration: 1910ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # Cycle 1: 3/4 bar
-- time: 225320ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
     led_16:
       color: 1a0033
       fade: 600ms
@@ -3306,23 +3386,38 @@
       fade: 600ms
 
 # Cycle 2: 6/8 bar 1
-- time: 229150ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
     led_16:
       color: 1a0033
       fade: 400ms
@@ -3340,23 +3435,38 @@
       fade: 400ms
 
 # Cycle 2: 6/8 bar 2
-- time: 232980ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
     led_16:
       color: "330050"
       fade: 400ms
@@ -3374,23 +3484,38 @@
       fade: 400ms
 
 # Cycle 2: 6/8 bar 3
-- time: 236810ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
     led_16:
       color: 1a0033
       fade: 400ms
@@ -3408,47 +3533,82 @@
       fade: 400ms
 
 # Cycle 2: 3/8 bar — blackout
-- time: 240640ms
+- duration: 1910ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # Cycle 2: 3/4 bar
-- time: 242550ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
     led_16:
       color: 1a0033
       fade: 600ms
@@ -3468,13 +3628,18 @@
 # --- INTERRUPTION: 2x (6/8 + 6/8 + 4/8) ---
 
 # Interruption 1: 6/8 bar 1
-- time: 246380ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
     led_6:
       color: "660000"
       fade: 200ms
@@ -3505,20 +3670,30 @@
     led_15:
       color: "660000"
       fade: 200ms
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # Interruption 1: 6/8 bar 2
-- time: 250210ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
     led_6:
       color: "440000"
       fade: 200ms
@@ -3549,44 +3724,74 @@
     led_15:
       color: "440000"
       fade: 200ms
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # Interruption 1: 4/8 bar — blackout
-- time: 254040ms
+- duration: 2550ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # Interruption 2: 6/8 bar 1
-- time: 256590ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
     led_6:
       color: "660000"
       fade: 200ms
@@ -3617,20 +3822,30 @@
     led_15:
       color: "660000"
       fade: 200ms
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # Interruption 2: 6/8 bar 2
-- time: 260420ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
     led_6:
       color: "440000"
       fade: 200ms
@@ -3661,51 +3876,86 @@
     led_15:
       color: "440000"
       fade: 200ms
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # Interruption 2: 4/8 bar — blackout
-- time: 264250ms
+- duration: 2550ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # --- BRIDGE: 5/8 + 2x (6/8 + 6/8 + 2/4) ---
 
 # 5/8 bar
-- time: 266800ms
+- duration: 3190ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
     led_11:
       color: "330000"
       fade: 400ms
@@ -3738,18 +3988,28 @@
       fade: 400ms
 
 # Bridge cycle 1: 6/8 bar 1
-- time: 269990ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
     led_11:
       color: "440000"
       fade: 300ms
@@ -3782,18 +4042,28 @@
       fade: 300ms
 
 # Bridge cycle 1: 6/8 bar 2
-- time: 273820ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
     led_11:
       color: "550000"
       fade: 300ms
@@ -3826,18 +4096,28 @@
       fade: 300ms
 
 # Bridge cycle 1: 2/4 bar
-- time: 277650ms
+- duration: 2550ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
     led_11:
       color: "660000"
       fade: 200ms
@@ -3870,18 +4150,28 @@
       fade: 200ms
 
 # Bridge cycle 2: 6/8 bar 1
-- time: 280200ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
     led_11:
       color: "550000"
       fade: 300ms
@@ -3914,18 +4204,28 @@
       fade: 300ms
 
 # Bridge cycle 2: 6/8 bar 2
-- time: 284030ms
+- duration: 3830ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
     led_11:
       color: "440000"
       fade: 300ms
@@ -3958,18 +4258,28 @@
       fade: 300ms
 
 # Bridge cycle 2: 2/4 bar
-- time: 287860ms
+- duration: 2550ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
     led_11:
       color: "660000"
       fade: 200ms
@@ -4006,18 +4316,28 @@
 # Lights build from gi_bottom up through the machine
 
 # 9/8 bar 1
-- time: 290410ms
+- duration: 5740ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
     led_11:
       color: 8b0000
       fade: 200ms
@@ -4033,25 +4353,40 @@
     led_15:
       color: 8b0000
       fade: 200ms
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # 10/8 bar 1
-- time: 296150ms
+- duration: 5740ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
     led_11:
       color: cc0000
       fade: 200ms
@@ -4067,20 +4402,30 @@
     led_15:
       color: cc0000
       fade: 200ms
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # 9/8 bar 2
-- time: 301890ms
+- duration: 6380ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
     led_6:
       color: 8b0000
       fade: 200ms
@@ -4111,20 +4456,30 @@
     led_15:
       color: cc0000
       fade: 200ms
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # 10/8 bar 2
-- time: 308270ms
+- duration: 5740ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
     led_6:
       color: cc0000
       fade: 200ms
@@ -4155,14 +4510,19 @@
     led_15:
       color: cc0022
       fade: 200ms
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # 9/8 bar 3
-- time: 314010ms
+- duration: 5740ms
   lights:
     led_1:
       color: "660000"
@@ -4209,14 +4569,19 @@
     led_15:
       color: cc0022
       fade: 200ms
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # 10/8 bar 3
-- time: 319750ms
+- duration: 6380ms
   lights:
     led_1:
       color: 8b0000
@@ -4280,7 +4645,7 @@
       fade: 200ms
 
 # 9/8 bar 4
-- time: 326130ms
+- duration: 5740ms
   lights:
     led_1:
       color: cc0022
@@ -4344,7 +4709,7 @@
       fade: 200ms
 
 # 10/8 bar 4
-- time: 331870ms
+- duration: 3830ms
   lights:
     led_1:
       color: cc0022
@@ -4408,7 +4773,7 @@
       fade: 200ms
 
 # Single 9/8 bar — peak, full machine lit
-- time: 335700ms
+- duration: 4470ms
   lights:
     led_1:
       color: ff2200
@@ -4472,7 +4837,7 @@
       fade: 100ms
 
 # 6/8 bar — drop back to verse feel
-- time: 340170ms
+- duration: 3830ms
   lights:
     led_1:
       color: 4b0082
@@ -4536,7 +4901,7 @@
       fade: 400ms
 
 # 7/8 bar
-- time: 344000ms
+- duration: 4470ms
   lights:
     led_1:
       color: "660000"
@@ -4602,7 +4967,7 @@
 # --- OUTRO: alternating 5/8 + 7/8 (6 pairs) ---
 
 # 5/8 pair 1
-- time: 348470ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff6600
@@ -4666,7 +5031,7 @@
       fade: 200ms
 
 # 7/8 pair 1
-- time: 351660ms
+- duration: 4470ms
   lights:
     led_1:
       color: "330000"
@@ -4730,7 +5095,7 @@
       fade: 200ms
 
 # 5/8 pair 2
-- time: 356130ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff6600
@@ -4794,7 +5159,7 @@
       fade: 200ms
 
 # 7/8 pair 2
-- time: 359320ms
+- duration: 4470ms
   lights:
     led_1:
       color: "330000"
@@ -4858,7 +5223,7 @@
       fade: 200ms
 
 # 5/8 pair 3
-- time: 363790ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff6600
@@ -4922,7 +5287,7 @@
       fade: 200ms
 
 # 7/8 pair 3
-- time: 366980ms
+- duration: 4470ms
   lights:
     led_1:
       color: "330000"
@@ -4986,7 +5351,7 @@
       fade: 200ms
 
 # 5/8 pair 4
-- time: 371450ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff6600
@@ -5050,7 +5415,7 @@
       fade: 200ms
 
 # 7/8 pair 4
-- time: 374640ms
+- duration: 4470ms
   lights:
     led_1:
       color: "330000"
@@ -5114,7 +5479,7 @@
       fade: 200ms
 
 # 5/8 pair 5
-- time: 379110ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff6600
@@ -5178,7 +5543,7 @@
       fade: 200ms
 
 # 7/8 pair 5
-- time: 382300ms
+- duration: 4470ms
   lights:
     led_1:
       color: "330000"
@@ -5242,7 +5607,7 @@
       fade: 200ms
 
 # 5/8 pair 6
-- time: 386770ms
+- duration: 3190ms
   lights:
     led_1:
       color: ff6600
@@ -5306,7 +5671,7 @@
       fade: 200ms
 
 # 7/8 pair 6
-- time: 389960ms
+- duration: 4470ms
   lights:
     led_1:
       color: "330000"
@@ -5372,7 +5737,7 @@
 # --- FINAL: 3 pairs of 6/8 + 2/8 (pulsing 4/4 feel) ---
 
 # 6/8 bar 1 — white flash
-- time: 394430ms
+- duration: 3830ms
   lights:
     led_1:
       color: ffffff
@@ -5436,31 +5801,51 @@
       fade: 100ms
 
 # 2/8 bar 1 — blackout
-- time: 398260ms
+- duration: 1280ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # 6/8 bar 2 — white flash
-- time: 399540ms
+- duration: 3830ms
   lights:
     led_1:
       color: ffffff
@@ -5524,31 +5909,51 @@
       fade: 100ms
 
 # 2/8 bar 2 — blackout
-- time: 403370ms
+- duration: 1280ms
   lights:
-    led_1: off
-    led_2: off
-    led_3: off
-    led_4: off
-    led_5: off
-    led_6: off
-    led_7: off
-    led_8: off
-    led_9: off
-    led_10: off
-    led_11: off
-    led_12: off
-    led_13: off
-    led_14: off
-    led_15: off
-    led_16: off
-    led_17: off
-    led_18: off
-    led_19: off
-    led_20: off
+    led_1:
+      color: "000000"
+    led_2:
+      color: "000000"
+    led_3:
+      color: "000000"
+    led_4:
+      color: "000000"
+    led_5:
+      color: "000000"
+    led_6:
+      color: "000000"
+    led_7:
+      color: "000000"
+    led_8:
+      color: "000000"
+    led_9:
+      color: "000000"
+    led_10:
+      color: "000000"
+    led_11:
+      color: "000000"
+    led_12:
+      color: "000000"
+    led_13:
+      color: "000000"
+    led_14:
+      color: "000000"
+    led_15:
+      color: "000000"
+    led_16:
+      color: "000000"
+    led_17:
+      color: "000000"
+    led_18:
+      color: "000000"
+    led_19:
+      color: "000000"
+    led_20:
+      color: "000000"
 
 # 6/8 bar 3 — white flash (fade out into loop)
-- time: 404650ms
+- duration: 3830ms
   lights:
     led_1:
       color: ffffff
@@ -5612,7 +6017,7 @@
       fade: 100ms
 
 # 2/8 bar 3 — fade to black, ready to loop
-- time: 408480ms
+- duration: 2000ms
   lights:
     led_1:
       color: "010101"
