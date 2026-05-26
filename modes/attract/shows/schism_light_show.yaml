@@ -199,7 +199,70 @@
 # --- VERSE 1: alternating 5/8 + 7/8 (6 pairs) ---
 
 # 5/8 pair 1
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -327,7 +390,70 @@
       fade: 200ms
 
 # 5/8 pair 2
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -455,7 +581,70 @@
       fade: 200ms
 
 # 5/8 pair 3
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -583,7 +772,70 @@
       fade: 200ms
 
 # 5/8 pair 4
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -711,7 +963,70 @@
       fade: 200ms
 
 # 5/8 pair 5
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -839,7 +1154,70 @@
       fade: 200ms
 
 # 5/8 pair 6
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -968,514 +1346,5614 @@
 
 # --- INTERLUDE 1: 8 bars of 6/8 (purple wash) ---
 
-- duration: 3830ms
+- duration: 380ms
   lights:
     led_1:
-      color: 4b0082
-      fade: 600ms
+      color: 9900cc
+      fade: 200ms
     led_2:
-      color: 4b0082
-      fade: 600ms
+      color: 440066
+      fade: 200ms
     led_3:
-      color: 4b0082
-      fade: 600ms
+      color: 9900cc
+      fade: 200ms
     led_4:
-      color: 4b0082
-      fade: 600ms
+      color: 440066
+      fade: 200ms
     led_5:
-      color: 4b0082
-      fade: 600ms
+      color: 9900cc
+      fade: 200ms
     led_6:
-      color: 4b0082
-      fade: 600ms
+      color: 440066
+      fade: 200ms
     led_7:
-      color: 4b0082
-      fade: 600ms
+      color: 9900cc
+      fade: 200ms
     led_8:
-      color: 4b0082
-      fade: 600ms
+      color: 440066
+      fade: 200ms
     led_9:
-      color: 4b0082
-      fade: 600ms
+      color: 9900cc
+      fade: 200ms
     led_10:
-      color: 4b0082
-      fade: 600ms
+      color: 440066
+      fade: 200ms
     led_11:
-      color: 4b0082
-      fade: 600ms
+      color: 9900cc
+      fade: 200ms
     led_12:
-      color: 4b0082
-      fade: 600ms
+      color: 440066
+      fade: 200ms
     led_13:
-      color: 4b0082
-      fade: 600ms
+      color: 9900cc
+      fade: 200ms
     led_14:
-      color: 4b0082
-      fade: 600ms
+      color: 440066
+      fade: 200ms
     led_15:
-      color: 4b0082
-      fade: 600ms
+      color: 9900cc
+      fade: 200ms
     led_16:
-      color: 4b0082
-      fade: 600ms
+      color: 440066
+      fade: 200ms
     led_17:
-      color: 4b0082
-      fade: 600ms
+      color: 9900cc
+      fade: 200ms
     led_18:
-      color: 4b0082
-      fade: 600ms
+      color: 440066
+      fade: 200ms
     led_19:
-      color: 4b0082
-      fade: 600ms
+      color: 9900cc
+      fade: 200ms
     led_20:
-      color: 4b0082
-      fade: 600ms
+      color: 440066
+      fade: 200ms
 
-- duration: 3830ms
+- duration: 380ms
   lights:
     led_1:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_2:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_3:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_4:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_5:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_6:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_7:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_8:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_9:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_10:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_11:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_12:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_13:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_14:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_15:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_16:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_17:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_18:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_19:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_20:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
 
-- duration: 3830ms
+- duration: 380ms
   lights:
     led_1:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_2:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_3:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_4:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_5:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_6:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_7:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_8:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_9:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_10:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_11:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_12:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_13:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_14:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_15:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_16:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_17:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_18:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_19:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_20:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
 
-- duration: 3830ms
+- duration: 380ms
   lights:
     led_1:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_2:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_3:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_4:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_5:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_6:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_7:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_8:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_9:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_10:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_11:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_12:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_13:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_14:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_15:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_16:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_17:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_18:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_19:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_20:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
 
-- duration: 3830ms
+- duration: 380ms
   lights:
     led_1:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_2:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_3:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_4:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_5:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_6:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_7:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_8:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_9:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_10:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_11:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_12:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_13:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_14:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_15:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_16:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_17:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_18:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_19:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_20:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
 
-- duration: 3830ms
+- duration: 380ms
   lights:
     led_1:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_2:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_3:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_4:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_5:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_6:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_7:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_8:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_9:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_10:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_11:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_12:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_13:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_14:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_15:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_16:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_17:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_18:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_19:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_20:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
 
-- duration: 3830ms
+- duration: 380ms
   lights:
     led_1:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_2:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_3:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_4:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_5:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_6:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_7:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_8:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_9:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_10:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_11:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_12:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_13:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_14:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_15:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_16:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_17:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_18:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_19:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_20:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
 
-- duration: 3830ms
+- duration: 380ms
   lights:
     led_1:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_2:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_3:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_4:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_5:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_6:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_7:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_8:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_9:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_10:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_11:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_12:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_13:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_14:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_15:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_16:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_17:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_18:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_19:
-      color: "350060"
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_20:
-      color: "350060"
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
 
-# --- VERSE 2: alternating 5/8 + 7/8 (4 pairs) ---
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
 
-# 5/8 pair 1
-- duration: 3190ms
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 30ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 30ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 30ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 30ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 30ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 30ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 30ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 30ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -1603,7 +7081,70 @@
       fade: 200ms
 
 # 5/8 pair 2
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -1731,7 +7272,70 @@
       fade: 200ms
 
 # 5/8 pair 3
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -1859,7 +7463,70 @@
       fade: 200ms
 
 # 5/8 pair 4
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -2247,7 +7914,70 @@
 # --- VERSE 3: alternating 5/8 + 7/8 (3 pairs) ---
 
 # 5/8 pair 1
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -2375,7 +8105,70 @@
       fade: 200ms
 
 # 5/8 pair 2
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -2503,7 +8296,70 @@
       fade: 200ms
 
 # 5/8 pair 3
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ff9900
+      fade: 20ms
+    led_2:
+      color: ff9900
+      fade: 20ms
+    led_3:
+      color: ff9900
+      fade: 20ms
+    led_4:
+      color: ff9900
+      fade: 20ms
+    led_5:
+      color: ff9900
+      fade: 20ms
+    led_6:
+      color: ff9900
+      fade: 20ms
+    led_7:
+      color: ff9900
+      fade: 20ms
+    led_8:
+      color: ff9900
+      fade: 20ms
+    led_9:
+      color: ff9900
+      fade: 20ms
+    led_10:
+      color: ff9900
+      fade: 20ms
+    led_11:
+      color: ff9900
+      fade: 20ms
+    led_12:
+      color: ff9900
+      fade: 20ms
+    led_13:
+      color: ff9900
+      fade: 20ms
+    led_14:
+      color: ff9900
+      fade: 20ms
+    led_15:
+      color: ff9900
+      fade: 20ms
+    led_16:
+      color: ff9900
+      fade: 20ms
+    led_17:
+      color: ff9900
+      fade: 20ms
+    led_18:
+      color: ff9900
+      fade: 20ms
+    led_19:
+      color: ff9900
+      fade: 20ms
+    led_20:
+      color: ff9900
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff4400
@@ -2633,70 +8489,699 @@
 # --- 6/8 + 7/8 SECTION (2 pairs) ---
 
 # 6/8 bar 1
-- duration: 3830ms
+- duration: 380ms
   lights:
     led_1:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_2:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_3:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_4:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_5:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_6:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_7:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_8:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_9:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_10:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_11:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_12:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_13:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_14:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_15:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_16:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_17:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_18:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_19:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_20:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
 
-# 7/8 bar 1
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 30ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
 - duration: 4470ms
   lights:
     led_1:
@@ -2761,70 +9246,699 @@
       fade: 200ms
 
 # 6/8 bar 2
-- duration: 3830ms
+- duration: 380ms
   lights:
     led_1:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_2:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_3:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_4:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_5:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_6:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_7:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_8:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_9:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_10:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_11:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_12:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_13:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_14:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_15:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_16:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_17:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_18:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_19:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_20:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
 
-# 7/8 bar 2
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 30ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
 - duration: 4470ms
   lights:
     led_1:
@@ -4837,70 +11951,699 @@
       fade: 100ms
 
 # 6/8 bar — drop back to verse feel
-- duration: 3830ms
+- duration: 380ms
   lights:
     led_1:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_2:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_3:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_4:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_5:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_6:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_7:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_8:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_9:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_10:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_11:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_12:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_13:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_14:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_15:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_16:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_17:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_18:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
     led_19:
-      color: 4b0082
-      fade: 400ms
+      color: 9900cc
+      fade: 200ms
     led_20:
-      color: 4b0082
-      fade: 400ms
+      color: 440066
+      fade: 200ms
 
-# 7/8 bar
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
+- duration: 380ms
+  lights:
+    led_1:
+      color: 440066
+      fade: 200ms
+    led_2:
+      color: 9900cc
+      fade: 200ms
+    led_3:
+      color: 440066
+      fade: 200ms
+    led_4:
+      color: 9900cc
+      fade: 200ms
+    led_5:
+      color: 440066
+      fade: 200ms
+    led_6:
+      color: 9900cc
+      fade: 200ms
+    led_7:
+      color: 440066
+      fade: 200ms
+    led_8:
+      color: 9900cc
+      fade: 200ms
+    led_9:
+      color: 440066
+      fade: 200ms
+    led_10:
+      color: 9900cc
+      fade: 200ms
+    led_11:
+      color: 440066
+      fade: 200ms
+    led_12:
+      color: 9900cc
+      fade: 200ms
+    led_13:
+      color: 440066
+      fade: 200ms
+    led_14:
+      color: 9900cc
+      fade: 200ms
+    led_15:
+      color: 440066
+      fade: 200ms
+    led_16:
+      color: 9900cc
+      fade: 200ms
+    led_17:
+      color: 440066
+      fade: 200ms
+    led_18:
+      color: 9900cc
+      fade: 200ms
+    led_19:
+      color: 440066
+      fade: 200ms
+    led_20:
+      color: 9900cc
+      fade: 200ms
+
+- duration: 30ms
+  lights:
+    led_1:
+      color: 9900cc
+      fade: 200ms
+    led_2:
+      color: 440066
+      fade: 200ms
+    led_3:
+      color: 9900cc
+      fade: 200ms
+    led_4:
+      color: 440066
+      fade: 200ms
+    led_5:
+      color: 9900cc
+      fade: 200ms
+    led_6:
+      color: 440066
+      fade: 200ms
+    led_7:
+      color: 9900cc
+      fade: 200ms
+    led_8:
+      color: 440066
+      fade: 200ms
+    led_9:
+      color: 9900cc
+      fade: 200ms
+    led_10:
+      color: 440066
+      fade: 200ms
+    led_11:
+      color: 9900cc
+      fade: 200ms
+    led_12:
+      color: 440066
+      fade: 200ms
+    led_13:
+      color: 9900cc
+      fade: 200ms
+    led_14:
+      color: 440066
+      fade: 200ms
+    led_15:
+      color: 9900cc
+      fade: 200ms
+    led_16:
+      color: 440066
+      fade: 200ms
+    led_17:
+      color: 9900cc
+      fade: 200ms
+    led_18:
+      color: 440066
+      fade: 200ms
+    led_19:
+      color: 9900cc
+      fade: 200ms
+    led_20:
+      color: 440066
+      fade: 200ms
+
 - duration: 4470ms
   lights:
     led_1:
@@ -4967,7 +12710,70 @@
 # --- OUTRO: alternating 5/8 + 7/8 (6 pairs) ---
 
 # 5/8 pair 1
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ffaa00
+      fade: 20ms
+    led_2:
+      color: ffaa00
+      fade: 20ms
+    led_3:
+      color: ffaa00
+      fade: 20ms
+    led_4:
+      color: ffaa00
+      fade: 20ms
+    led_5:
+      color: ffaa00
+      fade: 20ms
+    led_6:
+      color: ffaa00
+      fade: 20ms
+    led_7:
+      color: ffaa00
+      fade: 20ms
+    led_8:
+      color: ffaa00
+      fade: 20ms
+    led_9:
+      color: ffaa00
+      fade: 20ms
+    led_10:
+      color: ffaa00
+      fade: 20ms
+    led_11:
+      color: ffaa00
+      fade: 20ms
+    led_12:
+      color: ffaa00
+      fade: 20ms
+    led_13:
+      color: ffaa00
+      fade: 20ms
+    led_14:
+      color: ffaa00
+      fade: 20ms
+    led_15:
+      color: ffaa00
+      fade: 20ms
+    led_16:
+      color: ffaa00
+      fade: 20ms
+    led_17:
+      color: ffaa00
+      fade: 20ms
+    led_18:
+      color: ffaa00
+      fade: 20ms
+    led_19:
+      color: ffaa00
+      fade: 20ms
+    led_20:
+      color: ffaa00
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff6600
@@ -5095,7 +12901,70 @@
       fade: 200ms
 
 # 5/8 pair 2
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ffaa00
+      fade: 20ms
+    led_2:
+      color: ffaa00
+      fade: 20ms
+    led_3:
+      color: ffaa00
+      fade: 20ms
+    led_4:
+      color: ffaa00
+      fade: 20ms
+    led_5:
+      color: ffaa00
+      fade: 20ms
+    led_6:
+      color: ffaa00
+      fade: 20ms
+    led_7:
+      color: ffaa00
+      fade: 20ms
+    led_8:
+      color: ffaa00
+      fade: 20ms
+    led_9:
+      color: ffaa00
+      fade: 20ms
+    led_10:
+      color: ffaa00
+      fade: 20ms
+    led_11:
+      color: ffaa00
+      fade: 20ms
+    led_12:
+      color: ffaa00
+      fade: 20ms
+    led_13:
+      color: ffaa00
+      fade: 20ms
+    led_14:
+      color: ffaa00
+      fade: 20ms
+    led_15:
+      color: ffaa00
+      fade: 20ms
+    led_16:
+      color: ffaa00
+      fade: 20ms
+    led_17:
+      color: ffaa00
+      fade: 20ms
+    led_18:
+      color: ffaa00
+      fade: 20ms
+    led_19:
+      color: ffaa00
+      fade: 20ms
+    led_20:
+      color: ffaa00
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff6600
@@ -5223,7 +13092,70 @@
       fade: 200ms
 
 # 5/8 pair 3
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ffaa00
+      fade: 20ms
+    led_2:
+      color: ffaa00
+      fade: 20ms
+    led_3:
+      color: ffaa00
+      fade: 20ms
+    led_4:
+      color: ffaa00
+      fade: 20ms
+    led_5:
+      color: ffaa00
+      fade: 20ms
+    led_6:
+      color: ffaa00
+      fade: 20ms
+    led_7:
+      color: ffaa00
+      fade: 20ms
+    led_8:
+      color: ffaa00
+      fade: 20ms
+    led_9:
+      color: ffaa00
+      fade: 20ms
+    led_10:
+      color: ffaa00
+      fade: 20ms
+    led_11:
+      color: ffaa00
+      fade: 20ms
+    led_12:
+      color: ffaa00
+      fade: 20ms
+    led_13:
+      color: ffaa00
+      fade: 20ms
+    led_14:
+      color: ffaa00
+      fade: 20ms
+    led_15:
+      color: ffaa00
+      fade: 20ms
+    led_16:
+      color: ffaa00
+      fade: 20ms
+    led_17:
+      color: ffaa00
+      fade: 20ms
+    led_18:
+      color: ffaa00
+      fade: 20ms
+    led_19:
+      color: ffaa00
+      fade: 20ms
+    led_20:
+      color: ffaa00
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff6600
@@ -5351,7 +13283,70 @@
       fade: 200ms
 
 # 5/8 pair 4
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ffaa00
+      fade: 20ms
+    led_2:
+      color: ffaa00
+      fade: 20ms
+    led_3:
+      color: ffaa00
+      fade: 20ms
+    led_4:
+      color: ffaa00
+      fade: 20ms
+    led_5:
+      color: ffaa00
+      fade: 20ms
+    led_6:
+      color: ffaa00
+      fade: 20ms
+    led_7:
+      color: ffaa00
+      fade: 20ms
+    led_8:
+      color: ffaa00
+      fade: 20ms
+    led_9:
+      color: ffaa00
+      fade: 20ms
+    led_10:
+      color: ffaa00
+      fade: 20ms
+    led_11:
+      color: ffaa00
+      fade: 20ms
+    led_12:
+      color: ffaa00
+      fade: 20ms
+    led_13:
+      color: ffaa00
+      fade: 20ms
+    led_14:
+      color: ffaa00
+      fade: 20ms
+    led_15:
+      color: ffaa00
+      fade: 20ms
+    led_16:
+      color: ffaa00
+      fade: 20ms
+    led_17:
+      color: ffaa00
+      fade: 20ms
+    led_18:
+      color: ffaa00
+      fade: 20ms
+    led_19:
+      color: ffaa00
+      fade: 20ms
+    led_20:
+      color: ffaa00
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff6600
@@ -5479,7 +13474,70 @@
       fade: 200ms
 
 # 5/8 pair 5
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ffaa00
+      fade: 20ms
+    led_2:
+      color: ffaa00
+      fade: 20ms
+    led_3:
+      color: ffaa00
+      fade: 20ms
+    led_4:
+      color: ffaa00
+      fade: 20ms
+    led_5:
+      color: ffaa00
+      fade: 20ms
+    led_6:
+      color: ffaa00
+      fade: 20ms
+    led_7:
+      color: ffaa00
+      fade: 20ms
+    led_8:
+      color: ffaa00
+      fade: 20ms
+    led_9:
+      color: ffaa00
+      fade: 20ms
+    led_10:
+      color: ffaa00
+      fade: 20ms
+    led_11:
+      color: ffaa00
+      fade: 20ms
+    led_12:
+      color: ffaa00
+      fade: 20ms
+    led_13:
+      color: ffaa00
+      fade: 20ms
+    led_14:
+      color: ffaa00
+      fade: 20ms
+    led_15:
+      color: ffaa00
+      fade: 20ms
+    led_16:
+      color: ffaa00
+      fade: 20ms
+    led_17:
+      color: ffaa00
+      fade: 20ms
+    led_18:
+      color: ffaa00
+      fade: 20ms
+    led_19:
+      color: ffaa00
+      fade: 20ms
+    led_20:
+      color: ffaa00
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff6600
@@ -5607,7 +13665,70 @@
       fade: 200ms
 
 # 5/8 pair 6
-- duration: 3190ms
+- duration: 80ms
+  lights:
+    led_1:
+      color: ffaa00
+      fade: 20ms
+    led_2:
+      color: ffaa00
+      fade: 20ms
+    led_3:
+      color: ffaa00
+      fade: 20ms
+    led_4:
+      color: ffaa00
+      fade: 20ms
+    led_5:
+      color: ffaa00
+      fade: 20ms
+    led_6:
+      color: ffaa00
+      fade: 20ms
+    led_7:
+      color: ffaa00
+      fade: 20ms
+    led_8:
+      color: ffaa00
+      fade: 20ms
+    led_9:
+      color: ffaa00
+      fade: 20ms
+    led_10:
+      color: ffaa00
+      fade: 20ms
+    led_11:
+      color: ffaa00
+      fade: 20ms
+    led_12:
+      color: ffaa00
+      fade: 20ms
+    led_13:
+      color: ffaa00
+      fade: 20ms
+    led_14:
+      color: ffaa00
+      fade: 20ms
+    led_15:
+      color: ffaa00
+      fade: 20ms
+    led_16:
+      color: ffaa00
+      fade: 20ms
+    led_17:
+      color: ffaa00
+      fade: 20ms
+    led_18:
+      color: ffaa00
+      fade: 20ms
+    led_19:
+      color: ffaa00
+      fade: 20ms
+    led_20:
+      color: ffaa00
+      fade: 20ms
+
+- duration: 3110ms
   lights:
     led_1:
       color: ff6600
