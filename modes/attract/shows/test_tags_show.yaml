@@ -1,0 +1,39 @@
+#show_version=6
+# Minimal tag group test — 3 steps, duration: format, simple colors
+
+- duration: 2s
+  lights:
+    (gi_top):
+      color: ff0000
+      fade: 500ms
+    (gi_middle):
+      color: ff0000
+      fade: 500ms
+    (gi_bottom):
+      color: ff0000
+      fade: 500ms
+    (gi_backwall):
+      color: ff0000
+      fade: 500ms
+
+- duration: 2s
+  lights:
+    (gi_top):
+      color: ffffff
+      fade: 500ms
+    (gi_middle):
+      color: ffffff
+      fade: 500ms
+    (gi_bottom):
+      color: ffffff
+      fade: 500ms
+    (gi_backwall):
+      color: ffffff
+      fade: 500ms
+
+- duration: 2s
+  lights:
+    (gi_top): off
+    (gi_middle): off
+    (gi_bottom): off
+    (gi_backwall): off

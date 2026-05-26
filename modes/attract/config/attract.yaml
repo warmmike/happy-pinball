@@ -24,7 +24,7 @@ sound_player:
       bus: music
 
 show_player:
-  mode_attract_started: schism_light_show
+  mode_attract_started: test_tags_show
 
 timers:
   attract_carousel_timer:
