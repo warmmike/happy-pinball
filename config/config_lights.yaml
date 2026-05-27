@@ -5,11 +5,11 @@
 #   gi_top     (led_11-15, top of playfield)
 #   gi_backwall(led_16-20, back wall / cabinet GI)
 #   gi_upper   (led_11-20, top + backwall combined)
-#   all_pit    (all 20, convenience tag for whole-machine addressing)
+#   gi    (all 20, convenience tag for whole-machine addressing)
 
 lights:
   led_1:
-    tags: gi_bottom, all_pit
+    tags: gi_bottom, gi
     channels:
       green:
         number: 0-0-0
@@ -18,7 +18,7 @@ lights:
       blue:
         number: 0-0-2
   led_2:
-    tags: gi_bottom, all_pit
+    tags: gi_bottom, gi
     channels:
       green:
         number: 0-0-4
@@ -27,7 +27,7 @@ lights:
       blue:
         number: 0-0-6
   led_3:
-    tags: gi_bottom, all_pit
+    tags: gi_bottom, gi
     channels:
       green:
         number: 0-0-8
@@ -36,7 +36,7 @@ lights:
       blue:
         number: 0-0-10
   led_4:
-    tags: gi_bottom, all_pit
+    tags: gi_bottom, gi
     channels:
       green:
         number: 0-0-12
@@ -45,7 +45,7 @@ lights:
       blue:
         number: 0-0-14
   led_5:
-    tags: gi_bottom, all_pit
+    tags: gi_bottom, gi
     channels:
       green:
         number: 0-0-16
@@ -54,7 +54,7 @@ lights:
       blue:
         number: 0-0-18
   led_6:
-    tags: gi_middle, all_pit
+    tags: gi_middle, gi
     channels:
       green:
         number: 0-0-20
@@ -63,7 +63,7 @@ lights:
       blue:
         number: 0-0-22
   led_7:
-    tags: gi_middle, all_pit
+    tags: gi_middle, gi
     channels:
       green:
         number: 0-0-24
@@ -72,7 +72,7 @@ lights:
       blue:
         number: 0-0-26
   led_8:
-    tags: gi_middle, all_pit
+    tags: gi_middle, gi
     channels:
       green:
         number: 0-0-28
@@ -81,7 +81,7 @@ lights:
       blue:
         number: 0-0-30
   led_9:
-    tags: gi_middle, all_pit
+    tags: gi_middle, gi
     channels:
       green:
         number: 0-0-32
@@ -90,7 +90,7 @@ lights:
       blue:
         number: 0-0-34
   led_10:
-    tags: gi_middle, all_pit
+    tags: gi_middle, gi
     channels:
       green:
         number: 0-0-36
@@ -99,7 +99,7 @@ lights:
       blue:
         number: 0-0-38
   led_11:
-    tags: gi_top, gi_upper, all_pit
+    tags: gi_top, gi_upper, gi
     channels:
       green:
         number: 0-0-40
@@ -108,7 +108,7 @@ lights:
       blue:
         number: 0-0-42
   led_12:
-    tags: gi_top, gi_upper, all_pit
+    tags: gi_top, gi_upper, gi
     channels:
       green:
         number: 0-0-44
@@ -117,7 +117,7 @@ lights:
       blue:
         number: 0-0-46
   led_13:
-    tags: gi_top, gi_upper, all_pit
+    tags: gi_top, gi_upper, gi
     channels:
       green:
         number: 0-0-48
@@ -126,7 +126,7 @@ lights:
       blue:
         number: 0-0-50
   led_14:
-    tags: gi_top, gi_upper, all_pit
+    tags: gi_top, gi_upper, gi
     channels:
       green:
         number: 0-0-52
@@ -135,7 +135,7 @@ lights:
       blue:
         number: 0-0-54
   led_15:
-    tags: gi_top, gi_upper, all_pit
+    tags: gi_top, gi_upper, gi
     channels:
       green:
         number: 0-0-56
@@ -144,7 +144,7 @@ lights:
       blue:
         number: 0-0-58
   led_16:
-    tags: gi_backwall, all_pit
+    tags: gi_backwall, gi
     channels:
       green:
         number: 0-0-60
@@ -153,7 +153,7 @@ lights:
       blue:
         number: 0-0-62
   led_17:
-    tags: gi_backwall, all_pit
+    tags: gi_backwall, gi
     channels:
       green:
         number: 0-0-64
@@ -162,7 +162,7 @@ lights:
       blue:
         number: 0-0-66
   led_18:
-    tags: gi_backwall, all_pit
+    tags: gi_backwall, gi
     channels:
       green:
         number: 0-0-68
@@ -171,7 +171,7 @@ lights:
       blue:
         number: 0-0-70
   led_19:
-    tags: gi_backwall, all_pit
+    tags: gi_backwall, gi
     channels:
       green:
         number: 0-0-72
@@ -180,7 +180,7 @@ lights:
       blue:
         number: 0-0-74
   led_20:
-    tags: gi_backwall, all_pit
+    tags: gi_backwall, gi
     channels:
       green:
         number: 0-0-76
@@ -191,9 +191,9 @@ lights:
 
 light_player:
   test_on:
-    (gi_bottom): red
-    (gi_middle): blue
-    (gi_top): green
-    (gi_backwall): purple
+    gi_bottom: red
+    gi_middle: blue
+    gi_top: green
+    gi_backwall: purple
   test_off:
-    (all_pit): off
+    gi: off

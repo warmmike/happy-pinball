@@ -21,7 +21,7 @@ slide_player:
 
 light_player:
   mode_base_started:
-    (all_pit):
+    gi:
       color: ffffff
 
 show_player:
