@@ -22,6 +22,20 @@ mode_settings:
 slide_player:
   mode_song_started: song
 
+light_player:
+  song_song1_highlighted:
+    gi:
+      color: ff2200
+      fade: 200ms
+  song_song2_highlighted:
+    gi:
+      color: 0055ff
+      fade: 200ms
+  song_song3_highlighted:
+    gi:
+      color: 00aa22
+      fade: 200ms
+
 event_player:
   song_song1_selected:
     - start_mode_song1
