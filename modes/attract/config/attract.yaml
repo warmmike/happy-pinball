@@ -25,8 +25,17 @@ sound_player:
 
 show_player:
   mode_attract_started: schism_light_show
+  timer_sweep_timer_complete:
+    sweep_show:
+      priority: 1
+      loops: 0
 
 timers:
+  sweep_timer:
+    end_value: 1
+    tick_interval: 10s
+    start_running: true
+    restart_on_complete: true
   attract_carousel_timer:
     end_value: 1
     tick_interval: 5s
