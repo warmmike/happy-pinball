@@ -19,6 +19,14 @@ event_player:
 slide_player:
   mode_base_started: base
 
+light_player:
+  mode_base_started:
+    (all_pit):
+      color: ffffff
+
+show_player:
+  mode_base_started: base_lights
+
 # sound_player:
 #   mode_base_started:
 #     c-love:

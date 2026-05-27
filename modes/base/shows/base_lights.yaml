@@ -1,0 +1,19 @@
+#show_version=6
+
+- duration: 500ms
+  lights:
+    led_12:
+      color: ffff00
+      fade: 50ms
+    led_13:
+      color: ffff00
+      fade: 50ms
+
+- duration: 500ms
+  lights:
+    led_12:
+      color: ffffff
+      fade: 50ms
+    led_13:
+      color: ffffff
+      fade: 50ms

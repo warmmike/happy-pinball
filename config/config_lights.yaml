@@ -1,15 +1,15 @@
 #config_version=6
-# Light groups — playfield geography.
-# Reassign LED numbers to groups once physical layout is mapped.
-#   gi_top     (led_1-5,   top of playfield)
+# Light groups — playfield geography (physical order: bottom→middle→top→backwall).
+#   gi_bottom  (led_1-5,   lower playfield / slingshots / lower inserts)
 #   gi_middle  (led_6-10,  mid playfield / pop bumper area)
-#   gi_bottom  (led_11-15, lower playfield / slingshots / lower inserts)
+#   gi_top     (led_11-15, top of playfield)
 #   gi_backwall(led_16-20, back wall / cabinet GI)
+#   gi_upper   (led_11-20, top + backwall combined)
 #   all_pit    (all 20, convenience tag for whole-machine addressing)
 
 lights:
   led_1:
-    tags: gi_top, all_pit
+    tags: gi_bottom, all_pit
     channels:
       green:
         number: 0-0-0
@@ -18,7 +18,7 @@ lights:
       blue:
         number: 0-0-2
   led_2:
-    tags: gi_top, all_pit
+    tags: gi_bottom, all_pit
     channels:
       green:
         number: 0-0-4
@@ -27,7 +27,7 @@ lights:
       blue:
         number: 0-0-6
   led_3:
-    tags: gi_top, all_pit
+    tags: gi_bottom, all_pit
     channels:
       green:
         number: 0-0-8
@@ -36,7 +36,7 @@ lights:
       blue:
         number: 0-0-10
   led_4:
-    tags: gi_top, all_pit
+    tags: gi_bottom, all_pit
     channels:
       green:
         number: 0-0-12
@@ -45,7 +45,7 @@ lights:
       blue:
         number: 0-0-14
   led_5:
-    tags: gi_top, all_pit
+    tags: gi_bottom, all_pit
     channels:
       green:
         number: 0-0-16
@@ -99,7 +99,7 @@ lights:
       blue:
         number: 0-0-38
   led_11:
-    tags: gi_bottom, all_pit
+    tags: gi_top, gi_upper, all_pit
     channels:
       green:
         number: 0-0-40
@@ -108,7 +108,7 @@ lights:
       blue:
         number: 0-0-42
   led_12:
-    tags: gi_bottom, all_pit
+    tags: gi_top, gi_upper, all_pit
     channels:
       green:
         number: 0-0-44
@@ -117,7 +117,7 @@ lights:
       blue:
         number: 0-0-46
   led_13:
-    tags: gi_bottom, all_pit
+    tags: gi_top, gi_upper, all_pit
     channels:
       green:
         number: 0-0-48
@@ -126,7 +126,7 @@ lights:
       blue:
         number: 0-0-50
   led_14:
-    tags: gi_bottom, all_pit
+    tags: gi_top, gi_upper, all_pit
     channels:
       green:
         number: 0-0-52
@@ -135,7 +135,7 @@ lights:
       blue:
         number: 0-0-54
   led_15:
-    tags: gi_bottom, all_pit
+    tags: gi_top, gi_upper, all_pit
     channels:
       green:
         number: 0-0-56
@@ -191,9 +191,9 @@ lights:
 
 light_player:
   test_on:
-    (gi_top): red
+    (gi_bottom): red
     (gi_middle): blue
-    (gi_bottom): green
+    (gi_top): green
     (gi_backwall): purple
   test_off:
     (all_pit): off
