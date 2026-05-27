@@ -1,74 +1,74 @@
 #show_version=6
 # Dark wipe sweep: backwall → gi_top → gi_middle → gi_bottom
 
-- duration: 70ms
+- duration: 150ms
   lights:
     led_16:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_17:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_18:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_19:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_20:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
 
 - duration: 70ms
   lights:
     led_11:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_12:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_13:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_14:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_15:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
 
 - duration: 70ms
   lights:
     led_6:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_7:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_8:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_9:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_10:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
 
 - duration: 70ms
   lights:
     led_1:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_2:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_3:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_4:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
     led_5:
       color: "000000"
-      fade: 20ms
+      fade: 50ms
