@@ -23,15 +23,15 @@ slide_player:
   mode_song_started: song
 
 light_player:
-  song_song1_highlighted:
+  item_highlighted{item=="song1"}:
     gi:
       color: ff2200
       fade: 200ms
-  song_song2_highlighted:
+  item_highlighted{item=="song2"}:
     gi:
       color: 0055ff
       fade: 200ms
-  song_song3_highlighted:
+  item_highlighted{item=="song3"}:
     gi:
       color: 00aa22
       fade: 200ms
