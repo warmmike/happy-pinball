@@ -5,12 +5,6 @@ mode:
   stop_events: ball_will_end
   priority: 150
 
-light_player:
-  mode_song1_started:
-    gi:
-      color: ff2200
-      fade: 300ms
-
 sound_player:
   mode_song1_started:
     song1:
