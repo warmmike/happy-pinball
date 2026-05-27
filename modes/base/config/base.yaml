@@ -22,7 +22,7 @@ slide_player:
 light_player:
   mode_base_started:
     gi:
-      color: ffffff
+      color: "000000"
 
 show_player:
   mode_base_started: base_lights

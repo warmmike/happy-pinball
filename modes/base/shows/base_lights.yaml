@@ -1,19 +1,83 @@
 #show_version=6
+# Base mode: backwall white, 3 playfield LEDs cycle yellow/light-blue/white
 
 - duration: 500ms
   lights:
-    led_12:
+    led_16:
+      color: ffffff
+      fade: 100ms
+    led_17:
+      color: ffffff
+      fade: 100ms
+    led_18:
+      color: ffffff
+      fade: 100ms
+    led_19:
+      color: ffffff
+      fade: 100ms
+    led_20:
+      color: ffffff
+      fade: 100ms
+    led_2:
       color: ffff00
-      fade: 50ms
-    led_13:
-      color: ffff00
-      fade: 50ms
+      fade: 30ms
+    led_8:
+      color: 88ccff
+      fade: 30ms
+    led_14:
+      color: ffffff
+      fade: 30ms
 
 - duration: 500ms
   lights:
-    led_12:
+    led_16:
       color: ffffff
-      fade: 50ms
-    led_13:
+      fade: 100ms
+    led_17:
       color: ffffff
-      fade: 50ms
+      fade: 100ms
+    led_18:
+      color: ffffff
+      fade: 100ms
+    led_19:
+      color: ffffff
+      fade: 100ms
+    led_20:
+      color: ffffff
+      fade: 100ms
+    led_2:
+      color: "000000"
+      fade: 30ms
+    led_8:
+      color: ffff00
+      fade: 30ms
+    led_14:
+      color: 88ccff
+      fade: 30ms
+
+- duration: 500ms
+  lights:
+    led_16:
+      color: ffffff
+      fade: 100ms
+    led_17:
+      color: ffffff
+      fade: 100ms
+    led_18:
+      color: ffffff
+      fade: 100ms
+    led_19:
+      color: ffffff
+      fade: 100ms
+    led_20:
+      color: ffffff
+      fade: 100ms
+    led_2:
+      color: 88ccff
+      fade: 30ms
+    led_8:
+      color: "000000"
+      fade: 30ms
+    led_14:
+      color: ffff00
+      fade: 30ms
