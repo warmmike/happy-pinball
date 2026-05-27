@@ -23,9 +23,30 @@ light_player:
   mode_base_started:
     gi:
       color: "000000"
+  song_song1_selected:
+    gi:
+      color: ff2200
+      fade: 300ms
+  song_song2_selected:
+    gi:
+      color: 0055ff
+      fade: 300ms
+  song_song3_selected:
+    gi:
+      color: 00aa22
+      fade: 300ms
 
 show_player:
   mode_base_started: base_lights
+  song_song1_selected:
+    base_lights:
+      action: stop
+  song_song2_selected:
+    base_lights:
+      action: stop
+  song_song3_selected:
+    base_lights:
+      action: stop
 
 # sound_player:
 #   mode_base_started:
