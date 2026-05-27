@@ -1,83 +1,56 @@
 #show_version=6
-# Base mode: backwall white, 3 playfield LEDs cycle yellow/light-blue/white
+# Base mode: backwall white, 3 playfield LEDs flash their fixed color
 
-- duration: 500ms
+- duration: 150ms
   lights:
     led_16:
       color: ffffff
-      fade: 100ms
+      fade: 30ms
     led_17:
       color: ffffff
-      fade: 100ms
+      fade: 30ms
     led_18:
       color: ffffff
-      fade: 100ms
+      fade: 30ms
     led_19:
       color: ffffff
-      fade: 100ms
+      fade: 30ms
     led_20:
       color: ffffff
-      fade: 100ms
+      fade: 30ms
     led_2:
       color: ffff00
-      fade: 30ms
+      fade: 20ms
     led_8:
       color: 88ccff
-      fade: 30ms
+      fade: 20ms
     led_14:
       color: ffffff
-      fade: 30ms
+      fade: 20ms
 
-- duration: 500ms
+- duration: 150ms
   lights:
     led_16:
       color: ffffff
-      fade: 100ms
+      fade: 30ms
     led_17:
       color: ffffff
-      fade: 100ms
+      fade: 30ms
     led_18:
       color: ffffff
-      fade: 100ms
+      fade: 30ms
     led_19:
       color: ffffff
-      fade: 100ms
+      fade: 30ms
     led_20:
       color: ffffff
-      fade: 100ms
+      fade: 30ms
     led_2:
       color: "000000"
-      fade: 30ms
-    led_8:
-      color: ffff00
-      fade: 30ms
-    led_14:
-      color: 88ccff
-      fade: 30ms
-
-- duration: 500ms
-  lights:
-    led_16:
-      color: ffffff
-      fade: 100ms
-    led_17:
-      color: ffffff
-      fade: 100ms
-    led_18:
-      color: ffffff
-      fade: 100ms
-    led_19:
-      color: ffffff
-      fade: 100ms
-    led_20:
-      color: ffffff
-      fade: 100ms
-    led_2:
-      color: 88ccff
-      fade: 30ms
+      fade: 20ms
     led_8:
       color: "000000"
-      fade: 30ms
+      fade: 20ms
     led_14:
-      color: ffff00
-      fade: 30ms
+      color: "000000"
+      fade: 20ms
