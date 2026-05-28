@@ -1,0 +1,1325 @@
+#show_version=6
+# Ball launch: circle pit orange chase (5 circles) + burst
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "ff6600"
+      fade: 15ms
+    led_2:
+      color: "ff6600"
+      fade: 15ms
+    led_3:
+      color: "ff6600"
+      fade: 15ms
+    led_4:
+      color: "ff6600"
+      fade: 15ms
+    led_5:
+      color: "ff6600"
+      fade: 15ms
+    led_6:
+      color: "000000"
+      fade: 15ms
+    led_7:
+      color: "000000"
+      fade: 15ms
+    led_8:
+      color: "000000"
+      fade: 15ms
+    led_9:
+      color: "000000"
+      fade: 15ms
+    led_10:
+      color: "000000"
+      fade: 15ms
+    led_11:
+      color: "000000"
+      fade: 15ms
+    led_12:
+      color: "000000"
+      fade: 15ms
+    led_13:
+      color: "000000"
+      fade: 15ms
+    led_14:
+      color: "000000"
+      fade: 15ms
+    led_15:
+      color: "000000"
+      fade: 15ms
+    led_16:
+      color: "330000"
+      fade: 15ms
+    led_17:
+      color: "330000"
+      fade: 15ms
+    led_18:
+      color: "330000"
+      fade: 15ms
+    led_19:
+      color: "330000"
+      fade: 15ms
+    led_20:
+      color: "330000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "330000"
+      fade: 15ms
+    led_2:
+      color: "330000"
+      fade: 15ms
+    led_3:
+      color: "330000"
+      fade: 15ms
+    led_4:
+      color: "330000"
+      fade: 15ms
+    led_5:
+      color: "330000"
+      fade: 15ms
+    led_6:
+      color: "ff6600"
+      fade: 15ms
+    led_7:
+      color: "ff6600"
+      fade: 15ms
+    led_8:
+      color: "ff6600"
+      fade: 15ms
+    led_9:
+      color: "ff6600"
+      fade: 15ms
+    led_10:
+      color: "ff6600"
+      fade: 15ms
+    led_11:
+      color: "000000"
+      fade: 15ms
+    led_12:
+      color: "000000"
+      fade: 15ms
+    led_13:
+      color: "000000"
+      fade: 15ms
+    led_14:
+      color: "000000"
+      fade: 15ms
+    led_15:
+      color: "000000"
+      fade: 15ms
+    led_16:
+      color: "000000"
+      fade: 15ms
+    led_17:
+      color: "000000"
+      fade: 15ms
+    led_18:
+      color: "000000"
+      fade: 15ms
+    led_19:
+      color: "000000"
+      fade: 15ms
+    led_20:
+      color: "000000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 15ms
+    led_2:
+      color: "000000"
+      fade: 15ms
+    led_3:
+      color: "000000"
+      fade: 15ms
+    led_4:
+      color: "000000"
+      fade: 15ms
+    led_5:
+      color: "000000"
+      fade: 15ms
+    led_6:
+      color: "330000"
+      fade: 15ms
+    led_7:
+      color: "330000"
+      fade: 15ms
+    led_8:
+      color: "330000"
+      fade: 15ms
+    led_9:
+      color: "330000"
+      fade: 15ms
+    led_10:
+      color: "330000"
+      fade: 15ms
+    led_11:
+      color: "ff6600"
+      fade: 15ms
+    led_12:
+      color: "ff6600"
+      fade: 15ms
+    led_13:
+      color: "ff6600"
+      fade: 15ms
+    led_14:
+      color: "ff6600"
+      fade: 15ms
+    led_15:
+      color: "ff6600"
+      fade: 15ms
+    led_16:
+      color: "000000"
+      fade: 15ms
+    led_17:
+      color: "000000"
+      fade: 15ms
+    led_18:
+      color: "000000"
+      fade: 15ms
+    led_19:
+      color: "000000"
+      fade: 15ms
+    led_20:
+      color: "000000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 15ms
+    led_2:
+      color: "000000"
+      fade: 15ms
+    led_3:
+      color: "000000"
+      fade: 15ms
+    led_4:
+      color: "000000"
+      fade: 15ms
+    led_5:
+      color: "000000"
+      fade: 15ms
+    led_6:
+      color: "000000"
+      fade: 15ms
+    led_7:
+      color: "000000"
+      fade: 15ms
+    led_8:
+      color: "000000"
+      fade: 15ms
+    led_9:
+      color: "000000"
+      fade: 15ms
+    led_10:
+      color: "000000"
+      fade: 15ms
+    led_11:
+      color: "330000"
+      fade: 15ms
+    led_12:
+      color: "330000"
+      fade: 15ms
+    led_13:
+      color: "330000"
+      fade: 15ms
+    led_14:
+      color: "330000"
+      fade: 15ms
+    led_15:
+      color: "330000"
+      fade: 15ms
+    led_16:
+      color: "ff6600"
+      fade: 15ms
+    led_17:
+      color: "ff6600"
+      fade: 15ms
+    led_18:
+      color: "ff6600"
+      fade: 15ms
+    led_19:
+      color: "ff6600"
+      fade: 15ms
+    led_20:
+      color: "ff6600"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "ff6600"
+      fade: 15ms
+    led_2:
+      color: "ff6600"
+      fade: 15ms
+    led_3:
+      color: "ff6600"
+      fade: 15ms
+    led_4:
+      color: "ff6600"
+      fade: 15ms
+    led_5:
+      color: "ff6600"
+      fade: 15ms
+    led_6:
+      color: "000000"
+      fade: 15ms
+    led_7:
+      color: "000000"
+      fade: 15ms
+    led_8:
+      color: "000000"
+      fade: 15ms
+    led_9:
+      color: "000000"
+      fade: 15ms
+    led_10:
+      color: "000000"
+      fade: 15ms
+    led_11:
+      color: "000000"
+      fade: 15ms
+    led_12:
+      color: "000000"
+      fade: 15ms
+    led_13:
+      color: "000000"
+      fade: 15ms
+    led_14:
+      color: "000000"
+      fade: 15ms
+    led_15:
+      color: "000000"
+      fade: 15ms
+    led_16:
+      color: "330000"
+      fade: 15ms
+    led_17:
+      color: "330000"
+      fade: 15ms
+    led_18:
+      color: "330000"
+      fade: 15ms
+    led_19:
+      color: "330000"
+      fade: 15ms
+    led_20:
+      color: "330000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "330000"
+      fade: 15ms
+    led_2:
+      color: "330000"
+      fade: 15ms
+    led_3:
+      color: "330000"
+      fade: 15ms
+    led_4:
+      color: "330000"
+      fade: 15ms
+    led_5:
+      color: "330000"
+      fade: 15ms
+    led_6:
+      color: "ff6600"
+      fade: 15ms
+    led_7:
+      color: "ff6600"
+      fade: 15ms
+    led_8:
+      color: "ff6600"
+      fade: 15ms
+    led_9:
+      color: "ff6600"
+      fade: 15ms
+    led_10:
+      color: "ff6600"
+      fade: 15ms
+    led_11:
+      color: "000000"
+      fade: 15ms
+    led_12:
+      color: "000000"
+      fade: 15ms
+    led_13:
+      color: "000000"
+      fade: 15ms
+    led_14:
+      color: "000000"
+      fade: 15ms
+    led_15:
+      color: "000000"
+      fade: 15ms
+    led_16:
+      color: "000000"
+      fade: 15ms
+    led_17:
+      color: "000000"
+      fade: 15ms
+    led_18:
+      color: "000000"
+      fade: 15ms
+    led_19:
+      color: "000000"
+      fade: 15ms
+    led_20:
+      color: "000000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 15ms
+    led_2:
+      color: "000000"
+      fade: 15ms
+    led_3:
+      color: "000000"
+      fade: 15ms
+    led_4:
+      color: "000000"
+      fade: 15ms
+    led_5:
+      color: "000000"
+      fade: 15ms
+    led_6:
+      color: "330000"
+      fade: 15ms
+    led_7:
+      color: "330000"
+      fade: 15ms
+    led_8:
+      color: "330000"
+      fade: 15ms
+    led_9:
+      color: "330000"
+      fade: 15ms
+    led_10:
+      color: "330000"
+      fade: 15ms
+    led_11:
+      color: "ff6600"
+      fade: 15ms
+    led_12:
+      color: "ff6600"
+      fade: 15ms
+    led_13:
+      color: "ff6600"
+      fade: 15ms
+    led_14:
+      color: "ff6600"
+      fade: 15ms
+    led_15:
+      color: "ff6600"
+      fade: 15ms
+    led_16:
+      color: "000000"
+      fade: 15ms
+    led_17:
+      color: "000000"
+      fade: 15ms
+    led_18:
+      color: "000000"
+      fade: 15ms
+    led_19:
+      color: "000000"
+      fade: 15ms
+    led_20:
+      color: "000000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 15ms
+    led_2:
+      color: "000000"
+      fade: 15ms
+    led_3:
+      color: "000000"
+      fade: 15ms
+    led_4:
+      color: "000000"
+      fade: 15ms
+    led_5:
+      color: "000000"
+      fade: 15ms
+    led_6:
+      color: "000000"
+      fade: 15ms
+    led_7:
+      color: "000000"
+      fade: 15ms
+    led_8:
+      color: "000000"
+      fade: 15ms
+    led_9:
+      color: "000000"
+      fade: 15ms
+    led_10:
+      color: "000000"
+      fade: 15ms
+    led_11:
+      color: "330000"
+      fade: 15ms
+    led_12:
+      color: "330000"
+      fade: 15ms
+    led_13:
+      color: "330000"
+      fade: 15ms
+    led_14:
+      color: "330000"
+      fade: 15ms
+    led_15:
+      color: "330000"
+      fade: 15ms
+    led_16:
+      color: "ff6600"
+      fade: 15ms
+    led_17:
+      color: "ff6600"
+      fade: 15ms
+    led_18:
+      color: "ff6600"
+      fade: 15ms
+    led_19:
+      color: "ff6600"
+      fade: 15ms
+    led_20:
+      color: "ff6600"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "ff6600"
+      fade: 15ms
+    led_2:
+      color: "ff6600"
+      fade: 15ms
+    led_3:
+      color: "ff6600"
+      fade: 15ms
+    led_4:
+      color: "ff6600"
+      fade: 15ms
+    led_5:
+      color: "ff6600"
+      fade: 15ms
+    led_6:
+      color: "000000"
+      fade: 15ms
+    led_7:
+      color: "000000"
+      fade: 15ms
+    led_8:
+      color: "000000"
+      fade: 15ms
+    led_9:
+      color: "000000"
+      fade: 15ms
+    led_10:
+      color: "000000"
+      fade: 15ms
+    led_11:
+      color: "000000"
+      fade: 15ms
+    led_12:
+      color: "000000"
+      fade: 15ms
+    led_13:
+      color: "000000"
+      fade: 15ms
+    led_14:
+      color: "000000"
+      fade: 15ms
+    led_15:
+      color: "000000"
+      fade: 15ms
+    led_16:
+      color: "330000"
+      fade: 15ms
+    led_17:
+      color: "330000"
+      fade: 15ms
+    led_18:
+      color: "330000"
+      fade: 15ms
+    led_19:
+      color: "330000"
+      fade: 15ms
+    led_20:
+      color: "330000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "330000"
+      fade: 15ms
+    led_2:
+      color: "330000"
+      fade: 15ms
+    led_3:
+      color: "330000"
+      fade: 15ms
+    led_4:
+      color: "330000"
+      fade: 15ms
+    led_5:
+      color: "330000"
+      fade: 15ms
+    led_6:
+      color: "ff6600"
+      fade: 15ms
+    led_7:
+      color: "ff6600"
+      fade: 15ms
+    led_8:
+      color: "ff6600"
+      fade: 15ms
+    led_9:
+      color: "ff6600"
+      fade: 15ms
+    led_10:
+      color: "ff6600"
+      fade: 15ms
+    led_11:
+      color: "000000"
+      fade: 15ms
+    led_12:
+      color: "000000"
+      fade: 15ms
+    led_13:
+      color: "000000"
+      fade: 15ms
+    led_14:
+      color: "000000"
+      fade: 15ms
+    led_15:
+      color: "000000"
+      fade: 15ms
+    led_16:
+      color: "000000"
+      fade: 15ms
+    led_17:
+      color: "000000"
+      fade: 15ms
+    led_18:
+      color: "000000"
+      fade: 15ms
+    led_19:
+      color: "000000"
+      fade: 15ms
+    led_20:
+      color: "000000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 15ms
+    led_2:
+      color: "000000"
+      fade: 15ms
+    led_3:
+      color: "000000"
+      fade: 15ms
+    led_4:
+      color: "000000"
+      fade: 15ms
+    led_5:
+      color: "000000"
+      fade: 15ms
+    led_6:
+      color: "330000"
+      fade: 15ms
+    led_7:
+      color: "330000"
+      fade: 15ms
+    led_8:
+      color: "330000"
+      fade: 15ms
+    led_9:
+      color: "330000"
+      fade: 15ms
+    led_10:
+      color: "330000"
+      fade: 15ms
+    led_11:
+      color: "ff6600"
+      fade: 15ms
+    led_12:
+      color: "ff6600"
+      fade: 15ms
+    led_13:
+      color: "ff6600"
+      fade: 15ms
+    led_14:
+      color: "ff6600"
+      fade: 15ms
+    led_15:
+      color: "ff6600"
+      fade: 15ms
+    led_16:
+      color: "000000"
+      fade: 15ms
+    led_17:
+      color: "000000"
+      fade: 15ms
+    led_18:
+      color: "000000"
+      fade: 15ms
+    led_19:
+      color: "000000"
+      fade: 15ms
+    led_20:
+      color: "000000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 15ms
+    led_2:
+      color: "000000"
+      fade: 15ms
+    led_3:
+      color: "000000"
+      fade: 15ms
+    led_4:
+      color: "000000"
+      fade: 15ms
+    led_5:
+      color: "000000"
+      fade: 15ms
+    led_6:
+      color: "000000"
+      fade: 15ms
+    led_7:
+      color: "000000"
+      fade: 15ms
+    led_8:
+      color: "000000"
+      fade: 15ms
+    led_9:
+      color: "000000"
+      fade: 15ms
+    led_10:
+      color: "000000"
+      fade: 15ms
+    led_11:
+      color: "330000"
+      fade: 15ms
+    led_12:
+      color: "330000"
+      fade: 15ms
+    led_13:
+      color: "330000"
+      fade: 15ms
+    led_14:
+      color: "330000"
+      fade: 15ms
+    led_15:
+      color: "330000"
+      fade: 15ms
+    led_16:
+      color: "ff6600"
+      fade: 15ms
+    led_17:
+      color: "ff6600"
+      fade: 15ms
+    led_18:
+      color: "ff6600"
+      fade: 15ms
+    led_19:
+      color: "ff6600"
+      fade: 15ms
+    led_20:
+      color: "ff6600"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "ff6600"
+      fade: 15ms
+    led_2:
+      color: "ff6600"
+      fade: 15ms
+    led_3:
+      color: "ff6600"
+      fade: 15ms
+    led_4:
+      color: "ff6600"
+      fade: 15ms
+    led_5:
+      color: "ff6600"
+      fade: 15ms
+    led_6:
+      color: "000000"
+      fade: 15ms
+    led_7:
+      color: "000000"
+      fade: 15ms
+    led_8:
+      color: "000000"
+      fade: 15ms
+    led_9:
+      color: "000000"
+      fade: 15ms
+    led_10:
+      color: "000000"
+      fade: 15ms
+    led_11:
+      color: "000000"
+      fade: 15ms
+    led_12:
+      color: "000000"
+      fade: 15ms
+    led_13:
+      color: "000000"
+      fade: 15ms
+    led_14:
+      color: "000000"
+      fade: 15ms
+    led_15:
+      color: "000000"
+      fade: 15ms
+    led_16:
+      color: "330000"
+      fade: 15ms
+    led_17:
+      color: "330000"
+      fade: 15ms
+    led_18:
+      color: "330000"
+      fade: 15ms
+    led_19:
+      color: "330000"
+      fade: 15ms
+    led_20:
+      color: "330000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "330000"
+      fade: 15ms
+    led_2:
+      color: "330000"
+      fade: 15ms
+    led_3:
+      color: "330000"
+      fade: 15ms
+    led_4:
+      color: "330000"
+      fade: 15ms
+    led_5:
+      color: "330000"
+      fade: 15ms
+    led_6:
+      color: "ff6600"
+      fade: 15ms
+    led_7:
+      color: "ff6600"
+      fade: 15ms
+    led_8:
+      color: "ff6600"
+      fade: 15ms
+    led_9:
+      color: "ff6600"
+      fade: 15ms
+    led_10:
+      color: "ff6600"
+      fade: 15ms
+    led_11:
+      color: "000000"
+      fade: 15ms
+    led_12:
+      color: "000000"
+      fade: 15ms
+    led_13:
+      color: "000000"
+      fade: 15ms
+    led_14:
+      color: "000000"
+      fade: 15ms
+    led_15:
+      color: "000000"
+      fade: 15ms
+    led_16:
+      color: "000000"
+      fade: 15ms
+    led_17:
+      color: "000000"
+      fade: 15ms
+    led_18:
+      color: "000000"
+      fade: 15ms
+    led_19:
+      color: "000000"
+      fade: 15ms
+    led_20:
+      color: "000000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 15ms
+    led_2:
+      color: "000000"
+      fade: 15ms
+    led_3:
+      color: "000000"
+      fade: 15ms
+    led_4:
+      color: "000000"
+      fade: 15ms
+    led_5:
+      color: "000000"
+      fade: 15ms
+    led_6:
+      color: "330000"
+      fade: 15ms
+    led_7:
+      color: "330000"
+      fade: 15ms
+    led_8:
+      color: "330000"
+      fade: 15ms
+    led_9:
+      color: "330000"
+      fade: 15ms
+    led_10:
+      color: "330000"
+      fade: 15ms
+    led_11:
+      color: "ff6600"
+      fade: 15ms
+    led_12:
+      color: "ff6600"
+      fade: 15ms
+    led_13:
+      color: "ff6600"
+      fade: 15ms
+    led_14:
+      color: "ff6600"
+      fade: 15ms
+    led_15:
+      color: "ff6600"
+      fade: 15ms
+    led_16:
+      color: "000000"
+      fade: 15ms
+    led_17:
+      color: "000000"
+      fade: 15ms
+    led_18:
+      color: "000000"
+      fade: 15ms
+    led_19:
+      color: "000000"
+      fade: 15ms
+    led_20:
+      color: "000000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 15ms
+    led_2:
+      color: "000000"
+      fade: 15ms
+    led_3:
+      color: "000000"
+      fade: 15ms
+    led_4:
+      color: "000000"
+      fade: 15ms
+    led_5:
+      color: "000000"
+      fade: 15ms
+    led_6:
+      color: "000000"
+      fade: 15ms
+    led_7:
+      color: "000000"
+      fade: 15ms
+    led_8:
+      color: "000000"
+      fade: 15ms
+    led_9:
+      color: "000000"
+      fade: 15ms
+    led_10:
+      color: "000000"
+      fade: 15ms
+    led_11:
+      color: "330000"
+      fade: 15ms
+    led_12:
+      color: "330000"
+      fade: 15ms
+    led_13:
+      color: "330000"
+      fade: 15ms
+    led_14:
+      color: "330000"
+      fade: 15ms
+    led_15:
+      color: "330000"
+      fade: 15ms
+    led_16:
+      color: "ff6600"
+      fade: 15ms
+    led_17:
+      color: "ff6600"
+      fade: 15ms
+    led_18:
+      color: "ff6600"
+      fade: 15ms
+    led_19:
+      color: "ff6600"
+      fade: 15ms
+    led_20:
+      color: "ff6600"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "ff6600"
+      fade: 15ms
+    led_2:
+      color: "ff6600"
+      fade: 15ms
+    led_3:
+      color: "ff6600"
+      fade: 15ms
+    led_4:
+      color: "ff6600"
+      fade: 15ms
+    led_5:
+      color: "ff6600"
+      fade: 15ms
+    led_6:
+      color: "000000"
+      fade: 15ms
+    led_7:
+      color: "000000"
+      fade: 15ms
+    led_8:
+      color: "000000"
+      fade: 15ms
+    led_9:
+      color: "000000"
+      fade: 15ms
+    led_10:
+      color: "000000"
+      fade: 15ms
+    led_11:
+      color: "000000"
+      fade: 15ms
+    led_12:
+      color: "000000"
+      fade: 15ms
+    led_13:
+      color: "000000"
+      fade: 15ms
+    led_14:
+      color: "000000"
+      fade: 15ms
+    led_15:
+      color: "000000"
+      fade: 15ms
+    led_16:
+      color: "330000"
+      fade: 15ms
+    led_17:
+      color: "330000"
+      fade: 15ms
+    led_18:
+      color: "330000"
+      fade: 15ms
+    led_19:
+      color: "330000"
+      fade: 15ms
+    led_20:
+      color: "330000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "330000"
+      fade: 15ms
+    led_2:
+      color: "330000"
+      fade: 15ms
+    led_3:
+      color: "330000"
+      fade: 15ms
+    led_4:
+      color: "330000"
+      fade: 15ms
+    led_5:
+      color: "330000"
+      fade: 15ms
+    led_6:
+      color: "ff6600"
+      fade: 15ms
+    led_7:
+      color: "ff6600"
+      fade: 15ms
+    led_8:
+      color: "ff6600"
+      fade: 15ms
+    led_9:
+      color: "ff6600"
+      fade: 15ms
+    led_10:
+      color: "ff6600"
+      fade: 15ms
+    led_11:
+      color: "000000"
+      fade: 15ms
+    led_12:
+      color: "000000"
+      fade: 15ms
+    led_13:
+      color: "000000"
+      fade: 15ms
+    led_14:
+      color: "000000"
+      fade: 15ms
+    led_15:
+      color: "000000"
+      fade: 15ms
+    led_16:
+      color: "000000"
+      fade: 15ms
+    led_17:
+      color: "000000"
+      fade: 15ms
+    led_18:
+      color: "000000"
+      fade: 15ms
+    led_19:
+      color: "000000"
+      fade: 15ms
+    led_20:
+      color: "000000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 15ms
+    led_2:
+      color: "000000"
+      fade: 15ms
+    led_3:
+      color: "000000"
+      fade: 15ms
+    led_4:
+      color: "000000"
+      fade: 15ms
+    led_5:
+      color: "000000"
+      fade: 15ms
+    led_6:
+      color: "330000"
+      fade: 15ms
+    led_7:
+      color: "330000"
+      fade: 15ms
+    led_8:
+      color: "330000"
+      fade: 15ms
+    led_9:
+      color: "330000"
+      fade: 15ms
+    led_10:
+      color: "330000"
+      fade: 15ms
+    led_11:
+      color: "ff6600"
+      fade: 15ms
+    led_12:
+      color: "ff6600"
+      fade: 15ms
+    led_13:
+      color: "ff6600"
+      fade: 15ms
+    led_14:
+      color: "ff6600"
+      fade: 15ms
+    led_15:
+      color: "ff6600"
+      fade: 15ms
+    led_16:
+      color: "000000"
+      fade: 15ms
+    led_17:
+      color: "000000"
+      fade: 15ms
+    led_18:
+      color: "000000"
+      fade: 15ms
+    led_19:
+      color: "000000"
+      fade: 15ms
+    led_20:
+      color: "000000"
+      fade: 15ms
+
+- duration: 40ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 15ms
+    led_2:
+      color: "000000"
+      fade: 15ms
+    led_3:
+      color: "000000"
+      fade: 15ms
+    led_4:
+      color: "000000"
+      fade: 15ms
+    led_5:
+      color: "000000"
+      fade: 15ms
+    led_6:
+      color: "000000"
+      fade: 15ms
+    led_7:
+      color: "000000"
+      fade: 15ms
+    led_8:
+      color: "000000"
+      fade: 15ms
+    led_9:
+      color: "000000"
+      fade: 15ms
+    led_10:
+      color: "000000"
+      fade: 15ms
+    led_11:
+      color: "330000"
+      fade: 15ms
+    led_12:
+      color: "330000"
+      fade: 15ms
+    led_13:
+      color: "330000"
+      fade: 15ms
+    led_14:
+      color: "330000"
+      fade: 15ms
+    led_15:
+      color: "330000"
+      fade: 15ms
+    led_16:
+      color: "ff6600"
+      fade: 15ms
+    led_17:
+      color: "ff6600"
+      fade: 15ms
+    led_18:
+      color: "ff6600"
+      fade: 15ms
+    led_19:
+      color: "ff6600"
+      fade: 15ms
+    led_20:
+      color: "ff6600"
+      fade: 15ms
+
+- duration: 120ms
+  lights:
+    led_1:
+      color: "ffffff"
+      fade: 20ms
+    led_2:
+      color: "ffffff"
+      fade: 20ms
+    led_3:
+      color: "ffffff"
+      fade: 20ms
+    led_4:
+      color: "ffffff"
+      fade: 20ms
+    led_5:
+      color: "ffffff"
+      fade: 20ms
+    led_6:
+      color: "ffffff"
+      fade: 20ms
+    led_7:
+      color: "ffffff"
+      fade: 20ms
+    led_8:
+      color: "ffffff"
+      fade: 20ms
+    led_9:
+      color: "ffffff"
+      fade: 20ms
+    led_10:
+      color: "ffffff"
+      fade: 20ms
+    led_11:
+      color: "ffffff"
+      fade: 20ms
+    led_12:
+      color: "ffffff"
+      fade: 20ms
+    led_13:
+      color: "ffffff"
+      fade: 20ms
+    led_14:
+      color: "ffffff"
+      fade: 20ms
+    led_15:
+      color: "ffffff"
+      fade: 20ms
+    led_16:
+      color: "ffffff"
+      fade: 20ms
+    led_17:
+      color: "ffffff"
+      fade: 20ms
+    led_18:
+      color: "ffffff"
+      fade: 20ms
+    led_19:
+      color: "ffffff"
+      fade: 20ms
+    led_20:
+      color: "ffffff"
+      fade: 20ms
