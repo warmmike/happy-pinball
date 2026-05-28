@@ -7,8 +7,8 @@ config:
   - config_ball_devices.yaml
 
 machine:
-  balls_installed: 3
-  min_balls: 3
+  balls_installed: 1
+  min_balls: 1
 
 playfields:
   playfield:
@@ -27,5 +27,5 @@ modes:
 
 virtual_platform_start_active_switches:
   - s_trough_1
-  - s_trough_2
-  - s_trough_3
+#  - s_trough_2
+#  - s_trough_3
