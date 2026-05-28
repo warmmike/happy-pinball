@@ -10,6 +10,20 @@ tilt:
   settle_time: 5s
   tilt_warnings_player_var: tilt_warnings
 
+show_player:
+  tilt_warning_1:
+    tilt_warning_show:
+      priority: 10
+      loops: 0
+  tilt_warning_2:
+    tilt_warning_show:
+      priority: 10
+      loops: 0
+  tilt:
+    tilt_show:
+      priority: 10
+      loops: 0
+
 slide_player:
   _overwrite: True # overwrite the default slide_player from tilt mode
 

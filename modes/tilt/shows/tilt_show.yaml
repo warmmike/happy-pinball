@@ -1,0 +1,506 @@
+#show_version=6
+# Tilt: punch then blood drips backwall to bottom, everything goes red
+
+- duration: 10ms
+  lights:
+    led_1:
+      color: "ff0000"
+      fade: 0ms
+    led_2:
+      color: "ff0000"
+      fade: 0ms
+    led_3:
+      color: "ff0000"
+      fade: 0ms
+    led_4:
+      color: "ff0000"
+      fade: 0ms
+    led_5:
+      color: "ff0000"
+      fade: 0ms
+    led_6:
+      color: "ffffff"
+      fade: 0ms
+    led_7:
+      color: "ffffff"
+      fade: 0ms
+    led_8:
+      color: "ffffff"
+      fade: 0ms
+    led_9:
+      color: "ffffff"
+      fade: 0ms
+    led_10:
+      color: "ffffff"
+      fade: 0ms
+    led_11:
+      color: "ff0000"
+      fade: 0ms
+    led_12:
+      color: "ff0000"
+      fade: 0ms
+    led_13:
+      color: "ff0000"
+      fade: 0ms
+    led_14:
+      color: "ff0000"
+      fade: 0ms
+    led_15:
+      color: "ff0000"
+      fade: 0ms
+    led_16:
+      color: "ff0000"
+      fade: 0ms
+    led_17:
+      color: "ff0000"
+      fade: 0ms
+    led_18:
+      color: "ff0000"
+      fade: 0ms
+    led_19:
+      color: "ff0000"
+      fade: 0ms
+    led_20:
+      color: "ff0000"
+      fade: 0ms
+
+- duration: 80ms
+  lights:
+    led_1:
+      color: "ff0000"
+      fade: 0ms
+    led_2:
+      color: "ff0000"
+      fade: 0ms
+    led_3:
+      color: "ff0000"
+      fade: 0ms
+    led_4:
+      color: "ff0000"
+      fade: 0ms
+    led_5:
+      color: "ff0000"
+      fade: 0ms
+    led_6:
+      color: "ffffff"
+      fade: 0ms
+    led_7:
+      color: "ffffff"
+      fade: 0ms
+    led_8:
+      color: "ffffff"
+      fade: 0ms
+    led_9:
+      color: "ffffff"
+      fade: 0ms
+    led_10:
+      color: "ffffff"
+      fade: 0ms
+    led_11:
+      color: "ff0000"
+      fade: 0ms
+    led_12:
+      color: "ff0000"
+      fade: 0ms
+    led_13:
+      color: "ff0000"
+      fade: 0ms
+    led_14:
+      color: "ff0000"
+      fade: 0ms
+    led_15:
+      color: "ff0000"
+      fade: 0ms
+    led_16:
+      color: "ff0000"
+      fade: 0ms
+    led_17:
+      color: "ff0000"
+      fade: 0ms
+    led_18:
+      color: "ff0000"
+      fade: 0ms
+    led_19:
+      color: "ff0000"
+      fade: 0ms
+    led_20:
+      color: "ff0000"
+      fade: 0ms
+
+- duration: 150ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 150ms
+    led_2:
+      color: "000000"
+      fade: 150ms
+    led_3:
+      color: "000000"
+      fade: 150ms
+    led_4:
+      color: "000000"
+      fade: 150ms
+    led_5:
+      color: "000000"
+      fade: 150ms
+    led_6:
+      color: "000000"
+      fade: 150ms
+    led_7:
+      color: "000000"
+      fade: 150ms
+    led_8:
+      color: "000000"
+      fade: 150ms
+    led_9:
+      color: "000000"
+      fade: 150ms
+    led_10:
+      color: "000000"
+      fade: 150ms
+    led_11:
+      color: "000000"
+      fade: 150ms
+    led_12:
+      color: "000000"
+      fade: 150ms
+    led_13:
+      color: "000000"
+      fade: 150ms
+    led_14:
+      color: "000000"
+      fade: 150ms
+    led_15:
+      color: "000000"
+      fade: 150ms
+    led_16:
+      color: "000000"
+      fade: 150ms
+    led_17:
+      color: "000000"
+      fade: 150ms
+    led_18:
+      color: "000000"
+      fade: 150ms
+    led_19:
+      color: "000000"
+      fade: 150ms
+    led_20:
+      color: "000000"
+      fade: 150ms
+
+- duration: 350ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 200ms
+    led_2:
+      color: "000000"
+      fade: 200ms
+    led_3:
+      color: "000000"
+      fade: 200ms
+    led_4:
+      color: "000000"
+      fade: 200ms
+    led_5:
+      color: "000000"
+      fade: 200ms
+    led_6:
+      color: "000000"
+      fade: 200ms
+    led_7:
+      color: "000000"
+      fade: 200ms
+    led_8:
+      color: "000000"
+      fade: 200ms
+    led_9:
+      color: "000000"
+      fade: 200ms
+    led_10:
+      color: "000000"
+      fade: 200ms
+    led_11:
+      color: "000000"
+      fade: 200ms
+    led_12:
+      color: "000000"
+      fade: 200ms
+    led_13:
+      color: "000000"
+      fade: 200ms
+    led_14:
+      color: "000000"
+      fade: 200ms
+    led_15:
+      color: "000000"
+      fade: 200ms
+    led_16:
+      color: "880000"
+      fade: 250ms
+    led_17:
+      color: "880000"
+      fade: 250ms
+    led_18:
+      color: "880000"
+      fade: 250ms
+    led_19:
+      color: "880000"
+      fade: 250ms
+    led_20:
+      color: "880000"
+      fade: 250ms
+
+- duration: 350ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 200ms
+    led_2:
+      color: "000000"
+      fade: 200ms
+    led_3:
+      color: "000000"
+      fade: 200ms
+    led_4:
+      color: "000000"
+      fade: 200ms
+    led_5:
+      color: "000000"
+      fade: 200ms
+    led_6:
+      color: "000000"
+      fade: 200ms
+    led_7:
+      color: "000000"
+      fade: 200ms
+    led_8:
+      color: "000000"
+      fade: 200ms
+    led_9:
+      color: "000000"
+      fade: 200ms
+    led_10:
+      color: "000000"
+      fade: 200ms
+    led_11:
+      color: "660000"
+      fade: 280ms
+    led_12:
+      color: "660000"
+      fade: 280ms
+    led_13:
+      color: "660000"
+      fade: 280ms
+    led_14:
+      color: "660000"
+      fade: 280ms
+    led_15:
+      color: "660000"
+      fade: 280ms
+    led_16:
+      color: "cc0000"
+      fade: 200ms
+    led_17:
+      color: "cc0000"
+      fade: 200ms
+    led_18:
+      color: "cc0000"
+      fade: 200ms
+    led_19:
+      color: "cc0000"
+      fade: 200ms
+    led_20:
+      color: "cc0000"
+      fade: 200ms
+
+- duration: 350ms
+  lights:
+    led_1:
+      color: "000000"
+      fade: 200ms
+    led_2:
+      color: "000000"
+      fade: 200ms
+    led_3:
+      color: "000000"
+      fade: 200ms
+    led_4:
+      color: "000000"
+      fade: 200ms
+    led_5:
+      color: "000000"
+      fade: 200ms
+    led_6:
+      color: "440000"
+      fade: 280ms
+    led_7:
+      color: "440000"
+      fade: 280ms
+    led_8:
+      color: "440000"
+      fade: 280ms
+    led_9:
+      color: "440000"
+      fade: 280ms
+    led_10:
+      color: "440000"
+      fade: 280ms
+    led_11:
+      color: "aa0000"
+      fade: 200ms
+    led_12:
+      color: "aa0000"
+      fade: 200ms
+    led_13:
+      color: "aa0000"
+      fade: 200ms
+    led_14:
+      color: "aa0000"
+      fade: 200ms
+    led_15:
+      color: "aa0000"
+      fade: 200ms
+    led_16:
+      color: "ff0000"
+      fade: 200ms
+    led_17:
+      color: "ff0000"
+      fade: 200ms
+    led_18:
+      color: "ff0000"
+      fade: 200ms
+    led_19:
+      color: "ff0000"
+      fade: 200ms
+    led_20:
+      color: "ff0000"
+      fade: 200ms
+
+- duration: 400ms
+  lights:
+    led_1:
+      color: "ff0000"
+      fade: 300ms
+    led_2:
+      color: "ff0000"
+      fade: 300ms
+    led_3:
+      color: "ff0000"
+      fade: 300ms
+    led_4:
+      color: "ff0000"
+      fade: 300ms
+    led_5:
+      color: "ff0000"
+      fade: 300ms
+    led_6:
+      color: "dd0000"
+      fade: 200ms
+    led_7:
+      color: "dd0000"
+      fade: 200ms
+    led_8:
+      color: "dd0000"
+      fade: 200ms
+    led_9:
+      color: "dd0000"
+      fade: 200ms
+    led_10:
+      color: "dd0000"
+      fade: 200ms
+    led_11:
+      color: "ff0000"
+      fade: 200ms
+    led_12:
+      color: "ff0000"
+      fade: 200ms
+    led_13:
+      color: "ff0000"
+      fade: 200ms
+    led_14:
+      color: "ff0000"
+      fade: 200ms
+    led_15:
+      color: "ff0000"
+      fade: 200ms
+    led_16:
+      color: "ff0000"
+      fade: 100ms
+    led_17:
+      color: "ff0000"
+      fade: 100ms
+    led_18:
+      color: "ff0000"
+      fade: 100ms
+    led_19:
+      color: "ff0000"
+      fade: 100ms
+    led_20:
+      color: "ff0000"
+      fade: 100ms
+
+- duration: 1000ms
+  lights:
+    led_1:
+      color: "ff0000"
+      fade: 200ms
+    led_2:
+      color: "ff0000"
+      fade: 200ms
+    led_3:
+      color: "ff0000"
+      fade: 200ms
+    led_4:
+      color: "ff0000"
+      fade: 200ms
+    led_5:
+      color: "ff0000"
+      fade: 200ms
+    led_6:
+      color: "ff0000"
+      fade: 200ms
+    led_7:
+      color: "ff0000"
+      fade: 200ms
+    led_8:
+      color: "ff0000"
+      fade: 200ms
+    led_9:
+      color: "ff0000"
+      fade: 200ms
+    led_10:
+      color: "ff0000"
+      fade: 200ms
+    led_11:
+      color: "ff0000"
+      fade: 200ms
+    led_12:
+      color: "ff0000"
+      fade: 200ms
+    led_13:
+      color: "ff0000"
+      fade: 200ms
+    led_14:
+      color: "ff0000"
+      fade: 200ms
+    led_15:
+      color: "ff0000"
+      fade: 200ms
+    led_16:
+      color: "ff0000"
+      fade: 200ms
+    led_17:
+      color: "ff0000"
+      fade: 200ms
+    led_18:
+      color: "ff0000"
+      fade: 200ms
+    led_19:
+      color: "ff0000"
+      fade: 200ms
+    led_20:
+      color: "ff0000"
+      fade: 200ms
