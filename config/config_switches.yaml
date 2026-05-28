@@ -23,7 +23,7 @@ switches:
     number: 0-0-11
 # Cabinet Switches
   s_start:
-    number: 0-0-1
+    number: 0-0-25
     tags: start
   s_flipper_left:
     number: 0-0-16
