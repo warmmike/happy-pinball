@@ -26,7 +26,7 @@ light_player:
 
 show_player:
   mode_base_started: base_lights
-  balldevice_bd_plunger_ball_eject_success:
+  balldevice_bd_plunger_ejecting_ball:
     launch_show:
       priority: 1
       loops: 0
