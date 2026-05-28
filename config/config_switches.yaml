@@ -14,9 +14,9 @@ switches:
 
   # Trough Switches
   s_trough_1:
-    number: 0-0-10
-  s_trough_2:
     number: 0-0-9
+  s_trough_2:
+    number: 0-0-10
   s_trough_3:
     number: 0-0-8
   s_plunger_lane:
