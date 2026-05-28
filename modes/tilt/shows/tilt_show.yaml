@@ -757,7 +757,7 @@
       color: "ff0000"
       fade: 300ms
 
-- duration: 3000ms
+- duration: 4500ms
   lights:
     led_1:
       color: "ff0000"
