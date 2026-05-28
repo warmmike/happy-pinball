@@ -14,7 +14,7 @@ config:
 hardware:
   platform: opp
   driverboards: gen2
-#  switches: virtual
+  switches: virtual
 
 opp:
   #Use the USB ports defined by your OS for the two STM32 boards
