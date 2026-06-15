@@ -45,29 +45,15 @@ psus:
     #  devices like flippers, pops, slings.
     release_wait_ms: 50
 
-# flippers:
-#     left_flipper:
-#         main_coil: c_flipper_left_main
-#         hold_coil: c_flipper_left_hold
-#         activation_switch: s_left_flipper
-#         enable_events: machine_reset_phase_3
-        
-#     right_flipper:
-#         main_coil: c_flipper_right_main   
-#         hold_coil: c_flipper_right_hold
-#         activation_switch: s_right_flipper
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    hold_coil: c_flipper_left_hold
+    activation_switch: s_flipper_left
+    eos_switch: s_eos_left
 
-# coils:
-#     c_flipper_left_main:
-#         number: 0-0
-#         default_pulse_ms: 25
-#     c_flipper_left_hold:
-#         number: 0-1
-#         allow_enable: true
-        
-#     c_flipper_right_main:
-#         number: 0-2
-#         default_pulse_ms: 20
-#     c_flipper_right_hold:
-#         number: 0-3
-#         allow_enable: true
+  right_flipper:
+    main_coil: c_flipper_right_main
+    hold_coil: c_flipper_right_hold
+    activation_switch: s_flipper_right
+    eos_switch: s_eos_right
