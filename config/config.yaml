@@ -25,13 +25,6 @@ modes:
   - song3
   - tilt
 
-audio:
-  bus_settings:
-    effects:
-      volume: 0.8    # 80% volume (0.0 to 1.0 scale)
-    music:
-      volume: 0.6    # 60% volume
-
 virtual_platform_start_active_switches:
   - s_trough_1
 #  - s_trough_2
