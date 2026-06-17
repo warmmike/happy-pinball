@@ -34,7 +34,7 @@ show_player:
 sound_player:
   s_plunger_lane_inactive:
     plunger:
-      bus: music
+      bus: effects
 
 variable_player:
   mode_base_started:
