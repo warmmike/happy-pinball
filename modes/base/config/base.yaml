@@ -35,7 +35,7 @@ sound_player:
   s_plunger_lane_inactive:
     plunger:
       bus: effects
-      volume: 1.4
+      volume: 1.0
 
 variable_player:
   mode_base_started:

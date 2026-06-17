@@ -9,7 +9,7 @@ sound_player:
   mode_song1_started:
     song1:
       bus: music
-      volume: 0.15
+      volume: 0.25
       action: play
   mode_song1_will_stop:
     song1:
