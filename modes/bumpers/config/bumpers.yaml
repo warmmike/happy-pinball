@@ -28,9 +28,12 @@ sound_player:
   bumper_left_hit:
     bumper_left:
       bus: effects
+      volume: 1.0
   bumper_right_hit:
     bumper_right:
       bus: effects
+      volume: 1.0
   bumper_bottom_hit:
     bumper_bottom:
       bus: effects
+      volume: 1.0
