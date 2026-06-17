@@ -9,6 +9,8 @@ switches:
     number: 0-0-24
   s_bumper_right:
     number: 0-0-26
+  s_bumper_bottom:
+    number: 0-0-17
   # s_left_lane:
   #   number: 0-0-5
 

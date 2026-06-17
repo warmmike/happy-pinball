@@ -13,10 +13,12 @@ shots:
     switch: s_bumper_left
   bumper_right:
     switch: s_bumper_right
+  bumper_bottom:
+    switch: s_bumper_bottom
 
 shot_groups:
   bumpers:
-    shots: bumper_left, bumper_right
+    shots: bumper_left, bumper_right, bumper_bottom
 
 variable_player:
   bumpers_hit:
@@ -28,4 +30,7 @@ sound_player:
       bus: effects
   bumper_right_hit:
     bumper_right:
+      bus: effects
+  bumper_bottom_hit:
+    bumper_bottom:
       bus: effects
