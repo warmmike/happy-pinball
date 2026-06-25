@@ -1,0 +1,5 @@
+#config_version=6
+
+game:
+  max_players: 1
+  balls_per_game: 3

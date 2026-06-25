@@ -1,0 +1,35 @@
+#config_version=6
+
+mode:
+  start_events: ball_ending
+  code: mpf.modes.bonus.code.bonus.Bonus
+  priority: 500
+  use_wait_queue: true
+
+mode_settings:
+  display_delay_ms: 1500
+  bonus_entries:
+    - entry: bonus
+      score: 100
+      player_score_entry: bumper_hits
+      skip_if_zero: true
+
+sound_player:
+  bonus_start:
+    ball_ended:
+      bus: effects
+      volume: 1.0
+
+slide_player:
+  bonus_start: bonus_start_slide
+  bonus_entry{entry=="total"}: bonus_total_slide
+
+variable_player:
+  bonus_entry{entry=="bonus"}:
+    bonus_display_score:
+      int: score
+      action: set
+  bonus_entry{entry=="total"}:
+    bonus_display_score:
+      int: score
+      action: set

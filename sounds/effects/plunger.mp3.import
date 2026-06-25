@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/plunger.mp3-63fe00d31436392bcf5d483b627f97d4.
 [params]
 
 loop=false
-loop_offset=0
-bpm=0
+loop_offset=0.0
+bpm=0.0
 beat_count=0
 bar_beats=4

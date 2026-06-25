@@ -5,6 +5,7 @@ config:
   - config_switches.yaml
   - config_coils.yaml
   - config_ball_devices.yaml
+  - config_game.yaml
 
 machine:
   balls_installed: 1
@@ -18,6 +19,7 @@ playfields:
 modes:
   - attract
   - base
+  - bonus
   - bumpers
   - song
   - song1

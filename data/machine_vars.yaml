@@ -1,7 +1,11 @@
+master_volume:
+  expire: null
+  expire_secs: null
+  value: 0.5
 player1_score:
   expire: null
   expire_secs: null
-  value: 8675309
+  value: 61000
 player2_score:
   expire: null
   expire_secs: null

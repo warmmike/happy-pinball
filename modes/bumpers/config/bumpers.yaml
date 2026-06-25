@@ -23,6 +23,7 @@ shot_groups:
 variable_player:
   bumpers_hit:
     score: 1_000
+    bumper_hits: 1
 
 sound_player:
   bumper_left_hit:
