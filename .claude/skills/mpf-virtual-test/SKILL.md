@@ -13,8 +13,8 @@ Use when:
 - Eject failures, plunger issues, or missing device errors
 
 ## Standard command
-Always run:
+Always run from the project root using the project venv (MPF is not installed globally):
 
 ```bash
-mpf -c config_virtual.yaml -t
+.venv/bin/mpf -c config_virtual.yaml -t
 

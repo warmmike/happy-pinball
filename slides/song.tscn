@@ -1,13 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://c0b0oybsi02op"]
+[gd_scene load_steps=7 format=3 uid="uid://c0b0oybsi02op"]
 
 [ext_resource type="Script" uid="uid://dywumafff8uk7" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
 [ext_resource type="Script" uid="uid://bx33garpqp0jf" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_f161n"]
-[ext_resource type="Texture2D" uid="uid://bxyosdp8w4nmw" path="res://addons/mpf-gmc/images/song1.png" id="3_7sbsq"]
-[ext_resource type="Texture2D" uid="uid://bsi20ytmmfoq5" path="res://addons/mpf-gmc/images/song2.png" id="4_vr1tw"]
-[ext_resource type="Texture2D" uid="uid://mox7xmvqnqub" path="res://addons/mpf-gmc/images/song3.png" id="5_nfobm"]
+[ext_resource type="Texture2D" path="res://slides/hardrock.png" id="3_hardrock"]
+[ext_resource type="Texture2D" path="res://slides/metal.png" id="4_metal"]
 [ext_resource type="Texture2D" uid="uid://fx3lfsp53mvb" path="res://addons/mpf-gmc/images/image-from-rawpixel-id-13116785-png.png" id="6_vr1tw"]
 [ext_resource type="Texture2D" uid="uid://bangbx314qkfy" path="res://slides/white-arrow.png" id="7_nfobm"]
-[ext_resource type="Texture2D" uid="uid://ctxw63t0d38gu" path="res://slides/cd2868031ae95fd156b7d071348dd8b5.png" id="8_nfobm"]
 
 [node name="Song" type="Control"]
 layout_mode = 3
@@ -29,26 +27,17 @@ script = ExtResource("2_f161n")
 carousel_name = "song"
 metadata/_custom_type_script = "uid://bx33garpqp0jf"
 
-[node name="song1" type="Node2D" parent="MPFCarousel"]
+[node name="hard_rock" type="Node2D" parent="MPFCarousel"]
 
-[node name="song1" type="Sprite2D" parent="MPFCarousel/song1"]
-position = Vector2(660, 513)
-scale = Vector2(1.7037, 2.93069)
-texture = ExtResource("3_7sbsq")
+[node name="hardrock" type="Sprite2D" parent="MPFCarousel/hard_rock"]
+position = Vector2(640, 512)
+texture = ExtResource("3_hardrock")
 
-[node name="song2" type="Node2D" parent="MPFCarousel"]
+[node name="metal" type="Node2D" parent="MPFCarousel"]
 
-[node name="song2" type="Sprite2D" parent="MPFCarousel/song2"]
-position = Vector2(659, 505)
-scale = Vector2(2.82839, 2.7994)
-texture = ExtResource("4_vr1tw")
-
-[node name="song3" type="Node2D" parent="MPFCarousel"]
-
-[node name="song3" type="Sprite2D" parent="MPFCarousel/song3"]
-visible = false
-position = Vector2(640, 514)
-texture = ExtResource("5_nfobm")
+[node name="metal" type="Sprite2D" parent="MPFCarousel/metal"]
+position = Vector2(640, 512)
+texture = ExtResource("4_metal")
 
 [node name="Image-from-rawpixel-id-13116785-png" type="Sprite2D" parent="."]
 position = Vector2(649, 460)
@@ -66,7 +55,3 @@ position = Vector2(243, 506)
 scale = Vector2(0.1725, 0.192475)
 texture = ExtResource("7_nfobm")
 
-[node name="Cd2868031Ae95Fd156b7d071348Dd8b5" type="Sprite2D" parent="."]
-position = Vector2(650, 290)
-scale = Vector2(2.10086, 2.54717)
-texture = ExtResource("8_nfobm")

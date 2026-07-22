@@ -11,11 +11,31 @@ Use when:
 - Debugging what events fire on physical switches
 - Verifying light shows, ball devices, or mode behavior on hardware
 - User says "check the log" or "look at hardware logs"
+- Service not starting or MPF errors on hardware
 
 ## Hardware server
 - Host: 192.168.1.139
-- User: mike
+- SSH user: mike (sudo access)
+- Service user: pinball (runs pinball.service — /opt/pinball must be owned by pinball:pinball)
 - Log directory: /opt/pinball/logs/
+- Service name: pinball.service (not mpf.service)
+
+## Service management
+```bash
+# Check status
+ssh mike@192.168.1.139 "systemctl status pinball.service --no-pager -l"
+
+# View live output
+ssh mike@192.168.1.139 "sudo journalctl -fu pinball.service"
+
+# Fix permission issues (if files were written by mike user)
+# Run on the machine directly:
+# sudo chown -R pinball:pinball /opt/pinball
+# sudo systemctl restart pinball.service
+
+# Run MPF manually for debug output
+ssh mike@192.168.1.139 "cd /opt/pinball && sudo -u pinball venv/bin/python -m mpf -c config_hardware.yaml"
+```
 
 ## Standard commands
 
