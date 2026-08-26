@@ -18,9 +18,9 @@ color = Color(0, 0, 0, 1)
 
 [node name="MPFVideoPlayer" type="VideoStreamPlayer" parent="."]
 layout_mode = 0
-offset_left = 352.0
-offset_top = 0.0
-offset_right = 928.0
+offset_left = 408.0
+offset_top = 200.0
+offset_right = 872.0
 offset_bottom = 1024.0
 expand = true
 stream = ExtResource("2_x11v2")
