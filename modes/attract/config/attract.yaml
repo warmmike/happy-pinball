@@ -23,6 +23,7 @@ sound_player:
     slick-rick-lick:
       bus: music
       volume: 0.25
+      loops: -1
 
 show_player:
   mode_attract_started: schism_light_show
