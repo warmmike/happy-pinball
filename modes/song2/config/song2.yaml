@@ -11,6 +11,7 @@ sound_player:
       bus: music
       volume: 0.25
       action: play
+      loops: -1
   mode_song2_will_stop:
     song2:
       bus: music
