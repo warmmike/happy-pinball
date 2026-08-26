@@ -144,6 +144,26 @@ cp "$BACKUP/music/slick-rick-lick.mp3" /Users/mike/Documents/work/pinball/happy-
 
 ---
 
+## Video clips with audio
+
+Godot 4's VideoStreamPlayer plays video + audio together from a single file.
+**Supported format: OGV only** (Theora video + Vorbis audio). Phone videos are MP4 and need a one-time conversion — this does not alter the source file, just produces a copy.
+
+Convert MP4 to OGV:
+```bash
+ffmpeg -i /path/to/tilt-video.mp4 \
+  -c:v libtheora -q:v 7 \
+  -c:a libvorbis -q:a 4 \
+  /Users/mike/Documents/work/pinball/happy-pinball/sounds/tilt.ogv
+```
+
+`-q:v 7` = good quality video (scale 0-10). `-q:a 4` = good quality audio.
+Increase `-q:v` for better quality at the cost of file size.
+
+Once converted, update the scene's `ext_resource` path to point to the new file instead of `res://addons/mpf-gmc/tilt.ogv`. The VideoStreamPlayer plays the audio track through Godot's audio system — it is NOT routed through MPF audio buses, so it bypasses ducking/volume controls.
+
+---
+
 ## Step 4: Backup before bulk changes
 
 Always back up before a normalization pass:
