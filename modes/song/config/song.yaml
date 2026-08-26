@@ -14,7 +14,7 @@ mode_settings:
   selectable_items:
     - hard_rock
     - metal
-  select_item_events: s_start_active
+  select_item_events: s_start_active, timer_song_select_timer_complete
   previous_item_events: s_flipper_left_inactive
   next_item_events: s_flipper_right_inactive
 
@@ -48,7 +48,21 @@ event_player:
   song_song3_selected:
     - start_mode_song3
 
+timers:
+  song_select_timer:
+    end_value: 10
+    tick_interval: 1s
+    start_running: true
+
 variable_player:
+  mode_song_started:
+    song_countdown:
+      int: 10
+      action: set
+  timer_song_select_timer_tick:
+    song_countdown:
+      int: 1
+      action: subtract
   song_hard_rock_selected:
     selected_song:
       string: "Hard Rock"

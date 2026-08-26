@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://c0b0oybsi02op"]
+[gd_scene load_steps=8 format=3 uid="uid://c0b0oybsi02op"]
 
 [ext_resource type="Script" uid="uid://dywumafff8uk7" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
 [ext_resource type="Script" uid="uid://bx33garpqp0jf" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_f161n"]
+[ext_resource type="Script" uid="uid://4tlkvhorl6pf" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="5_varscript"]
 [ext_resource type="Texture2D" path="res://slides/hardrock.png" id="3_hardrock"]
 [ext_resource type="Texture2D" path="res://slides/metal.png" id="4_metal"]
 [ext_resource type="Texture2D" uid="uid://fx3lfsp53mvb" path="res://addons/mpf-gmc/images/image-from-rawpixel-id-13116785-png.png" id="6_vr1tw"]
@@ -54,4 +55,30 @@ texture = ExtResource("7_nfobm")
 position = Vector2(243, 506)
 scale = Vector2(0.1725, 0.192475)
 texture = ExtResource("7_nfobm")
+
+[node name="AutoLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 440.0
+offset_top = 950.0
+offset_right = 760.0
+offset_bottom = 1024.0
+theme_override_colors/font_color = Color(1, 1, 1, 0.7)
+theme_override_font_sizes/font_size = 50
+text = "Auto-select:"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Countdown" type="Label" parent="."]
+layout_mode = 0
+offset_left = 770.0
+offset_top = 950.0
+offset_right = 840.0
+offset_bottom = 1024.0
+theme_override_colors/font_color = Color(1, 1, 1, 0.7)
+theme_override_font_sizes/font_size = 50
+horizontal_alignment = 0
+vertical_alignment = 1
+script = ExtResource("5_varscript")
+variable_name = "song_countdown"
+metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
