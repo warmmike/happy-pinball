@@ -5,6 +5,15 @@ mode:
   stop_events: ball_will_end
   priority: 150
 
+random_event_player:
+  song_hard_rock_selected:
+    events:
+      - song_song1_selected
+      - song_song2_selected
+  song_metal_selected:
+    events:
+      - song_song3_selected
+
 sound_player:
   song_song1_selected:
     song1:

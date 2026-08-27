@@ -25,14 +25,6 @@ modes:
   - music
   - tilt
 
-random_event_player:
-  song_hard_rock_selected:
-    events:
-      - song_song1_selected
-      - song_song2_selected
-  song_metal_selected:
-    events:
-      - song_song3_selected
 
 
 virtual_platform_start_active_switches:
