@@ -52,10 +52,3 @@ sound_player:
       bus: music
       action: play
       loops: -1
-  mode_music_stopping:
-    song1:
-      action: stop
-    song2:
-      action: stop
-    song3:
-      action: stop

@@ -24,6 +24,18 @@ show_player:
       priority: 10
       loops: 0
 
+sound_player:
+  tilt:
+    song1:
+      bus: music
+      action: stop
+    song2:
+      bus: music
+      action: stop
+    song3:
+      bus: music
+      action: stop
+
 slide_player:
   _overwrite: True # overwrite the default slide_player from tilt mode
 
