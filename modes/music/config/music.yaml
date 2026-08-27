@@ -5,6 +5,12 @@ mode:
   stop_events: ball_will_end, tilt
   priority: 150
 
+event_player:
+  mode_music_started{current_player.ball > 1 and current_player.selected_song == "Hard Rock"}:
+    - song_hard_rock_selected
+  mode_music_started{current_player.ball > 1 and current_player.selected_song == "Metal"}:
+    - song_metal_selected
+
 random_event_player:
   song_hard_rock_selected:
     force_different: true
@@ -46,12 +52,10 @@ sound_player:
       bus: music
       action: play
       loops: -1
-  tilt{current_player.current_song=="song1"}:
+  tilt:
     song1:
       action: stop
-  tilt{current_player.current_song=="song2"}:
     song2:
       action: stop
-  tilt{current_player.current_song=="song3"}:
     song3:
       action: stop

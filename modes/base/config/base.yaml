@@ -13,10 +13,6 @@ event_player:
     - start_mode_bumpers
   mode_base_started{current_player.ball == 1}:
     - start_mode_song
-  mode_base_started{current_player.ball > 1 and current_player.selected_song == "Hard Rock"}:
-    - song_hard_rock_selected
-  mode_base_started{current_player.ball > 1 and current_player.selected_song == "Metal"}:
-    - song_metal_selected
   mode_base_will_stop:
     - stop_mode_song
     - stop_mode_bumpers
