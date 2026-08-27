@@ -43,7 +43,7 @@ sound_player:
       volume: 1.0
 
 variable_player:
-  mode_base_started:
+  mode_base_started{current_player.ball == 1}:
     selected_song:
       string: "No Song Selected"
       action: set
