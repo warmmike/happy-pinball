@@ -61,8 +61,8 @@ variable_player:
       action: set
   timer_song_select_timer_tick:
     song_countdown:
-      int: 1
-      action: subtract
+      int: -1
+      action: add
   song_hard_rock_selected:
     selected_song:
       string: "Hard Rock"
