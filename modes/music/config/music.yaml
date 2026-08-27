@@ -2,15 +2,17 @@
 
 mode:
   start_events: ball_starting
-  stop_events: ball_will_end
+  stop_events: ball_will_end, tilt
   priority: 150
 
 random_event_player:
   song_hard_rock_selected:
+    force_different: true
     events:
       - song_song1_selected
       - song_song2_selected
   song_metal_selected:
+    force_different: true
     events:
       - song_song3_selected
 
