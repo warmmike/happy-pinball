@@ -22,7 +22,6 @@ sound_player:
   mode_attract_started:
     slick-rick-lick:
       bus: music
-      volume: 0.25
       loops: -1
 
 show_player:
