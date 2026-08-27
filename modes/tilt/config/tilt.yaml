@@ -26,15 +26,9 @@ show_player:
 
 sound_player:
   tilt:
-    song1:
+    silence:
       bus: music
-      action: stop
-    song2:
-      bus: music
-      action: stop
-    song3:
-      bus: music
-      action: stop
+      action: play
 
 slide_player:
   _overwrite: True # overwrite the default slide_player from tilt mode
