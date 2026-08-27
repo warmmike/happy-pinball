@@ -22,9 +22,7 @@ modes:
   - bonus
   - bumpers
   - song
-  - song1
-  - song2
-  - song3
+  - music
   - tilt
 
 random_event_player:
@@ -36,13 +34,6 @@ random_event_player:
     events:
       - song_song3_selected
 
-event_player:
-  song_song1_selected:
-    - start_mode_song1
-  song_song2_selected:
-    - start_mode_song2
-  song_song3_selected:
-    - start_mode_song3
 
 virtual_platform_start_active_switches:
   - s_trough_1
