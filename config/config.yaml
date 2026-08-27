@@ -27,6 +27,23 @@ modes:
   - song3
   - tilt
 
+random_event_player:
+  song_hard_rock_selected:
+    events:
+      - song_song1_selected
+      - song_song2_selected
+  song_metal_selected:
+    events:
+      - song_song3_selected
+
+event_player:
+  song_song1_selected:
+    - start_mode_song1
+  song_song2_selected:
+    - start_mode_song2
+  song_song3_selected:
+    - start_mode_song3
+
 virtual_platform_start_active_switches:
   - s_trough_1
 #  - s_trough_2
