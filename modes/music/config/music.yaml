@@ -16,6 +16,20 @@ random_event_player:
     events:
       - song_song3_selected
 
+variable_player:
+  song_song1_selected:
+    current_song:
+      string: song1
+      action: set
+  song_song2_selected:
+    current_song:
+      string: song2
+      action: set
+  song_song3_selected:
+    current_song:
+      string: song3
+      action: set
+
 sound_player:
   song_song1_selected:
     song1:
@@ -32,10 +46,12 @@ sound_player:
       bus: music
       action: play
       loops: -1
-  tilt:
+  tilt{current_player.current_song=="song1"}:
     song1:
       action: stop
+  tilt{current_player.current_song=="song2"}:
     song2:
       action: stop
+  tilt{current_player.current_song=="song3"}:
     song3:
       action: stop
