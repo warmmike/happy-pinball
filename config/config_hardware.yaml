@@ -51,9 +51,13 @@ flippers:
     hold_coil: c_flipper_left_hold
     activation_switch: s_flipper_left
     eos_switch: s_eos_left
+    enable_events: flippers_on
+    disable_events: ball_ending, flippers_off
 
   right_flipper:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_flipper_right
     eos_switch: s_eos_right
+    enable_events: flippers_on
+    disable_events: ball_ending, flippers_off

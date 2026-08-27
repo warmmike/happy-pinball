@@ -37,6 +37,10 @@ timers:
     tick_interval: 1s
     start_running: true
 
+event_player:
+  song_item_selected:
+    - flippers_on
+
 variable_player:
   mode_song_started:
     song_countdown:
