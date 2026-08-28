@@ -82,3 +82,119 @@ script = ExtResource("5_varscript")
 variable_name = "song_countdown"
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
+[node name="P1Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 140.0
+offset_right = 90.0
+offset_bottom = 188.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P1"
+horizontal_alignment = 0
+vertical_alignment = 1
+
+[node name="P1Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 188.0
+offset_right = 420.0
+offset_bottom = 278.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 76
+horizontal_alignment = 0
+vertical_alignment = 1
+script = ExtResource("5_varscript")
+variable_type = 4
+variable_name = "score"
+min_players = 1
+comma_separate = true
+metadata/_custom_type_script = "uid://4tlkvhorl6pf"
+
+[node name="P2Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1190.0
+offset_top = 140.0
+offset_right = 1270.0
+offset_bottom = 188.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P2"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="P2Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 860.0
+offset_top = 188.0
+offset_right = 1270.0
+offset_bottom = 278.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 76
+horizontal_alignment = 2
+vertical_alignment = 1
+script = ExtResource("5_varscript")
+variable_type = 5
+variable_name = "score"
+min_players = 2
+comma_separate = true
+metadata/_custom_type_script = "uid://4tlkvhorl6pf"
+
+[node name="P3Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 865.0
+offset_right = 90.0
+offset_bottom = 910.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P3"
+horizontal_alignment = 0
+vertical_alignment = 1
+
+[node name="P3Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 910.0
+offset_right = 420.0
+offset_bottom = 1000.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 76
+horizontal_alignment = 0
+vertical_alignment = 1
+script = ExtResource("5_varscript")
+variable_type = 6
+variable_name = "score"
+min_players = 3
+comma_separate = true
+metadata/_custom_type_script = "uid://4tlkvhorl6pf"
+
+[node name="P4Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1190.0
+offset_top = 865.0
+offset_right = 1270.0
+offset_bottom = 910.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P4"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="P4Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 860.0
+offset_top = 910.0
+offset_right = 1270.0
+offset_bottom = 1000.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 76
+horizontal_alignment = 2
+vertical_alignment = 1
+script = ExtResource("5_varscript")
+variable_type = 7
+variable_name = "score"
+min_players = 4
+comma_separate = true
+metadata/_custom_type_script = "uid://4tlkvhorl6pf"
+

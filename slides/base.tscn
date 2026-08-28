@@ -52,29 +52,122 @@ script = ExtResource("3_mixwp")
 preview_in_editor = true
 metadata/_custom_type_script = "uid://db4vshdtdojo1"
 
-[node name="player_score" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = 14
-anchor_top = 0.5
-anchor_right = 1.0
-anchor_bottom = 0.5
-offset_left = -8.0
-offset_top = -84.0
-offset_right = -8.0
-offset_bottom = 81.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/outline_size = 20
-theme_override_constants/shadow_outline_size = 10
-theme_override_font_sizes/font_size = 120
-text = "1,234,234"
-horizontal_alignment = 1
+
+[node name="P1Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 140.0
+offset_right = 90.0
+offset_bottom = 188.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P1"
+horizontal_alignment = 0
+vertical_alignment = 1
+
+[node name="P1Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 188.0
+offset_right = 420.0
+offset_bottom = 278.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 76
+horizontal_alignment = 0
+vertical_alignment = 1
 script = ExtResource("2_06ewq")
+variable_type = 4
 variable_name = "score"
+min_players = 1
 comma_separate = true
-min_digits = 2
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
+[node name="P2Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1190.0
+offset_top = 140.0
+offset_right = 1270.0
+offset_bottom = 188.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P2"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="P2Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 860.0
+offset_top = 188.0
+offset_right = 1270.0
+offset_bottom = 278.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 76
+horizontal_alignment = 2
+vertical_alignment = 1
+script = ExtResource("2_06ewq")
+variable_type = 5
+variable_name = "score"
+min_players = 2
+comma_separate = true
+metadata/_custom_type_script = "uid://4tlkvhorl6pf"
+
+[node name="P3Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 865.0
+offset_right = 90.0
+offset_bottom = 910.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P3"
+horizontal_alignment = 0
+vertical_alignment = 1
+
+[node name="P3Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 910.0
+offset_right = 420.0
+offset_bottom = 1000.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 76
+horizontal_alignment = 0
+vertical_alignment = 1
+script = ExtResource("2_06ewq")
+variable_type = 6
+variable_name = "score"
+min_players = 3
+comma_separate = true
+metadata/_custom_type_script = "uid://4tlkvhorl6pf"
+
+[node name="P4Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1190.0
+offset_top = 865.0
+offset_right = 1270.0
+offset_bottom = 910.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P4"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="P4Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 860.0
+offset_top = 910.0
+offset_right = 1270.0
+offset_bottom = 1000.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 76
+horizontal_alignment = 2
+vertical_alignment = 1
+script = ExtResource("2_06ewq")
+variable_type = 7
+variable_name = "score"
+min_players = 4
+comma_separate = true
+metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
 [node name="BallLabel" type="Label" parent="."]
 layout_mode = 0
