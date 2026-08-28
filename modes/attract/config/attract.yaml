@@ -19,7 +19,7 @@ slide_player:
   mode_attract_started: attract
   switch_s_plunger_lane_active:
     attract_ball_wait:
-      action: show
+      action: play
       priority: 10
   switch_s_plunger_lane_inactive:
     attract_ball_wait:
