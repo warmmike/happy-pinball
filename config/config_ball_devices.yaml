@@ -10,4 +10,5 @@ ball_devices:
     eject_coil: c_trough_eject
     eject_targets: bd_plunger
     eject_timeouts: 30s
+    ball_missing_timeouts: 60s
     tags: trough, home, drain
