@@ -4,6 +4,7 @@ mode:
   start_events: game_ending
   stop_events: timer_gameover_complete
   priority: 600
+  game_mode: false
   use_wait_queue: true
 
 slide_player:
