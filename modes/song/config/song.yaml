@@ -21,16 +21,6 @@ mode_settings:
 slide_player:
   mode_song_started: song
 
-sound_player:
-  item_highlighted{item=="hard_rock"}:
-    song1:
-      bus: music
-      loops: -1
-  item_highlighted{item=="metal"}:
-    song3:
-      bus: music
-      loops: -1
-
 light_player:
   item_highlighted{item=="hard_rock"}:
     gi:

@@ -37,6 +37,14 @@ variable_player:
       action: set
 
 sound_player:
+  item_highlighted{item=="hard_rock"}:
+    song1:
+      bus: music
+      loops: -1
+  item_highlighted{item=="metal"}:
+    song3:
+      bus: music
+      loops: -1
   song_song1_selected:
     song1:
       bus: music
