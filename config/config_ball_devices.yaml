@@ -5,10 +5,9 @@ ball_devices:
     ball_switches: s_plunger_lane
     eject_coil: null
     mechanical_eject: true
-    ball_count_settle_time: 500ms
   bd_trough:
     ball_switches: s_trough_1, s_trough_2, s_trough_3
     eject_coil: c_trough_eject
     eject_targets: bd_plunger
-    eject_timeout: 30s
+    eject_timeouts: 30s
     tags: trough, home, drain
