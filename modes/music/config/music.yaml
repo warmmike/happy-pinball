@@ -12,6 +12,17 @@ event_player:
     - song_metal_selected
 
 random_event_player:
+  # Ball 1: song_item_selected fires after selected_song is already set by variable_player
+  song_item_selected{current_player.selected_song == "Hard Rock"}:
+    force_different: true
+    events:
+      - song_song1_selected
+      - song_song2_selected
+  song_item_selected{current_player.selected_song == "Metal"}:
+    force_different: true
+    events:
+      - song_song3_selected
+  # Ball 2+: triggered via event_player on mode_music_started
   song_hard_rock_selected{current_player.ball > 1}:
     force_different: true
     events:
@@ -37,18 +48,6 @@ variable_player:
       action: set
 
 sound_player:
-  mode_song_started:
-    song1:
-      bus: music
-      loops: -1
-  item_highlighted{item=="hard_rock"}:
-    song1:
-      bus: music
-      loops: -1
-  item_highlighted{item=="metal"}:
-    song3:
-      bus: music
-      loops: -1
   song_song1_selected:
     song1:
       bus: music
