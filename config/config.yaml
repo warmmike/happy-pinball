@@ -21,6 +21,7 @@ modes:
   - base
   - bonus
   - bumpers
+  - gameover
   - song
   - music
   - tilt

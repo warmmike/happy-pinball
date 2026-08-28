@@ -1,0 +1,16 @@
+#config_version=6
+
+mode:
+  start_events: game_ending
+  stop_events: timer_gameover_complete
+  priority: 600
+  use_wait_queue: true
+
+slide_player:
+  mode_gameover_started: gameover
+
+timers:
+  gameover:
+    end_value: 5
+    tick_interval: 1s
+    start_running: true
