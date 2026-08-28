@@ -57,162 +57,131 @@ position = Vector2(625.031, 548)
 scale = Vector2(1.93384, 1.73143)
 texture = ExtResource("4_f161n")
 
-[node name="last_scores_1p" type="Node2D" parent="MPFCarousel"]
+[node name="last_scores" type="Node2D" parent="MPFCarousel"]
 visible = false
 
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p"]
-offset_right = 1278.0
-offset_bottom = 1018.0
-theme_override_font_sizes/font_size = 90
-text = "123,456"
+[node name="Header" type="Label" parent="MPFCarousel/last_scores"]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 290.0
+offset_right = 1080.0
+offset_bottom = 370.0
+theme_override_colors/font_color = Color(0.6, 0.6, 0.6, 1)
+theme_override_font_sizes/font_size = 48
+text = "LAST SCORES"
 horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="P1Label" type="Label" parent="MPFCarousel/last_scores"]
+layout_mode = 0
+offset_left = 220.0
+offset_top = 400.0
+offset_right = 295.0
+offset_bottom = 460.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P1"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="P1Score" type="Label" parent="MPFCarousel/last_scores"]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 385.0
+offset_right = 630.0
+offset_bottom = 475.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 56
+horizontal_alignment = 2
 vertical_alignment = 1
 script = ExtResource("3_cq3lo")
 variable_type = 2
 variable_name = "player1_score"
 comma_separate = true
-min_digits = 2
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
-[node name="last_scores_2p" type="Node2D" parent="MPFCarousel"]
-
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_2p"]
-offset_right = 1278.0
-offset_bottom = 521.0
-theme_override_font_sizes/font_size = 90
-text = "123,456"
-horizontal_alignment = 1
+[node name="P2Label" type="Label" parent="MPFCarousel/last_scores"]
+layout_mode = 0
+offset_left = 660.0
+offset_top = 400.0
+offset_right = 735.0
+offset_bottom = 460.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P2"
+horizontal_alignment = 2
 vertical_alignment = 1
-script = ExtResource("3_cq3lo")
-variable_type = 2
-variable_name = "player1_score"
-comma_separate = true
-min_digits = 2
-metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
-[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_2p"]
-offset_top = 513.0
-offset_right = 1278.0
-offset_bottom = 1018.0
-theme_override_font_sizes/font_size = 90
-text = "123,456"
-horizontal_alignment = 1
+[node name="P2Score" type="Label" parent="MPFCarousel/last_scores"]
+layout_mode = 0
+offset_left = 740.0
+offset_top = 385.0
+offset_right = 1060.0
+offset_bottom = 475.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 56
+horizontal_alignment = 2
 vertical_alignment = 1
 script = ExtResource("3_cq3lo")
 variable_type = 2
 variable_name = "player2_score"
 comma_separate = true
-min_digits = 2
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
-[node name="last_scores_3p" type="Node2D" parent="MPFCarousel"]
-
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_3p"]
-offset_right = 1278.0
-offset_bottom = 254.0
-theme_override_font_sizes/font_size = 90
-text = "123,456"
-horizontal_alignment = 1
+[node name="P3Label" type="Label" parent="MPFCarousel/last_scores"]
+layout_mode = 0
+offset_left = 220.0
+offset_top = 495.0
+offset_right = 295.0
+offset_bottom = 555.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P3"
+horizontal_alignment = 2
 vertical_alignment = 1
-script = ExtResource("3_cq3lo")
-variable_type = 2
-variable_name = "player1_score"
-comma_separate = true
-min_digits = 2
-metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
-[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_3p"]
-offset_left = -2.0
-offset_top = 363.0
-offset_right = 1276.0
-offset_bottom = 651.0
-theme_override_font_sizes/font_size = 90
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_cq3lo")
-variable_type = 2
-variable_name = "player2_score"
-comma_separate = true
-min_digits = 2
-metadata/_custom_type_script = "uid://4tlkvhorl6pf"
-
-[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_3p"]
-offset_top = 767.0
-offset_right = 1278.0
-offset_bottom = 1018.0
-theme_override_font_sizes/font_size = 90
-text = "123,456"
-horizontal_alignment = 1
+[node name="P3Score" type="Label" parent="MPFCarousel/last_scores"]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 480.0
+offset_right = 630.0
+offset_bottom = 570.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 56
+horizontal_alignment = 2
 vertical_alignment = 1
 script = ExtResource("3_cq3lo")
 variable_type = 2
 variable_name = "player3_score"
 comma_separate = true
-min_digits = 2
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
-[node name="last_scores_4p" type="Node2D" parent="MPFCarousel"]
-visible = false
-
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_4p"]
-offset_right = 1278.0
-offset_bottom = 254.0
-theme_override_font_sizes/font_size = 90
-text = "123,456"
-horizontal_alignment = 1
+[node name="P4Label" type="Label" parent="MPFCarousel/last_scores"]
+layout_mode = 0
+offset_left = 660.0
+offset_top = 495.0
+offset_right = 735.0
+offset_bottom = 555.0
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_font_sizes/font_size = 36
+text = "P4"
+horizontal_alignment = 2
 vertical_alignment = 1
-script = ExtResource("3_cq3lo")
-variable_type = 2
-variable_name = "player1_score"
-comma_separate = true
-min_digits = 2
-metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
-[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_4p"]
-offset_left = -2.0
-offset_top = 259.0
-offset_right = 1276.0
-offset_bottom = 547.0
-theme_override_font_sizes/font_size = 90
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_cq3lo")
-variable_type = 2
-variable_name = "player2_score"
-comma_separate = true
-min_digits = 2
-metadata/_custom_type_script = "uid://4tlkvhorl6pf"
-
-[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_4p"]
-offset_top = 619.0
-offset_right = 1278.0
-offset_bottom = 768.0
-theme_override_font_sizes/font_size = 90
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("3_cq3lo")
-variable_type = 2
-variable_name = "player3_score"
-comma_separate = true
-min_digits = 2
-metadata/_custom_type_script = "uid://4tlkvhorl6pf"
-
-[node name="player4_score" type="Label" parent="MPFCarousel/last_scores_4p"]
-offset_top = 838.0
-offset_right = 1278.0
-offset_bottom = 1018.0
-theme_override_font_sizes/font_size = 90
-text = "123,456"
-horizontal_alignment = 1
+[node name="P4Score" type="Label" parent="MPFCarousel/last_scores"]
+layout_mode = 0
+offset_left = 740.0
+offset_top = 480.0
+offset_right = 1060.0
+offset_bottom = 570.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 56
+horizontal_alignment = 2
 vertical_alignment = 1
 script = ExtResource("3_cq3lo")
 variable_type = 2
 variable_name = "player4_score"
 comma_separate = true
-min_digits = 2
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
 [node name="Image-from-rawpixel-id-13116785-png" type="Sprite2D" parent="."]
