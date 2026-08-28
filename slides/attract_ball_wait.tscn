@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=3 uid="uid://cx8fmn3dqp7yt"]
+
+[ext_resource type="Script" uid="uid://dywumafff8uk7" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_waitslide"]
+[ext_resource type="Script" path="res://slides/blink_label.gd" id="2_blinklabel"]
+
+[node name="AttractBallWait" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1280.0
+offset_bottom = 1024.0
+script = ExtResource("1_waitslide")
+metadata/_custom_type_script = "uid://dywumafff8uk7"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 1024.0
+color = Color(0, 0, 0, 1)
+
+[node name="WaitingLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 360.0
+offset_right = 1280.0
+offset_bottom = 560.0
+theme_override_colors/font_color = Color(1, 0.8, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "WAITING FOR BALL"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("2_blinklabel")
+
+[node name="SubLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 580.0
+offset_right = 1280.0
+offset_bottom = 680.0
+theme_override_colors/font_color = Color(0.6, 0.6, 0.6, 1)
+theme_override_font_sizes/font_size = 50
+text = "Pull plunger lever and release"
+horizontal_alignment = 1
+vertical_alignment = 1
