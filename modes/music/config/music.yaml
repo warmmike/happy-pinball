@@ -12,12 +12,12 @@ event_player:
     - song_metal_selected
 
 random_event_player:
-  song_hard_rock_selected:
+  song_hard_rock_selected{current_player.ball > 1}:
     force_different: true
     events:
       - song_song1_selected
       - song_song2_selected
-  song_metal_selected:
+  song_metal_selected{current_player.ball > 1}:
     force_different: true
     events:
       - song_song3_selected
