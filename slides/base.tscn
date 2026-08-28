@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://coacksqs8o57t"]
+[gd_scene load_steps=6 format=3 uid="uid://coacksqs8o57t"]
 
 [ext_resource type="Script" uid="uid://dywumafff8uk7" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_b71wd"]
 [ext_resource type="Script" uid="uid://4tlkvhorl6pf" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="2_06ewq"]
 [ext_resource type="Script" uid="uid://db4vshdtdojo1" path="res://addons/mpf-gmc/classes/mpf_video_player.gd" id="3_mixwp"]
 [ext_resource type="VideoStream" path="res://addons/mpf-gmc/Moshpit compilation.OGV" id="3_myvl5"]
+[ext_resource type="Script" path="res://slides/corner_player_label.gd" id="5_crnr"]
 
 [node name="Base" type="Control"]
 layout_mode = 3
@@ -64,6 +65,9 @@ theme_override_font_sizes/font_size = 36
 text = "P1"
 horizontal_alignment = 0
 vertical_alignment = 1
+script = ExtResource("5_crnr")
+player_number = 1
+score_node_path = NodePath("../P1Score")
 
 [node name="P1Score" type="Label" parent="."]
 layout_mode = 0
@@ -93,6 +97,9 @@ theme_override_font_sizes/font_size = 36
 text = "P2"
 horizontal_alignment = 2
 vertical_alignment = 1
+script = ExtResource("5_crnr")
+player_number = 2
+score_node_path = NodePath("../P2Score")
 
 [node name="P2Score" type="Label" parent="."]
 layout_mode = 0
@@ -122,6 +129,9 @@ theme_override_font_sizes/font_size = 36
 text = "P3"
 horizontal_alignment = 0
 vertical_alignment = 1
+script = ExtResource("5_crnr")
+player_number = 3
+score_node_path = NodePath("../P3Score")
 
 [node name="P3Score" type="Label" parent="."]
 layout_mode = 0
@@ -151,6 +161,9 @@ theme_override_font_sizes/font_size = 36
 text = "P4"
 horizontal_alignment = 2
 vertical_alignment = 1
+script = ExtResource("5_crnr")
+player_number = 4
+score_node_path = NodePath("../P4Score")
 
 [node name="P4Score" type="Label" parent="."]
 layout_mode = 0
@@ -166,6 +179,22 @@ script = ExtResource("2_06ewq")
 variable_type = 7
 variable_name = "score"
 min_players = 4
+comma_separate = true
+metadata/_custom_type_script = "uid://4tlkvhorl6pf"
+
+[node name="CenterScore" type="Label" parent="."]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 380.0
+offset_right = 1130.0
+offset_bottom = 670.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 160
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("2_06ewq")
+variable_type = 0
+variable_name = "score"
 comma_separate = true
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
