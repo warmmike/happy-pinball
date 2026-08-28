@@ -6,25 +6,32 @@ mode:
   priority: 150
 
 event_player:
-  # Ball 1: highlighted_song is set by song mode's variable_player before this fires
+  # Ball 1: highlighted_song is set before mode_music_started fires
   mode_music_started{current_player.ball == 1 and current_player.highlighted_song == "hard_rock"}:
-    - song_song1_selected
+    - song_hard_rock_selected
   mode_music_started{current_player.ball == 1 and current_player.highlighted_song == "metal"}:
-    - song_song3_selected
-  # Ball 2+: resume with random pick from stored genre
+    - song_metal_selected
+  # Ball 2+: resume from stored genre
   mode_music_started{current_player.ball > 1 and current_player.selected_song == "Hard Rock"}:
     - song_hard_rock_selected
   mode_music_started{current_player.ball > 1 and current_player.selected_song == "Metal"}:
     - song_metal_selected
 
 random_event_player:
-  song_hard_rock_selected{current_player.ball > 1}:
+  song_hard_rock_selected:
     force_different: true
     events:
       - song_song1_selected
       - song_song2_selected
-  song_metal_selected{current_player.ball > 1}:
+  song_metal_selected:
+    events:
+      - song_song3_selected
+  item_highlighted{item=="hard_rock"}:
     force_different: true
+    events:
+      - song_song1_selected
+      - song_song2_selected
+  item_highlighted{item=="metal"}:
     events:
       - song_song3_selected
 
@@ -43,15 +50,6 @@ variable_player:
       action: set
 
 sound_player:
-  # Genre switch during selection — music mode is active by this point
-  item_highlighted{item=="hard_rock"}:
-    song1:
-      bus: music
-      loops: -1
-  item_highlighted{item=="metal"}:
-    song3:
-      bus: music
-      loops: -1
   song_song1_selected:
     song1:
       bus: music
