@@ -75,22 +75,6 @@ comma_separate = true
 min_digits = 2
 metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
-[node name="player2_score" type="Label" parent="."]
-layout_mode = 0
-offset_left = -342.0
-offset_top = 661.0
-offset_right = 936.0
-offset_bottom = 1166.0
-theme_override_font_sizes/font_size = 90
-text = "123,456"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("2_06ewq")
-variable_type = 2
-variable_name = "player2_score"
-comma_separate = true
-min_digits = 2
-metadata/_custom_type_script = "uid://4tlkvhorl6pf"
 
 [node name="BallLabel" type="Label" parent="."]
 layout_mode = 0
