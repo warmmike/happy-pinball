@@ -29,7 +29,7 @@ light_player:
 
 show_player:
   mode_base_started: base_lights
-  machine_var_audits_switches_s_plunger_lane:
+  switch_s_plunger_lane_inactive:
     launch_show:
       priority: 1
       loops: 0
