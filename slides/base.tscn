@@ -67,7 +67,6 @@ horizontal_alignment = 0
 vertical_alignment = 1
 script = ExtResource("5_crnr")
 player_number = 1
-score_node_path = NodePath("../P1Score")
 
 [node name="P1Score" type="Label" parent="."]
 layout_mode = 0
@@ -99,7 +98,6 @@ horizontal_alignment = 2
 vertical_alignment = 1
 script = ExtResource("5_crnr")
 player_number = 2
-score_node_path = NodePath("../P2Score")
 
 [node name="P2Score" type="Label" parent="."]
 layout_mode = 0
@@ -131,7 +129,6 @@ horizontal_alignment = 0
 vertical_alignment = 1
 script = ExtResource("5_crnr")
 player_number = 3
-score_node_path = NodePath("../P3Score")
 
 [node name="P3Score" type="Label" parent="."]
 layout_mode = 0
@@ -163,7 +160,6 @@ horizontal_alignment = 2
 vertical_alignment = 1
 script = ExtResource("5_crnr")
 player_number = 4
-score_node_path = NodePath("../P4Score")
 
 [node name="P4Score" type="Label" parent="."]
 layout_mode = 0
