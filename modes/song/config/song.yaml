@@ -39,10 +39,6 @@ timers:
       - event: s_flipper_right_inactive
         action: restart
 
-event_player:
-  song_item_selected:
-    - flippers_on
-
 variable_player:
   mode_song_started:
     song_countdown:
