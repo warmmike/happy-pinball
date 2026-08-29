@@ -9,8 +9,8 @@ func _ready() -> void:
 	if score_node_path:
 		_score_node = get_node(score_node_path)
 	MPF.server.add_event_handler("player_turn_start", _on_player_turn)
-	if MPF.game and MPF.game.player:
-		_update_visibility(MPF.game.player.get("number", 0))
+	# Deferred so mpf_variable._ready() on score nodes runs first
+	call_deferred("_update_visibility", MPF.game.player.get("number", 1))
 
 func _exit_tree() -> void:
 	MPF.server.remove_event_handler("player_turn_start", _on_player_turn)
@@ -20,6 +20,7 @@ func _on_player_turn(payload: Dictionary) -> void:
 
 func _update_visibility(current_player: int) -> void:
 	var is_my_turn: bool = (current_player == player_number)
-	self.visible = not is_my_turn
+	var enough_players: bool = MPF.game.num_players >= player_number
+	self.visible = not is_my_turn and enough_players
 	if _score_node != null:
-		_score_node.visible = not is_my_turn and MPF.game.num_players >= player_number
+		_score_node.visible = not is_my_turn and enough_players
