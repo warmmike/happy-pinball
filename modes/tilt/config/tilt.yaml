@@ -33,8 +33,14 @@ sound_player:
     tilt_warning_1_and_2:
       bus: effects
       action: play
+    hey:
+      bus: effects
+      action: play
   tilt_warning_2:
     tilt_warning_1_and_2:
+      bus: effects
+      action: play
+    hey:
       bus: effects
       action: play
 
