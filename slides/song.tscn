@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://c0b0oybsi02op"]
+[gd_scene load_steps=10 format=3 uid="uid://c0b0oybsi02op"]
 
 [ext_resource type="Script" uid="uid://dywumafff8uk7" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
 [ext_resource type="Script" uid="uid://bx33garpqp0jf" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_f161n"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" path="res://slides/hardrock.png" id="3_hardrock"]
 [ext_resource type="Texture2D" path="res://slides/metal.png" id="4_metal"]
 [ext_resource type="Texture2D" path="res://slides/raprock.png" id="8_raprock"]
+[ext_resource type="Texture2D" uid="uid://cb5oxw2lmgkw4" path="res://slides/choosesong.png" id="9_choosesong"]
 [ext_resource type="Texture2D" uid="uid://fx3lfsp53mvb" path="res://addons/mpf-gmc/images/image-from-rawpixel-id-13116785-png.png" id="6_vr1tw"]
 [ext_resource type="Texture2D" uid="uid://bangbx314qkfy" path="res://slides/white-arrow.png" id="7_nfobm"]
 
@@ -65,6 +66,11 @@ texture = ExtResource("7_nfobm")
 position = Vector2(243, 506)
 scale = Vector2(0.1725, 0.192475)
 texture = ExtResource("7_nfobm")
+
+[node name="ChooseSong" type="Sprite2D" parent="."]
+position = Vector2(640, 305)
+scale = Vector2(1.6, 1.6)
+texture = ExtResource("9_choosesong")
 
 [node name="AutoLabel" type="Label" parent="."]
 layout_mode = 0
