@@ -46,13 +46,18 @@ psus:
     release_wait_ms: 50
 
 flippers:
+  # Flippers are LIVE only while a ball is in play. They enable the moment the
+  # ball leaves the shooter lane (s_plunger_lane_inactive) and are force-disabled
+  # in every "ball not in play" state: boot, attract, song selection, ball end,
+  # and tilt. Do not reduce disable_events to just ball_ending — that lets the
+  # coils sit armed during attract / song select (see commits 0d73d26, a59014c).
   left_flipper:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_flipper_left
     eos_switch: s_eos_left
     enable_events: s_plunger_lane_inactive
-    disable_events: ball_ending
+    disable_events: ball_ending, tilt, mode_attract_started, mode_song_started, machine_reset_phase_3
 
   right_flipper:
     main_coil: c_flipper_right_main
@@ -60,4 +65,4 @@ flippers:
     activation_switch: s_flipper_right
     eos_switch: s_eos_right
     enable_events: s_plunger_lane_inactive
-    disable_events: ball_ending
+    disable_events: ball_ending, tilt, mode_attract_started, mode_song_started, machine_reset_phase_3
