@@ -34,7 +34,7 @@ metadata/_custom_type_script = "uid://bx33garpqp0jf"
 
 [node name="hardrock" type="Sprite2D" parent="MPFCarousel/hard_rock"]
 position = Vector2(640, 512)
-scale = Vector2(2.2, 2.2)
+scale = Vector2(1.9, 1.9)
 texture = ExtResource("3_hardrock")
 
 [node name="metal" type="Node2D" parent="MPFCarousel"]
