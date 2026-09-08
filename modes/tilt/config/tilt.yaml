@@ -29,6 +29,14 @@ sound_player:
     silence:
       bus: music
       action: play
+  tilt_warning_1:
+    tilt_warning_1_and_2:
+      bus: effects
+      action: play
+  tilt_warning_2:
+    tilt_warning_1_and_2:
+      bus: effects
+      action: play
 
 slide_player:
   _overwrite: True # overwrite the default slide_player from tilt mode
