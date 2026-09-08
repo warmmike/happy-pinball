@@ -46,23 +46,29 @@ psus:
     release_wait_ms: 50
 
 flippers:
-  # Flippers are LIVE only while a ball is in play. They enable the moment the
-  # ball leaves the shooter lane (s_plunger_lane_inactive) and are force-disabled
-  # in every "ball not in play" state: boot, attract, song selection, ball end,
-  # and tilt. Do not reduce disable_events to just ball_ending — that lets the
-  # coils sit armed during attract / song select (see commits 0d73d26, a59014c).
+  # Flippers are LIVE only while a ball is in play.
+  #
+  # Enable trigger is ball_started (MPF fires this once the ball is confirmed on
+  # the playfield, gated through the bd_plunger ball-device state machine). This
+  # replaces enable_events: s_plunger_lane_inactive, which was fragile: the
+  # shooter-lane switch sits inactive whenever the lane is empty, so any stray
+  # inactive transition (boot broadcast, switch bounce, inverted/NC wiring) armed
+  # the flippers with nothing to disarm them until the next ball_ending -- coils
+  # live through attract and song select.
+  #
+  # disable_events must cover every "ball not in play" state. Do not trim it.
   left_flipper:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_flipper_left
     eos_switch: s_eos_left
-    enable_events: s_plunger_lane_inactive
-    disable_events: ball_ending, tilt, mode_attract_started, mode_song_started, machine_reset_phase_3
+    enable_events: ball_started
+    disable_events: ball_will_end, ball_ending, tilt, mode_attract_started, mode_song_started, machine_reset_phase_3
 
   right_flipper:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_flipper_right
     eos_switch: s_eos_right
-    enable_events: s_plunger_lane_inactive
-    disable_events: ball_ending, tilt, mode_attract_started, mode_song_started, machine_reset_phase_3
+    enable_events: ball_started
+    disable_events: ball_will_end, ball_ending, tilt, mode_attract_started, mode_song_started, machine_reset_phase_3
