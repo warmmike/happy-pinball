@@ -48,27 +48,30 @@ psus:
 flippers:
   # Flippers are LIVE only while a ball is in play.
   #
-  # Enable trigger is ball_started (MPF fires this once the ball is confirmed on
-  # the playfield, gated through the bd_plunger ball-device state machine). This
-  # replaces enable_events: s_plunger_lane_inactive, which was fragile: the
-  # shooter-lane switch sits inactive whenever the lane is empty, so any stray
-  # inactive transition (boot broadcast, switch bounce, inverted/NC wiring) armed
-  # the flippers with nothing to disarm them until the next ball_ending -- coils
-  # live through attract and song select.
+  # The OPP board retains the flipper button -> coil hw rule across an MPF
+  # restart (no power cycle). MPF's OPP platform never clears rules at startup,
+  # and Flipper.disable() early-returns when MPF thinks the flipper is already
+  # disabled -- so on a fresh boot the board fires the coils on its own through
+  # attract and song select, and it only self-corrects after the first real
+  # game runs enable() then disable() (which finally sends "clear rule").
   #
-  # disable_events must cover every "ball not in play" state. Do not trim it.
+  # Fix: machine_reset_phase_3 forces an enable at boot (MPF _enabled = True,
+  # writes the rule), then mode_attract_started immediately disables it -- and
+  # that disable() actually runs, sending clear-rule to the board. From then on
+  # MPF owns the rule: ball_started arms it, ball end / tilt / song select /
+  # attract disarm it. Do not trim disable_events.
   left_flipper:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_flipper_left
     eos_switch: s_eos_left
-    enable_events: ball_started
-    disable_events: ball_will_end, ball_ending, tilt, mode_attract_started, mode_song_started, machine_reset_phase_3
+    enable_events: machine_reset_phase_3, ball_started
+    disable_events: mode_attract_started, mode_song_started, ball_will_end, ball_ending, tilt
 
   right_flipper:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_flipper_right
     eos_switch: s_eos_right
-    enable_events: ball_started
-    disable_events: ball_will_end, ball_ending, tilt, mode_attract_started, mode_song_started, machine_reset_phase_3
+    enable_events: machine_reset_phase_3, ball_started
+    disable_events: mode_attract_started, mode_song_started, ball_will_end, ball_ending, tilt
