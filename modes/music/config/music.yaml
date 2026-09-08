@@ -11,11 +11,15 @@ event_player:
     - pick_hard_rock_song
   mode_music_started{current_player.ball == 1 and current_player.highlighted_song == "metal"}:
     - pick_metal_song
+  mode_music_started{current_player.ball == 1 and current_player.highlighted_song == "rap_rock"}:
+    - pick_rap_rock_song
   # Ball 2+: resume from stored genre
   mode_music_started{current_player.ball > 1 and current_player.selected_song == "Hard Rock"}:
     - pick_hard_rock_song
   mode_music_started{current_player.ball > 1 and current_player.selected_song == "Metal"}:
     - pick_metal_song
+  mode_music_started{current_player.ball > 1 and current_player.selected_song == "Rap Rock"}:
+    - pick_rap_rock_song
 
 random_event_player:
   # Use pick_* events so song mode's commit (song_hard_rock_selected) doesn't retrigger
@@ -27,6 +31,9 @@ random_event_player:
   pick_metal_song:
     events:
       - song_song3_selected
+  pick_rap_rock_song:
+    events:
+      - song_song4_selected
   item_highlighted{item=="hard_rock"}:
     force_different: true
     events:
@@ -35,6 +42,9 @@ random_event_player:
   item_highlighted{item=="metal"}:
     events:
       - song_song3_selected
+  item_highlighted{item=="rap_rock"}:
+    events:
+      - song_song4_selected
 
 variable_player:
   song_song1_selected:
@@ -48,6 +58,10 @@ variable_player:
   song_song3_selected:
     current_song:
       string: song3
+      action: set
+  song_song4_selected:
+    current_song:
+      string: song4
       action: set
 
 sound_player:
@@ -63,6 +77,11 @@ sound_player:
       loops: -1
   song_song3_selected:
     song3:
+      bus: music
+      action: play
+      loops: -1
+  song_song4_selected:
+    song4:
       bus: music
       action: play
       loops: -1

@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://c0b0oybsi02op"]
+[gd_scene load_steps=9 format=3 uid="uid://c0b0oybsi02op"]
 
 [ext_resource type="Script" uid="uid://dywumafff8uk7" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
 [ext_resource type="Script" uid="uid://bx33garpqp0jf" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_f161n"]
 [ext_resource type="Script" uid="uid://4tlkvhorl6pf" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="5_varscript"]
 [ext_resource type="Texture2D" path="res://slides/hardrock.png" id="3_hardrock"]
 [ext_resource type="Texture2D" path="res://slides/metal.png" id="4_metal"]
+[ext_resource type="Texture2D" path="res://slides/raprock.png" id="8_raprock"]
 [ext_resource type="Texture2D" uid="uid://fx3lfsp53mvb" path="res://addons/mpf-gmc/images/image-from-rawpixel-id-13116785-png.png" id="6_vr1tw"]
 [ext_resource type="Texture2D" uid="uid://bangbx314qkfy" path="res://slides/white-arrow.png" id="7_nfobm"]
 
@@ -39,6 +40,12 @@ texture = ExtResource("3_hardrock")
 [node name="metal" type="Sprite2D" parent="MPFCarousel/metal"]
 position = Vector2(640, 512)
 texture = ExtResource("4_metal")
+
+[node name="rap_rock" type="Node2D" parent="MPFCarousel"]
+
+[node name="raprock" type="Sprite2D" parent="MPFCarousel/rap_rock"]
+position = Vector2(640, 512)
+texture = ExtResource("8_raprock")
 
 [node name="Image-from-rawpixel-id-13116785-png" type="Sprite2D" parent="."]
 position = Vector2(649, 460)
